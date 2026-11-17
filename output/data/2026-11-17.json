@@ -1,0 +1,727 @@
+{
+  "date": "2026-11-17",
+  "generated_at": "2026-11-17 13:25 UTC",
+  "items": [
+    {
+      "id": "013c50e3f1f0",
+      "title": "Jensen Huang’s departure blasts big hole in AI startup funding, VCs and founders say",
+      "url": "https://techcrunch.com/2026/11/13/jensen-huangs-departure-blasts-big-hole-in-ai-startup-funding-vcs-and-founders-say/",
+      "summary": "Nvidia poured tens of billions into AI startups under Huang. Without him at the helm, founders and VCs are bracing for smaller checks and lower valuations.",
+      "source": "funding",
+      "label": "融资动态",
+      "published": "2026-11-13 22:43:00+00:00",
+      "metrics": {},
+      "tags": [
+        "AI",
+        "Startups",
+        "Venture"
+      ],
+      "score": 11.37
+    },
+    {
+      "id": "2968876f65de",
+      "title": "Windows 11 is collecting data on which coding agents and developer tools you use",
+      "url": "https://xusheng.dev/posts/windows-coding-agent-telemetry/",
+      "summary": "",
+      "source": "hackernews",
+      "label": "技术热点",
+      "published": "2026-11-16 22:58:20+00:00",
+      "metrics": {
+        "points": 660
+      },
+      "tags": [
+        "hn"
+      ],
+      "score": 9.329
+    },
+    {
+      "id": "e3c5a2b79aa8",
+      "title": "Cybersecurity AI startup Corma reaches $1B valuation in about 3 months",
+      "url": "https://techcrunch.com/2026/11/16/cybersecurity-ai-startup-corma-reaches-1b-valuation-in-about-3-months/",
+      "summary": "Three months since introducing its product, AI cybersecurity startup Corba has raised a $125 million Series A at a $1 billion valuation led by NEA.",
+      "source": "funding",
+      "label": "融资动态",
+      "published": "2026-11-16 23:32:32+00:00",
+      "metrics": {},
+      "tags": [
+        "AI",
+        "Fundraising",
+        "Security"
+      ],
+      "score": 8.351
+    },
+    {
+      "id": "49af02f2ff02",
+      "title": "hitkeeen/blender-ai-mcp-addon",
+      "url": "https://github.com/hitkeeen/blender-ai-mcp-addon",
+      "summary": "AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with ChatGPT/GPT, Claude, Gemini, Ollama, OpenCode. Blender AI addon, copilot for 3D, bpy Python scripting, MCP integration.",
+      "source": "github",
+      "label": "工具与开源",
+      "published": "2026-11-12 14:32:15+00:00",
+      "metrics": {
+        "stars": 2389
+      },
+      "tags": [
+        "ai-agents",
+        "ai-assistant",
+        "blender"
+      ],
+      "score": 7.496
+    },
+    {
+      "id": "feb988e42901",
+      "title": "krisgfx9/Wireless-Device-Battery-Monitor",
+      "url": "https://github.com/krisgfx9/Wireless-Device-Battery-Monitor",
+      "summary": "Show the battery level of wireless mice, headsets, keyboards and controllers on the Windows 10/11 taskbar. Lightweight tray app, no vendor software needed. Supports Logitech, Razer, SteelSeries, Corsair, HyperX, Glorious, PS4/PS5 DualSense, Xbox and Bluetooth devices.",
+      "source": "github",
+      "label": "工具与开源",
+      "published": "2026-11-16 19:28:29+00:00",
+      "metrics": {
+        "stars": 1260
+      },
+      "tags": [
+        "C++"
+      ],
+      "score": 6.705
+    },
+    {
+      "id": "538848e6019c",
+      "title": "AI agent startup LangChain hits $3B valuation",
+      "url": "https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation/",
+      "summary": "LangChain now claims 7,000 customers of its model and platform agnostic agent management tool LangSmith.",
+      "source": "funding",
+      "label": "融资动态",
+      "published": "2026-11-13 19:37:57+00:00",
+      "metrics": {},
+      "tags": [
+        "AI",
+        "Fundraising",
+        "Startups"
+      ],
+      "score": 6.651
+    },
+    {
+      "id": "77bcddedc986",
+      "title": "Carnegie Mellon is putting computer science courses on YouTube for free",
+      "url": "https://www.cs.cmu.edu/learn/",
+      "summary": "",
+      "source": "hackernews",
+      "label": "技术热点",
+      "published": "2026-11-16 20:43:36+00:00",
+      "metrics": {
+        "points": 1769
+      },
+      "tags": [
+        "hn"
+      ],
+      "score": 6.647
+    },
+    {
+      "id": "e79ab3cdffb9",
+      "title": "Indian chip startup Bharat Semi lands $24M seed round as it eyes global AI sensor market",
+      "url": "https://techcrunch.com/2026/11/15/indian-chip-startup-bharat-semi-lands-24m-seed-round-as-it-eyes-global-ai-sensor-market/",
+      "summary": "Bharat Semi says it has secured design wins for its AI-enabled sensor technology with companies, including General Atomics.",
+      "source": "funding",
+      "label": "融资动态",
+      "published": "2026-11-15 23:30:00+00:00",
+      "metrics": {},
+      "tags": [
+        "AI",
+        "Startups",
+        "Info edge"
+      ],
+      "score": 6.433
+    },
+    {
+      "id": "86b0f373be54",
+      "title": "deepseek-ai/chat-demo",
+      "url": "https://github.com/deepseek-ai/chat-demo",
+      "summary": "Chat Demo",
+      "source": "github",
+      "label": "工具与开源",
+      "published": "2026-11-12 08:08:19+00:00",
+      "metrics": {
+        "stars": 4412
+      },
+      "tags": [
+        "TypeScript"
+      ],
+      "score": 6.246
+    },
+    {
+      "id": "7e22f7b4b427",
+      "title": "Technical issue at JPMorgan Chase triggers online banking delays for US banks",
+      "url": "https://apnews.com/article/bank-outage-chase-wells-fargo-truist-50fee2693c22f597fa6ca51a97ef2cda",
+      "summary": "",
+      "source": "hackernews",
+      "label": "技术热点",
+      "published": "2026-11-16 18:31:30+00:00",
+      "metrics": {
+        "points": 793
+      },
+      "tags": [
+        "hn"
+      ],
+      "score": 6.099
+    },
+    {
+      "id": "afbb0bb90f20",
+      "title": "BugMeNot has closed",
+      "url": "https://www.bugmenot.com/",
+      "summary": "",
+      "source": "hackernews",
+      "label": "技术热点",
+      "published": "2026-11-16 21:32:17+00:00",
+      "metrics": {
+        "points": 608
+      },
+      "tags": [
+        "hn"
+      ],
+      "score": 6.033
+    },
+    {
+      "id": "01a12457935d",
+      "title": "Optimizely compromised, served malware on Zoom, GitLab",
+      "url": "https://blog.report-uri.com/worlds-largest-brands-infected-with-malware-via-optimizely/",
+      "summary": "",
+      "source": "hackernews",
+      "label": "技术热点",
+      "published": "2026-11-16 23:00:34+00:00",
+      "metrics": {
+        "points": 442
+      },
+      "tags": [
+        "hn"
+      ],
+      "score": 5.89
+    },
+    {
+      "id": "88f2c2b8cdc1",
+      "title": "apex-compute/ANR",
+      "url": "https://github.com/apex-compute/ANR",
+      "summary": "Apex Neural Rendering (ANR) by Apex Compute",
+      "source": "github",
+      "label": "工具与开源",
+      "published": "2026-11-11 04:27:17+00:00",
+      "metrics": {
+        "stars": 2542
+      },
+      "tags": [
+        "C++"
+      ],
+      "score": 5.863
+    },
+    {
+      "id": "bd2088ac80cd",
+      "title": "duwqijlk/muse-protocol",
+      "url": "https://github.com/duwqijlk/muse-protocol",
+      "summary": "muse.ai 注册与邀请码兑换协议研究（纯 HTTP Python 实现）",
+      "source": "github",
+      "label": "工具与开源",
+      "published": "2026-11-14 01:24:58+00:00",
+      "metrics": {
+        "stars": 1556
+      },
+      "tags": [
+        "Python"
+      ],
+      "score": 5.797
+    },
+    {
+      "id": "560c1dcfb5e3",
+      "title": "Noniv/abyssal-garden",
+      "url": "https://github.com/Noniv/abyssal-garden",
+      "summary": "A dreamy underwater world you can swim through in your browser: swaying kelp forests, sunbeams, a sunken ship and manta rays. Everything is generated by code with WebGPU (no images, models or sound files), all in a single 97 KB HTML file.",
+      "source": "github",
+      "label": "工具与开源",
+      "published": "2026-11-12 13:57:34+00:00",
+      "metrics": {
+        "stars": 1992
+      },
+      "tags": [
+        "JavaScript"
+      ],
+      "score": 5.785
+    },
+    {
+      "id": "56e4f23c16df",
+      "title": "Frame – 31.5\" color ePaper display",
+      "url": "https://trmnl.com/blog/introducing-frame",
+      "summary": "",
+      "source": "hackernews",
+      "label": "技术热点",
+      "published": "2026-11-16 16:23:22+00:00",
+      "metrics": {
+        "points": 459
+      },
+      "tags": [
+        "hn"
+      ],
+      "score": 5.709
+    },
+    {
+      "id": "2855eb435a6e",
+      "title": "Jiff 1.0: A datetime library for Rust",
+      "url": "https://burntsushi.net/jiff/",
+      "summary": "",
+      "source": "hackernews",
+      "label": "技术热点",
+      "published": "2026-11-16 16:53:39+00:00",
+      "metrics": {
+        "points": 403
+      },
+      "tags": [
+        "hn"
+      ],
+      "score": 5.646
+    },
+    {
+      "id": "05b676055733",
+      "title": "ZiChuanLan/freebie-radar",
+      "url": "https://github.com/ZiChuanLan/freebie-radar",
+      "summary": "白嫖与资讯资源聚合雷达：100+个源定时采集 + AI 二审过滤假福利 + 获取方式分级隔离抽奖/试用/推广 + Telegram 即时推送",
+      "source": "github",
+      "label": "工具与开源",
+      "published": "2026-11-12 09:08:11+00:00",
+      "metrics": {
+        "stars": 1359
+      },
+      "tags": [
+        "TypeScript"
+      ],
+      "score": 5.542
+    },
+    {
+      "id": "939e37ce12f3",
+      "title": "Eynnzerr/TelemetryCleaner",
+      "url": "https://github.com/Eynnzerr/TelemetryCleaner",
+      "summary": "基于 Shizuku 免 Root 清除国产安卓 SystemHelper、RegService 等系统预装隐私数据收集模块",
+      "source": "github",
+      "label": "工具与开源",
+      "published": "2026-11-11 06:25:10+00:00",
+      "metrics": {
+        "stars": 1419
+      },
+      "tags": [
+        "Kotlin"
+      ],
+      "score": 5.516
+    },
+    {
+      "id": "f902e9f2ab8e",
+      "title": "What is w2rt6byl5nf1opmc-a.com?",
+      "url": "https://jack.cab/blog/siterate",
+      "summary": "",
+      "source": "hackernews",
+      "label": "技术热点",
+      "published": "2026-11-16 13:51:38+00:00",
+      "metrics": {
+        "points": 373
+      },
+      "tags": [
+        "hn"
+      ],
+      "score": 5.515
+    },
+    {
+      "id": "f0a40d9d4c8b",
+      "title": "Immortal-Protocols/lastbook",
+      "url": "https://github.com/Immortal-Protocols/lastbook",
+      "summary": "Offline knowledge AI, maps and videos for survival and rebuilding",
+      "source": "github",
+      "label": "工具与开源",
+      "published": "2026-11-12 23:49:03+00:00",
+      "metrics": {
+        "stars": 1182
+      },
+      "tags": [
+        "Python"
+      ],
+      "score": 5.504
+    },
+    {
+      "id": "a3a77daa2264",
+      "title": "CzzzzzzJ/mdldm-maitian",
+      "url": "https://github.com/CzzzzzzJ/mdldm-maitian",
+      "summary": "麦田：自媒体多平台发布中控与数据监控（B站/抖音/小红书/视频号/YouTube/X），飞书卡片通知 + 数据大屏",
+      "source": "github",
+      "label": "工具与开源",
+      "published": "2026-11-14 03:59:22+00:00",
+      "metrics": {
+        "stars": 790
+      },
+      "tags": [
+        "JavaScript",
+        "automation",
+        "chrome-extension",
+        "creator-tools"
+      ],
+      "score": 5.409
+    },
+    {
+      "id": "ab483ce7b6e0",
+      "title": "After dodging death, battery startup Our Next Energy is now going public",
+      "url": "https://techcrunch.com/2026/11/16/after-dodging-death-battery-startup-our-next-energy-is-now-going-public/",
+      "summary": "Our Next Energy is the latest battery startup to go public via SPAC. Does it now have what it needs to survive in the cutthroat battery industry?",
+      "source": "funding",
+      "label": "融资动态",
+      "published": "2026-11-16 13:00:00+00:00",
+      "metrics": {},
+      "tags": [
+        "Climate",
+        "Startups",
+        "Batteries"
+      ],
+      "score": 5.338
+    },
+    {
+      "id": "285e3e4d016a",
+      "title": "Freshworks alums raise $53M to take on Salesforce, HubSpot with AI-native CRM",
+      "url": "https://techcrunch.com/2026/11/16/freshworks-alums-raise-53m-to-take-on-salesforce-hubspot-with-ai-native-crm/",
+      "summary": "Dreamteam has signed up more than 100 customers across 13 countries, with some businesses switching from established CRMs.",
+      "source": "funding",
+      "label": "融资动态",
+      "published": "2026-11-16 12:30:00+00:00",
+      "metrics": {},
+      "tags": [
+        "AI",
+        "Enterprise",
+        "Startups"
+      ],
+      "score": 5.325
+    },
+    {
+      "id": "94bd945b8b82",
+      "title": "infaiw",
+      "url": "https://www.producthunt.com/products/infaiw",
+      "summary": "Delegate work to sidecar agents that pass an approval script",
+      "source": "producthunt",
+      "label": "新品发布",
+      "published": "2026-11-16 18:23:22+00:00",
+      "metrics": {},
+      "tags": [],
+      "score": 3.388
+    },
+    {
+      "id": "cd3ef993ec4b",
+      "title": "Pinecall",
+      "url": "https://www.producthunt.com/products/pinecall",
+      "summary": "The open-source platform for voice AI agents",
+      "source": "producthunt",
+      "label": "新品发布",
+      "published": "2026-11-16 10:54:15+00:00",
+      "metrics": {},
+      "tags": [],
+      "score": 3.184
+    },
+    {
+      "id": "638311e4dd3a",
+      "title": "Show HN: Push.tg – Email aliases and one-curl alerts, delivered to Telegram",
+      "url": "https://push.tg/",
+      "summary": "",
+      "source": "showhn",
+      "label": "Show HN",
+      "published": "2026-11-17 12:40:17+00:00",
+      "metrics": {},
+      "tags": [],
+      "score": 3.066
+    },
+    {
+      "id": "964cbf465a0f",
+      "title": "Show HN: Shoptimist – Amazon but Curated",
+      "url": "https://shoptimist.co/",
+      "summary": "Shoptimist is Amazon but curated. Amazon is a great place to shop. It is not a great place to browse. We find beautiful, high-quality products for your home, work, travel,... Comments URL: https://news.ycombinator.com/item?id=50530595 Points: 2 # Comments: 1",
+      "source": "showhn",
+      "label": "Show HN",
+      "published": "2026-11-17 12:39:17+00:00",
+      "metrics": {},
+      "tags": [],
+      "score": 3.065
+    },
+    {
+      "id": "29716fd069e4",
+      "title": "Show HN: Gami.Fied – Self-hosted gamification engine (XP, streaks, leaderboards)",
+      "url": "https://github.com/gami-fied/gami.fied",
+      "summary": "",
+      "source": "showhn",
+      "label": "Show HN",
+      "published": "2026-11-17 12:37:21+00:00",
+      "metrics": {},
+      "tags": [],
+      "score": 3.063
+    },
+    {
+      "id": "564662f7963a",
+      "title": "Show HN: Elak – helps you buy/lease/finance a car with better negotiation",
+      "url": "https://elak.app",
+      "summary": "",
+      "source": "showhn",
+      "label": "Show HN",
+      "published": "2026-11-17 12:35:50+00:00",
+      "metrics": {},
+      "tags": [],
+      "score": 3.062
+    },
+    {
+      "id": "37ebb23d9de4",
+      "title": "Show HN: Parser – Turn invoices, scans and long PDFs into JSON or Excel",
+      "url": "https://parserai.co/",
+      "summary": "",
+      "source": "showhn",
+      "label": "Show HN",
+      "published": "2026-11-17 12:35:49+00:00",
+      "metrics": {},
+      "tags": [],
+      "score": 3.062
+    },
+    {
+      "id": "7254957ab298",
+      "title": "Show HN: Aquasand – A pixel-art aquarium everyone shares, with 346 real species",
+      "url": "https://aquasand.ru/en",
+      "summary": "",
+      "source": "showhn",
+      "label": "Show HN",
+      "published": "2026-11-17 12:21:40+00:00",
+      "metrics": {},
+      "tags": [],
+      "score": 3.052
+    },
+    {
+      "id": "5e853cf2c7e5",
+      "title": "Show HN: AI Data Brokerage",
+      "url": "https://mainstreetwealth.ai/ai-data-brokerage",
+      "summary": "",
+      "source": "showhn",
+      "label": "Show HN",
+      "published": "2026-11-17 12:19:41+00:00",
+      "metrics": {},
+      "tags": [],
+      "score": 3.05
+    },
+    {
+      "id": "85bf8776e6fc",
+      "title": "Show HN: CofreAdmin Wallet – Self-Custodial Web3 Personal Finance",
+      "url": "https://github.com/cofreadminwallet/app",
+      "summary": "",
+      "source": "showhn",
+      "label": "Show HN",
+      "published": "2026-11-17 12:18:08+00:00",
+      "metrics": {},
+      "tags": [],
+      "score": 3.049
+    },
+    {
+      "id": "0d29f7a43dcf",
+      "title": "ExtraDock 5",
+      "url": "https://www.producthunt.com/products/extradock",
+      "summary": "Your Mac Dock, on every screen",
+      "source": "producthunt",
+      "label": "新品发布",
+      "published": "2026-11-16 18:29:20+00:00",
+      "metrics": {},
+      "tags": [],
+      "score": 2.591
+    },
+    {
+      "id": "c56097f6219b",
+      "title": "Liquid d1.2",
+      "url": "https://www.producthunt.com/products/lfm2",
+      "summary": "Decision models that return calibrated probabilities",
+      "source": "producthunt",
+      "label": "新品发布",
+      "published": "2026-11-16 16:59:43+00:00",
+      "metrics": {},
+      "tags": [],
+      "score": 2.548
+    },
+    {
+      "id": "fe2e317feeaa",
+      "title": "Island is a new screen-time app that turns staying off your phone into a game",
+      "url": "https://techcrunch.com/2026/11/16/island-is-a-new-screen-time-app-that-turns-staying-off-your-phone-into-a-game/",
+      "summary": "YC-backed Island turns screen time goals into a farming game, rewarding users with new crops, animals, and more when they stick to their limits.",
+      "source": "funding",
+      "label": "融资动态",
+      "published": "2026-11-16 18:54:18+00:00",
+      "metrics": {},
+      "tags": [
+        "Apps",
+        "Media & Entertainment",
+        "Startups"
+      ],
+      "score": 2.504
+    },
+    {
+      "id": "9bbbe7845306",
+      "title": "VINC",
+      "url": "https://www.producthunt.com/products/vinc",
+      "summary": "Bring your filmmaking vision to life.",
+      "source": "producthunt",
+      "label": "新品发布",
+      "published": "2026-11-16 14:15:05+00:00",
+      "metrics": {},
+      "tags": [],
+      "score": 2.471
+    },
+    {
+      "id": "a7eecb468bbc",
+      "title": "RankSpot",
+      "url": "https://www.producthunt.com/products/rankspot",
+      "summary": "Pay-as-you-go SEO and AI Search execution layer for agents",
+      "source": "producthunt",
+      "label": "新品发布",
+      "published": "2026-11-14 10:52:03+00:00",
+      "metrics": {},
+      "tags": [],
+      "score": 2.457
+    },
+    {
+      "id": "e999d9c69fb9",
+      "title": "Flaming Hydra’s new Kickstarter campaign rethinks e-book ownership and digital lending",
+      "url": "https://techcrunch.com/2026/11/15/flaming-hydras-new-kickstarter-campaign-rethinks-e-book-ownership-and-digital-lending/",
+      "summary": "A new Kickstarter campaign aims to usher in the “return of the human internet.”",
+      "source": "funding",
+      "label": "融资动态",
+      "published": "2026-11-15 18:29:14+00:00",
+      "metrics": {},
+      "tags": [
+        "Media & Entertainment",
+        "Startups",
+        "e-books"
+      ],
+      "score": 1.942
+    }
+  ],
+  "picks": [
+    {
+      "id": "013c50e3f1f0",
+      "title": "Jensen Huang’s departure blasts big hole in AI startup funding, VCs and founders say",
+      "url": "https://techcrunch.com/2026/11/13/jensen-huangs-departure-blasts-big-hole-in-ai-startup-funding-vcs-and-founders-say/",
+      "summary": "Nvidia poured tens of billions into AI startups under Huang. Without him at the helm, founders and VCs are bracing for smaller checks and lower valuations.",
+      "source": "funding",
+      "label": "融资动态",
+      "published": "2026-11-13 22:43:00+00:00",
+      "metrics": {},
+      "tags": [
+        "AI",
+        "Startups",
+        "Venture"
+      ],
+      "score": 11.37
+    },
+    {
+      "id": "2968876f65de",
+      "title": "Windows 11 is collecting data on which coding agents and developer tools you use",
+      "url": "https://xusheng.dev/posts/windows-coding-agent-telemetry/",
+      "summary": "",
+      "source": "hackernews",
+      "label": "技术热点",
+      "published": "2026-11-16 22:58:20+00:00",
+      "metrics": {
+        "points": 660
+      },
+      "tags": [
+        "hn"
+      ],
+      "score": 9.329
+    },
+    {
+      "id": "e3c5a2b79aa8",
+      "title": "Cybersecurity AI startup Corma reaches $1B valuation in about 3 months",
+      "url": "https://techcrunch.com/2026/11/16/cybersecurity-ai-startup-corma-reaches-1b-valuation-in-about-3-months/",
+      "summary": "Three months since introducing its product, AI cybersecurity startup Corba has raised a $125 million Series A at a $1 billion valuation led by NEA.",
+      "source": "funding",
+      "label": "融资动态",
+      "published": "2026-11-16 23:32:32+00:00",
+      "metrics": {},
+      "tags": [
+        "AI",
+        "Fundraising",
+        "Security"
+      ],
+      "score": 8.351
+    },
+    {
+      "id": "49af02f2ff02",
+      "title": "hitkeeen/blender-ai-mcp-addon",
+      "url": "https://github.com/hitkeeen/blender-ai-mcp-addon",
+      "summary": "AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with ChatGPT/GPT, Claude, Gemini, Ollama, OpenCode. Blender AI addon, copilot for 3D, bpy Python scripting, MCP integration.",
+      "source": "github",
+      "label": "工具与开源",
+      "published": "2026-11-12 14:32:15+00:00",
+      "metrics": {
+        "stars": 2389
+      },
+      "tags": [
+        "ai-agents",
+        "ai-assistant",
+        "blender"
+      ],
+      "score": 7.496
+    },
+    {
+      "id": "feb988e42901",
+      "title": "krisgfx9/Wireless-Device-Battery-Monitor",
+      "url": "https://github.com/krisgfx9/Wireless-Device-Battery-Monitor",
+      "summary": "Show the battery level of wireless mice, headsets, keyboards and controllers on the Windows 10/11 taskbar. Lightweight tray app, no vendor software needed. Supports Logitech, Razer, SteelSeries, Corsair, HyperX, Glorious, PS4/PS5 DualSense, Xbox and Bluetooth devices.",
+      "source": "github",
+      "label": "工具与开源",
+      "published": "2026-11-16 19:28:29+00:00",
+      "metrics": {
+        "stars": 1260
+      },
+      "tags": [
+        "C++"
+      ],
+      "score": 6.705
+    },
+    {
+      "id": "77bcddedc986",
+      "title": "Carnegie Mellon is putting computer science courses on YouTube for free",
+      "url": "https://www.cs.cmu.edu/learn/",
+      "summary": "",
+      "source": "hackernews",
+      "label": "技术热点",
+      "published": "2026-11-16 20:43:36+00:00",
+      "metrics": {
+        "points": 1769
+      },
+      "tags": [
+        "hn"
+      ],
+      "score": 6.647
+    },
+    {
+      "id": "94bd945b8b82",
+      "title": "infaiw",
+      "url": "https://www.producthunt.com/products/infaiw",
+      "summary": "Delegate work to sidecar agents that pass an approval script",
+      "source": "producthunt",
+      "label": "新品发布",
+      "published": "2026-11-16 18:23:22+00:00",
+      "metrics": {},
+      "tags": [],
+      "score": 3.388
+    },
+    {
+      "id": "cd3ef993ec4b",
+      "title": "Pinecall",
+      "url": "https://www.producthunt.com/products/pinecall",
+      "summary": "The open-source platform for voice AI agents",
+      "source": "producthunt",
+      "label": "新品发布",
+      "published": "2026-11-16 10:54:15+00:00",
+      "metrics": {},
+      "tags": [],
+      "score": 3.184
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "producthunt": 6,
+    "funding": 8,
+    "showhn": 8,
+    "github": 10,
+    "hackernews": 8
+  }
+}
