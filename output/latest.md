@@ -1,7 +1,7 @@
 # 独立开发情报 · 2026-11-17
 
 > 新品 · 融资 · 工具 · 增长
-> 本期收录 40 条 · 生成于 2026-11-17 13:25 UTC
+> 本期收录 39 条 · 生成于 2026-11-17 15:51 UTC
 
 ## 🔥 今日精选
 
@@ -9,57 +9,55 @@
    Nvidia poured tens of billions into AI startups under Huang. Without him at the helm, founders and VCs are bracing for smaller checks and lower valuations.
    `11.4` · 融资动态 · 3 天前
 
-2. **[Windows 11 is collecting data on which coding agents and developer tools you use](https://xusheng.dev/posts/windows-coding-agent-telemetry/)**
-   `9.3` · 技术热点 · 14 小时前 · 660 分
-
-3. **[Cybersecurity AI startup Corma reaches $1B valuation in about 3 months](https://techcrunch.com/2026/11/16/cybersecurity-ai-startup-corma-reaches-1b-valuation-in-about-3-months/)**
+2. **[Cybersecurity AI startup Corma reaches $1B valuation in about 3 months](https://techcrunch.com/2026/11/16/cybersecurity-ai-startup-corma-reaches-1b-valuation-in-about-3-months/)**
    Three months since introducing its product, AI cybersecurity startup Corba has raised a $125 million Series A at a $1 billion valuation led by NEA.
-   `8.4` · 融资动态 · 13 小时前
+   `8.3` · 融资动态 · 16 小时前
 
-4. **[hitkeeen/blender-ai-mcp-addon](https://github.com/hitkeeen/blender-ai-mcp-addon)**
-   AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with ChatGPT/GPT, Claude, Gemini, Ollama, OpenCode. Blender AI…
-   `7.5` · 工具与开源 · 4 天前 · ★ 2.4k
-
-5. **[krisgfx9/Wireless-Device-Battery-Monitor](https://github.com/krisgfx9/Wireless-Device-Battery-Monitor)**
+3. **[krisgfx9/Wireless-Device-Battery-Monitor](https://github.com/krisgfx9/Wireless-Device-Battery-Monitor)**
    Show the battery level of wireless mice, headsets, keyboards and controllers on the Windows 10/11 taskbar. Lightweight tray app, no vendor software needed. Sup…
-   `6.7` · 工具与开源 · 17 小时前 · ★ 1.3k
+   `6.8` · 工具与开源 · 20 小时前 · ★ 1.8k
 
-6. **[Carnegie Mellon is putting computer science courses on YouTube for free](https://www.cs.cmu.edu/learn/)**
-   `6.6` · 技术热点 · 16 小时前 · 1769 分
+4. **[Carnegie Mellon is putting computer science courses on YouTube for free](https://www.cs.cmu.edu/learn/)**
+   `6.6` · 技术热点 · 19 小时前 · 1985 分
 
-7. **[infaiw](https://www.producthunt.com/products/infaiw)**
-   Delegate work to sidecar agents that pass an approval script
-   `3.4` · 新品发布 · 19 小时前
+5. **[New Evidence Shows School Phone Bans Are Gradually Improving Test Scores](https://www.nytimes.com/2026/11/17/upshot/school-phone-bans-study-scores.html)**
+   `6.4` · 技术热点 · 4 小时前 · 586 分
 
-8. **[Pinecall](https://www.producthunt.com/products/pinecall)**
-   The open-source platform for voice AI agents
-   `3.2` · 新品发布 · 1 天前
+6. **[deepseek-ai/chat-demo](https://github.com/deepseek-ai/chat-demo)**
+   Chat Demo
+   `6.2` · 工具与开源 · 5 天前 · ★ 4.5k
+
+7. **[Show HN: AI Spar – Turn conflicting AI answers into a structured debate](https://aispar.app)**
+   Over the last couple of years, I have observed many people (including myself) researching tricky topics by asking the same question to multiple AI's. If those…
+   `3.9` · Show HN · 刚刚
+
+8. **[Show HN: Codemany – Run GitHub Actions on Your Mac/Linux. 3x Faster, Save $$$$](https://news.ycombinator.com/item?id=50532610)**
+   Hi folks , I built CodeMany [1] - to run your actions on a Mac/Linux box that you own. Stop paying by the minute, as your agents scale. Own your infra, and let…
+   `3.9` · Show HN · 刚刚
 
 ## 🆕 新品发布
 
-- **[infaiw](https://www.producthunt.com/products/infaiw)**  `3.4` · 19 小时前
-  Delegate work to sidecar agents that pass an approval script
-- **[Pinecall](https://www.producthunt.com/products/pinecall)**  `3.2` · 1 天前
-  The open-source platform for voice AI agents
-- **[ExtraDock 5](https://www.producthunt.com/products/extradock)**  `2.6` · 18 小时前
-  Your Mac Dock, on every screen
-- **[Liquid d1.2](https://www.producthunt.com/products/lfm2)**  `2.5` · 20 小时前
-  Decision models that return calibrated probabilities
-- **[VINC](https://www.producthunt.com/products/vinc)**  `2.5` · 23 小时前
-  Bring your filmmaking vision to life.
-- **[RankSpot](https://www.producthunt.com/products/rankspot)**  `2.5` · 3 天前
-  Pay-as-you-go SEO and AI Search execution layer for agents
+- **[Retriever](https://www.producthunt.com/products/retriever-4)**  `2.9` · 10 小时前
+  Search your phone's photos, documents and videos privately
+- **[Ballet](https://www.producthunt.com/products/ballet)**  `2.6` · 19 小时前
+  Deterministic AI workflow automation for Ops teams
+- **[Clamor](https://www.producthunt.com/products/clamor-2)**  `2.6` · 20 小时前
+  Turns social signals into actionable insights
+- **[BASE Studio](https://www.producthunt.com/products/base-studio)**  `2.4` · 1 天前
+  Turn product photos into 3D and AR, automatically
+- **[superlog](https://www.producthunt.com/products/superlog)**  `2.0` · 1 天前
+  Finds the production bugs your monitoring never sees
 
 ## 💰 融资动态
 
 - **[Jensen Huang’s departure blasts big hole in AI startup funding, VCs and founders say](https://techcrunch.com/2026/11/13/jensen-huangs-departure-blasts-big-hole-in-ai-startup-funding-vcs-and-founders-say/)**  `11.4` · 3 天前
   Nvidia poured tens of billions into AI startups under Huang. Without him at the helm, founders and VCs are bracing for smaller checks and lower valuations.
-- **[Cybersecurity AI startup Corma reaches $1B valuation in about 3 months](https://techcrunch.com/2026/11/16/cybersecurity-ai-startup-corma-reaches-1b-valuation-in-about-3-months/)**  `8.4` · 13 小时前
+- **[Cybersecurity AI startup Corma reaches $1B valuation in about 3 months](https://techcrunch.com/2026/11/16/cybersecurity-ai-startup-corma-reaches-1b-valuation-in-about-3-months/)**  `8.3` · 16 小时前
   Three months since introducing its product, AI cybersecurity startup Corba has raised a $125 million Series A at a $1 billion valuation led by NEA.
-- **[AI agent startup LangChain hits $3B valuation](https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation/)**  `6.7` · 3 天前
-  LangChain now claims 7,000 customers of its model and platform agnostic agent management tool LangSmith.
 - **[Indian chip startup Bharat Semi lands $24M seed round as it eyes global AI sensor market](https://techcrunch.com/2026/11/15/indian-chip-startup-bharat-semi-lands-24m-seed-round-as-it-eyes-global-ai-sensor-market/)**  `6.4` · 1 天前
   Bharat Semi says it has secured design wins for its AI-enabled sensor technology with companies, including General Atomics.
+- **[Hank Green is self-funding ClockwiseTV, a curated educational video platform for kids](https://techcrunch.com/2026/11/17/hank-green-is-self-funding-clockwisetv-a-curated-educational-video-platform-for-kids/)**  `5.5` · 1 小时前
+  Alongside CEO Leslie Morgan, Hank Green set out to create the video platform he wished his kid had.
 - **[After dodging death, battery startup Our Next Energy is now going public](https://techcrunch.com/2026/11/16/after-dodging-death-battery-startup-our-next-energy-is-now-going-public/)**  `5.3` · 1 天前
   Our Next Energy is the latest battery startup to go public via SPAC. Does it now have what it needs to survive in the cutthroat battery industry?
 - **[Freshworks alums raise $53M to take on Salesforce, HubSpot with AI-native CRM](https://techcrunch.com/2026/11/16/freshworks-alums-raise-53m-to-take-on-salesforce-hubspot-with-ai-native-crm/)**  `5.3` · 1 天前
@@ -67,34 +65,35 @@
 
 ## 🛠️ Show HN
 
-- **[Show HN: Push.tg – Email aliases and one-curl alerts, delivered to Telegram](https://push.tg/)**  `3.1` · 刚刚
-- **[Show HN: Shoptimist – Amazon but Curated](https://shoptimist.co/)**  `3.1` · 刚刚
-  Shoptimist is Amazon but curated. Amazon is a great place to shop. It is not a great place to browse. We find beautiful, high-quality products for your home, w…
-- **[Show HN: Gami.Fied – Self-hosted gamification engine (XP, streaks, leaderboards)](https://github.com/gami-fied/gami.fied)**  `3.1` · 刚刚
-- **[Show HN: Elak – helps you buy/lease/finance a car with better negotiation](https://elak.app)**  `3.1` · 刚刚
-- **[Show HN: Parser – Turn invoices, scans and long PDFs into JSON or Excel](https://parserai.co/)**  `3.1` · 刚刚
-- **[Show HN: Aquasand – A pixel-art aquarium everyone shares, with 346 real species](https://aquasand.ru/en)**  `3.1` · 1 小时前
+- **[Show HN: AI Spar – Turn conflicting AI answers into a structured debate](https://aispar.app)**  `3.9` · 刚刚
+  Over the last couple of years, I have observed many people (including myself) researching tricky topics by asking the same question to multiple AI's. If those…
+- **[Show HN: Codemany – Run GitHub Actions on Your Mac/Linux. 3x Faster, Save $$$$](https://news.ycombinator.com/item?id=50532610)**  `3.9` · 刚刚
+  Hi folks , I built CodeMany [1] - to run your actions on a Mac/Linux box that you own. Stop paying by the minute, as your agents scale. Own your infra, and let…
+- **[Show HN: Timelock.dev: Send a Message into the Future](https://timelock.dev/)**  `3.1` · 刚刚
+- **[Show HN: Fardesk – fast iPhone app to manage your Claude sessions](https://github.com/franzenzenhofer/fardesk-open-source)**  `3.1` · 刚刚
+- **[Show HN: I mapped LA's new speed cameras so you can count them on your route](https://la-speed-cameras-nine.vercel.app)**  `3.1` · 刚刚
+- **[Show HN: Feasible, web analytics in one Go binary with SQLite per account](https://github.com/Feasible-Analytics/app.feasible.lol)**  `3.1` · 刚刚
 
 ## 🚀 工具与开源
 
-- **[hitkeeen/blender-ai-mcp-addon](https://github.com/hitkeeen/blender-ai-mcp-addon)**  `7.5` · 4 天前 · ★ 2.4k
-  AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with ChatGPT/GPT, Claude, Gemini, Ollama, OpenCode. Blender AI…
-- **[krisgfx9/Wireless-Device-Battery-Monitor](https://github.com/krisgfx9/Wireless-Device-Battery-Monitor)**  `6.7` · 17 小时前 · ★ 1.3k
+- **[krisgfx9/Wireless-Device-Battery-Monitor](https://github.com/krisgfx9/Wireless-Device-Battery-Monitor)**  `6.8` · 20 小时前 · ★ 1.8k
   Show the battery level of wireless mice, headsets, keyboards and controllers on the Windows 10/11 taskbar. Lightweight tray app, no vendor software needed. Sup…
-- **[deepseek-ai/chat-demo](https://github.com/deepseek-ai/chat-demo)**  `6.2` · 5 天前 · ★ 4.4k
+- **[deepseek-ai/chat-demo](https://github.com/deepseek-ai/chat-demo)**  `6.2` · 5 天前 · ★ 4.5k
   Chat Demo
-- **[apex-compute/ANR](https://github.com/apex-compute/ANR)**  `5.9` · 6 天前 · ★ 2.5k
+- **[apex-compute/ANR](https://github.com/apex-compute/ANR)**  `5.9` · 6 天前 · ★ 2.6k
   Apex Neural Rendering (ANR) by Apex Compute
+- **[Noniv/abyssal-garden](https://github.com/Noniv/abyssal-garden)**  `5.8` · 5 天前 · ★ 2.0k
+  A dreamy underwater world you can swim through in your browser: swaying kelp forests, sunbeams, a sunken ship and manta rays. Everything is generated by code w…
 - **[duwqijlk/muse-protocol](https://github.com/duwqijlk/muse-protocol)**  `5.8` · 3 天前 · ★ 1.6k
   muse.ai 注册与邀请码兑换协议研究（纯 HTTP Python 实现）
-- **[Noniv/abyssal-garden](https://github.com/Noniv/abyssal-garden)**  `5.8` · 4 天前 · ★ 2.0k
-  A dreamy underwater world you can swim through in your browser: swaying kelp forests, sunbeams, a sunken ship and manta rays. Everything is generated by code w…
+- **[Immortal-Protocols/lastbook](https://github.com/Immortal-Protocols/lastbook)**  `5.6` · 4 天前 · ★ 1.3k
+  Offline knowledge AI, maps and videos for survival and rebuilding
 
 ## 🔥 技术热点
 
-- **[Windows 11 is collecting data on which coding agents and developer tools you use](https://xusheng.dev/posts/windows-coding-agent-telemetry/)**  `9.3` · 14 小时前 · 660 分
-- **[Carnegie Mellon is putting computer science courses on YouTube for free](https://www.cs.cmu.edu/learn/)**  `6.6` · 16 小时前 · 1769 分
-- **[Technical issue at JPMorgan Chase triggers online banking delays for US banks](https://apnews.com/article/bank-outage-chase-wells-fargo-truist-50fee2693c22f597fa6ca51a97ef2cda)**  `6.1` · 18 小时前 · 793 分
-- **[BugMeNot has closed](https://www.bugmenot.com/)**  `6.0` · 15 小时前 · 608 分
-- **[Optimizely compromised, served malware on Zoom, GitLab](https://blog.report-uri.com/worlds-largest-brands-infected-with-malware-via-optimizely/)**  `5.9` · 14 小时前 · 442 分
-- **[Frame – 31.5" color ePaper display](https://trmnl.com/blog/introducing-frame)**  `5.7` · 21 小时前 · 459 分
+- **[Carnegie Mellon is putting computer science courses on YouTube for free](https://www.cs.cmu.edu/learn/)**  `6.6` · 19 小时前 · 1985 分
+- **[New Evidence Shows School Phone Bans Are Gradually Improving Test Scores](https://www.nytimes.com/2026/11/17/upshot/school-phone-bans-study-scores.html)**  `6.4` · 4 小时前 · 586 分
+- **[BugMeNot has closed](https://www.bugmenot.com/)**  `6.0` · 18 小时前 · 654 分
+- **[Optimizely compromised, served malware on Zoom, GitLab](https://blog.report-uri.com/worlds-largest-brands-infected-with-malware-via-optimizely/)**  `5.9` · 16 小时前 · 520 分
+- **[Frame – 31.5" color ePaper display](https://trmnl.com/blog/introducing-frame)**  `5.7` · 23 小时前 · 490 分
+- **[Jiff 1.0: A datetime library for Rust](https://burntsushi.net/jiff/)**  `5.6` · 22 小时前 · 417 分

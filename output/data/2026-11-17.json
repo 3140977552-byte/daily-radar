@@ -1,6 +1,6 @@
 {
   "date": "2026-11-17",
-  "generated_at": "2026-11-17 13:25 UTC",
+  "generated_at": "2026-11-17 15:51 UTC",
   "items": [
     {
       "id": "013c50e3f1f0",
@@ -16,23 +16,7 @@
         "Startups",
         "Venture"
       ],
-      "score": 11.37
-    },
-    {
-      "id": "2968876f65de",
-      "title": "Windows 11 is collecting data on which coding agents and developer tools you use",
-      "url": "https://xusheng.dev/posts/windows-coding-agent-telemetry/",
-      "summary": "",
-      "source": "hackernews",
-      "label": "技术热点",
-      "published": "2026-11-16 22:58:20+00:00",
-      "metrics": {
-        "points": 660
-      },
-      "tags": [
-        "hn"
-      ],
-      "score": 9.329
+      "score": 11.355
     },
     {
       "id": "e3c5a2b79aa8",
@@ -48,25 +32,7 @@
         "Fundraising",
         "Security"
       ],
-      "score": 8.351
-    },
-    {
-      "id": "49af02f2ff02",
-      "title": "hitkeeen/blender-ai-mcp-addon",
-      "url": "https://github.com/hitkeeen/blender-ai-mcp-addon",
-      "summary": "AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with ChatGPT/GPT, Claude, Gemini, Ollama, OpenCode. Blender AI addon, copilot for 3D, bpy Python scripting, MCP integration.",
-      "source": "github",
-      "label": "工具与开源",
-      "published": "2026-11-12 14:32:15+00:00",
-      "metrics": {
-        "stars": 2389
-      },
-      "tags": [
-        "ai-agents",
-        "ai-assistant",
-        "blender"
-      ],
-      "score": 7.496
+      "score": 8.272
     },
     {
       "id": "feb988e42901",
@@ -77,28 +43,12 @@
       "label": "工具与开源",
       "published": "2026-11-16 19:28:29+00:00",
       "metrics": {
-        "stars": 1260
+        "stars": 1762
       },
       "tags": [
         "C++"
       ],
-      "score": 6.705
-    },
-    {
-      "id": "538848e6019c",
-      "title": "AI agent startup LangChain hits $3B valuation",
-      "url": "https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation/",
-      "summary": "LangChain now claims 7,000 customers of its model and platform agnostic agent management tool LangSmith.",
-      "source": "funding",
-      "label": "融资动态",
-      "published": "2026-11-13 19:37:57+00:00",
-      "metrics": {},
-      "tags": [
-        "AI",
-        "Fundraising",
-        "Startups"
-      ],
-      "score": 6.651
+      "score": 6.834
     },
     {
       "id": "77bcddedc986",
@@ -109,12 +59,28 @@
       "label": "技术热点",
       "published": "2026-11-16 20:43:36+00:00",
       "metrics": {
-        "points": 1769
+        "points": 1985
       },
       "tags": [
         "hn"
       ],
-      "score": 6.647
+      "score": 6.642
+    },
+    {
+      "id": "f2d8a324f212",
+      "title": "New Evidence Shows School Phone Bans Are Gradually Improving Test Scores",
+      "url": "https://www.nytimes.com/2026/11/17/upshot/school-phone-bans-study-scores.html",
+      "summary": "",
+      "source": "hackernews",
+      "label": "技术热点",
+      "published": "2026-11-17 11:45:51+00:00",
+      "metrics": {
+        "points": 586
+      },
+      "tags": [
+        "hn"
+      ],
+      "score": 6.445
     },
     {
       "id": "e79ab3cdffb9",
@@ -130,7 +96,7 @@
         "Startups",
         "Info edge"
       ],
-      "score": 6.433
+      "score": 6.387
     },
     {
       "id": "86b0f373be54",
@@ -141,28 +107,12 @@
       "label": "工具与开源",
       "published": "2026-11-12 08:08:19+00:00",
       "metrics": {
-        "stars": 4412
+        "stars": 4473
       },
       "tags": [
         "TypeScript"
       ],
-      "score": 6.246
-    },
-    {
-      "id": "7e22f7b4b427",
-      "title": "Technical issue at JPMorgan Chase triggers online banking delays for US banks",
-      "url": "https://apnews.com/article/bank-outage-chase-wells-fargo-truist-50fee2693c22f597fa6ca51a97ef2cda",
-      "summary": "",
-      "source": "hackernews",
-      "label": "技术热点",
-      "published": "2026-11-16 18:31:30+00:00",
-      "metrics": {
-        "points": 793
-      },
-      "tags": [
-        "hn"
-      ],
-      "score": 6.099
+      "score": 6.248
     },
     {
       "id": "afbb0bb90f20",
@@ -173,12 +123,12 @@
       "label": "技术热点",
       "published": "2026-11-16 21:32:17+00:00",
       "metrics": {
-        "points": 608
+        "points": 654
       },
       "tags": [
         "hn"
       ],
-      "score": 6.033
+      "score": 6.001
     },
     {
       "id": "01a12457935d",
@@ -189,12 +139,12 @@
       "label": "技术热点",
       "published": "2026-11-16 23:00:34+00:00",
       "metrics": {
-        "points": 442
+        "points": 520
       },
       "tags": [
         "hn"
       ],
-      "score": 5.89
+      "score": 5.909
     },
     {
       "id": "88f2c2b8cdc1",
@@ -205,28 +155,12 @@
       "label": "工具与开源",
       "published": "2026-11-11 04:27:17+00:00",
       "metrics": {
-        "stars": 2542
+        "stars": 2556
       },
       "tags": [
         "C++"
       ],
       "score": 5.863
-    },
-    {
-      "id": "bd2088ac80cd",
-      "title": "duwqijlk/muse-protocol",
-      "url": "https://github.com/duwqijlk/muse-protocol",
-      "summary": "muse.ai 注册与邀请码兑换协议研究（纯 HTTP Python 实现）",
-      "source": "github",
-      "label": "工具与开源",
-      "published": "2026-11-14 01:24:58+00:00",
-      "metrics": {
-        "stars": 1556
-      },
-      "tags": [
-        "Python"
-      ],
-      "score": 5.797
     },
     {
       "id": "560c1dcfb5e3",
@@ -237,12 +171,28 @@
       "label": "工具与开源",
       "published": "2026-11-12 13:57:34+00:00",
       "metrics": {
-        "stars": 1992
+        "stars": 2047
       },
       "tags": [
         "JavaScript"
       ],
-      "score": 5.785
+      "score": 5.794
+    },
+    {
+      "id": "bd2088ac80cd",
+      "title": "duwqijlk/muse-protocol",
+      "url": "https://github.com/duwqijlk/muse-protocol",
+      "summary": "muse.ai 注册与邀请码兑换协议研究（纯 HTTP Python 实现）",
+      "source": "github",
+      "label": "工具与开源",
+      "published": "2026-11-14 01:24:58+00:00",
+      "metrics": {
+        "stars": 1566
+      },
+      "tags": [
+        "Python"
+      ],
+      "score": 5.786
     },
     {
       "id": "56e4f23c16df",
@@ -253,12 +203,12 @@
       "label": "技术热点",
       "published": "2026-11-16 16:23:22+00:00",
       "metrics": {
-        "points": 459
+        "points": 490
       },
       "tags": [
         "hn"
       ],
-      "score": 5.709
+      "score": 5.681
     },
     {
       "id": "2855eb435a6e",
@@ -269,60 +219,12 @@
       "label": "技术热点",
       "published": "2026-11-16 16:53:39+00:00",
       "metrics": {
-        "points": 403
+        "points": 417
       },
       "tags": [
         "hn"
       ],
-      "score": 5.646
-    },
-    {
-      "id": "05b676055733",
-      "title": "ZiChuanLan/freebie-radar",
-      "url": "https://github.com/ZiChuanLan/freebie-radar",
-      "summary": "白嫖与资讯资源聚合雷达：100+个源定时采集 + AI 二审过滤假福利 + 获取方式分级隔离抽奖/试用/推广 + Telegram 即时推送",
-      "source": "github",
-      "label": "工具与开源",
-      "published": "2026-11-12 09:08:11+00:00",
-      "metrics": {
-        "stars": 1359
-      },
-      "tags": [
-        "TypeScript"
-      ],
-      "score": 5.542
-    },
-    {
-      "id": "939e37ce12f3",
-      "title": "Eynnzerr/TelemetryCleaner",
-      "url": "https://github.com/Eynnzerr/TelemetryCleaner",
-      "summary": "基于 Shizuku 免 Root 清除国产安卓 SystemHelper、RegService 等系统预装隐私数据收集模块",
-      "source": "github",
-      "label": "工具与开源",
-      "published": "2026-11-11 06:25:10+00:00",
-      "metrics": {
-        "stars": 1419
-      },
-      "tags": [
-        "Kotlin"
-      ],
-      "score": 5.516
-    },
-    {
-      "id": "f902e9f2ab8e",
-      "title": "What is w2rt6byl5nf1opmc-a.com?",
-      "url": "https://jack.cab/blog/siterate",
-      "summary": "",
-      "source": "hackernews",
-      "label": "技术热点",
-      "published": "2026-11-16 13:51:38+00:00",
-      "metrics": {
-        "points": 373
-      },
-      "tags": [
-        "hn"
-      ],
-      "score": 5.515
+      "score": 5.598
     },
     {
       "id": "f0a40d9d4c8b",
@@ -333,12 +235,92 @@
       "label": "工具与开源",
       "published": "2026-11-12 23:49:03+00:00",
       "metrics": {
-        "stars": 1182
+        "stars": 1314
       },
       "tags": [
         "Python"
       ],
-      "score": 5.504
+      "score": 5.559
+    },
+    {
+      "id": "05b676055733",
+      "title": "ZiChuanLan/freebie-radar",
+      "url": "https://github.com/ZiChuanLan/freebie-radar",
+      "summary": "白嫖与资讯资源聚合雷达：100+个源定时采集 + AI 二审过滤假福利 + 获取方式分级隔离抽奖/试用/推广 + Telegram 即时推送",
+      "source": "github",
+      "label": "工具与开源",
+      "published": "2026-11-12 09:08:11+00:00",
+      "metrics": {
+        "stars": 1386
+      },
+      "tags": [
+        "TypeScript"
+      ],
+      "score": 5.548
+    },
+    {
+      "id": "939e37ce12f3",
+      "title": "Eynnzerr/TelemetryCleaner",
+      "url": "https://github.com/Eynnzerr/TelemetryCleaner",
+      "summary": "基于 Shizuku 免 Root 清除国产安卓 SystemHelper、RegService 等系统预装隐私数据收集模块",
+      "source": "github",
+      "label": "工具与开源",
+      "published": "2026-11-11 06:25:10+00:00",
+      "metrics": {
+        "stars": 1443
+      },
+      "tags": [
+        "Kotlin"
+      ],
+      "score": 5.523
+    },
+    {
+      "id": "214233d8d9b0",
+      "title": "Hank Green is self-funding ClockwiseTV, a curated educational video platform for kids",
+      "url": "https://techcrunch.com/2026/11/17/hank-green-is-self-funding-clockwisetv-a-curated-educational-video-platform-for-kids/",
+      "summary": "Alongside CEO Leslie Morgan, Hank Green set out to create the video platform he wished his kid had.",
+      "source": "funding",
+      "label": "融资动态",
+      "published": "2026-11-17 14:00:00+00:00",
+      "metrics": {},
+      "tags": [
+        "Media & Entertainment",
+        "Startups",
+        "educational video"
+      ],
+      "score": 5.516
+    },
+    {
+      "id": "37015285ebbb",
+      "title": "Microsoft blames monster email outage on software defect introduced in July fix",
+      "url": "https://www.theregister.com/saas/2026/11/16/microsoft-blames-monster-email-outage-on-software-defect-introduced-in-july-fix/5310026",
+      "summary": "",
+      "source": "hackernews",
+      "label": "技术热点",
+      "published": "2026-11-16 13:18:22+00:00",
+      "metrics": {
+        "points": 402
+      },
+      "tags": [
+        "hn"
+      ],
+      "score": 5.482
+    },
+    {
+      "id": "f902e9f2ab8e",
+      "title": "What is w2rt6byl5nf1opmc-a.com?",
+      "url": "https://jack.cab/blog/siterate",
+      "summary": "",
+      "source": "hackernews",
+      "label": "技术热点",
+      "published": "2026-11-16 13:51:38+00:00",
+      "metrics": {
+        "points": 387
+      },
+      "tags": [
+        "hn"
+      ],
+      "score": 5.474
     },
     {
       "id": "a3a77daa2264",
@@ -349,7 +331,7 @@
       "label": "工具与开源",
       "published": "2026-11-14 03:59:22+00:00",
       "metrics": {
-        "stars": 790
+        "stars": 887
       },
       "tags": [
         "JavaScript",
@@ -357,7 +339,26 @@
         "chrome-extension",
         "creator-tools"
       ],
-      "score": 5.409
+      "score": 5.461
+    },
+    {
+      "id": "eed8ea894100",
+      "title": "opencoredev/islandcn",
+      "url": "https://github.com/opencoredev/islandcn",
+      "summary": "The open-source Dynamic Island for React, installed with shadcn.",
+      "source": "github",
+      "label": "工具与开源",
+      "published": "2026-11-13 11:50:50+00:00",
+      "metrics": {
+        "stars": 792
+      },
+      "tags": [
+        "TypeScript",
+        "dynamic-island",
+        "nextjs",
+        "react"
+      ],
+      "score": 5.304
     },
     {
       "id": "ab483ce7b6e0",
@@ -373,7 +374,7 @@
         "Startups",
         "Batteries"
       ],
-      "score": 5.338
+      "score": 5.275
     },
     {
       "id": "285e3e4d016a",
@@ -389,151 +390,139 @@
         "Enterprise",
         "Startups"
       ],
-      "score": 5.325
+      "score": 5.263
     },
     {
-      "id": "94bd945b8b82",
-      "title": "infaiw",
-      "url": "https://www.producthunt.com/products/infaiw",
-      "summary": "Delegate work to sidecar agents that pass an approval script",
+      "id": "d8eeb2a7005e",
+      "title": "Show HN: AI Spar – Turn conflicting AI answers into a structured debate",
+      "url": "https://aispar.app",
+      "summary": "Over the last couple of years, I have observed many people (including myself) researching tricky topics by asking the same question to multiple AI's. If those answers conflict, we manually copy the answers back-and-forth between the AI apps to make them debate each other, to get a fuller picture of the topic. I developed AI Spar to organize and automate this debate process. When the user asks a question: 1) Multiple AI's answer the question independent of each other. 2) An analyzer (also an AI model) finds the consensuses and disagreements between those answers, and what important points are missed by which answer. 3) For each disagreement point, each AI tries to defend its stance when presented with its original answer and the other side's opinion (it can concede if it feels the other side is right); and for each missed point, each AI tries to clarify whether it agrees with the point. 4) If all disagreement points have consensus, or the debate has reached max number of rounds, then go to 5); otherwise, go to 3) for the next round of debate with the latest arguments from each side. 5) The analyzer summarizes the debate, synthesizes a final answer, and lists the consensus points, resolved disagreements, unresolved disagreements, and clarified missed points. Note that it might feel slow compared to those AI apps, because of all the steps taken above. Also worth a disclaimer: even if all AI's eventually agree on one point, that doesn't necessarily mean it's correct. Some friends have been testing this system. They mention that sometimes reading the back-and-forth debate details is a lot more fun than reading the final synthesis. Without signing in, you can try two separate questions, with entry-level models from 3 AI providers (Gemini, GPT, Claude). Signing in enables additional features: asking follow-up questions, attaching images or PDFs, saving and sharing conversations. Also, stronger models from these providers are available for signed-in users. In addition, you can enable web-search grounded debates, and optional fact-checking during the debates. You pay as you go, no subscription at this point. Cost of each debate depends on the models and settings. We also support BYOK for these providers, with a separate system fee. CLI/API access is also available if you need them. An interesting debate example: https://aispar.app/share/5f503127-4b4a-4c5c-9b2a-74081016b68... \"Should junior developers use coding agents from their first day? \" Even though all three AI's (Gemini, GPT, Claude) initially broadly agree on the surface, after the debate, each has made pretty big changes on the substance, and at the end there's still unresolved disagreement. Comments URL: https://news.ycombinator.com/item?id=50532699 Points: 1 # Comments: 0",
+      "source": "showhn",
+      "label": "Show HN",
+      "published": "2026-11-17 15:28:42+00:00",
+      "metrics": {},
+      "tags": [],
+      "score": 3.883
+    },
+    {
+      "id": "4438f01a2526",
+      "title": "Show HN: Codemany – Run GitHub Actions on Your Mac/Linux. 3x Faster, Save $$$$",
+      "url": "https://news.ycombinator.com/item?id=50532610",
+      "summary": "Hi folks , I built CodeMany [1] - to run your actions on a Mac/Linux box that you own. Stop paying by the minute, as your agents scale. Own your infra, and let CodeMany manage it. Over the last year, we scaled our commits/month by 30x [2]. Over the coming year, I don't see that slowing down. Some highlights about CodeMany: - CodeMany is 3x faster than Github Actions. Benchmarks published [3]. - small Go daemon inside a native mac/linux app. - has brought my CI monthly bill down from $582 to Setup is easy: install it, connect GitHub, select repos, and use runs-on: [self-hosted, codemany] in a workflow. Add Linux or macOS to pick one kind of machine. Cost: $20/mo for 2 machines and $10/mo for each extra, Mac or Linux, one subscription per GitHub account or org, after a 14-day trial, no card. Would love to hear what would you like to see in CodeMany? Arpit [1] CodeMany: https://codemany.com . [2] AI agents made my CI bill 5× bigger. So I built Codemany: https://codemany.com/articles/ai-coding-agents-ci-costs . [3] Benchmarks published nightly on Github: https://github.com/codemanyhq/bench Comments URL: https://news.ycombinator.com/item?id=50532610 Points: 3 # Comments: 0",
+      "source": "showhn",
+      "label": "Show HN",
+      "published": "2026-11-17 15:22:53+00:00",
+      "metrics": {},
+      "tags": [],
+      "score": 3.878
+    },
+    {
+      "id": "5b6300fb4857",
+      "title": "Show HN: Timelock.dev: Send a Message into the Future",
+      "url": "https://timelock.dev/",
+      "summary": "",
+      "source": "showhn",
+      "label": "Show HN",
+      "published": "2026-11-17 15:43:37+00:00",
+      "metrics": {},
+      "tags": [],
+      "score": 3.094
+    },
+    {
+      "id": "933160720ac8",
+      "title": "Show HN: Fardesk – fast iPhone app to manage your Claude sessions",
+      "url": "https://github.com/franzenzenhofer/fardesk-open-source",
+      "summary": "",
+      "source": "showhn",
+      "label": "Show HN",
+      "published": "2026-11-17 15:40:53+00:00",
+      "metrics": {},
+      "tags": [],
+      "score": 3.092
+    },
+    {
+      "id": "754499a8300b",
+      "title": "Show HN: I mapped LA's new speed cameras so you can count them on your route",
+      "url": "https://la-speed-cameras-nine.vercel.app",
+      "summary": "",
+      "source": "showhn",
+      "label": "Show HN",
+      "published": "2026-11-17 15:40:35+00:00",
+      "metrics": {},
+      "tags": [],
+      "score": 3.092
+    },
+    {
+      "id": "cf4c93fab6f1",
+      "title": "Show HN: Feasible, web analytics in one Go binary with SQLite per account",
+      "url": "https://github.com/Feasible-Analytics/app.feasible.lol",
+      "summary": "",
+      "source": "showhn",
+      "label": "Show HN",
+      "published": "2026-11-17 15:39:39+00:00",
+      "metrics": {},
+      "tags": [],
+      "score": 3.091
+    },
+    {
+      "id": "bc377a0910e9",
+      "title": "Show HN: Triton-ng – Write Nvidia Triton inference back ends in Rust",
+      "url": "https://github.com/rdcm/triton-ng",
+      "summary": "",
+      "source": "showhn",
+      "label": "Show HN",
+      "published": "2026-11-17 15:39:11+00:00",
+      "metrics": {},
+      "tags": [],
+      "score": 3.091
+    },
+    {
+      "id": "397a3c184b32",
+      "title": "Show HN: Plinth – Ask your AI for an app, get a link to share",
+      "url": "https://useplinth.cloud",
+      "summary": "",
+      "source": "showhn",
+      "label": "Show HN",
+      "published": "2026-11-17 15:24:06+00:00",
+      "metrics": {},
+      "tags": [],
+      "score": 3.079
+    },
+    {
+      "id": "949aa23e6c02",
+      "title": "Retriever",
+      "url": "https://www.producthunt.com/products/retriever-4",
+      "summary": "Search your phone's photos, documents and videos privately",
       "source": "producthunt",
       "label": "新品发布",
-      "published": "2026-11-16 18:23:22+00:00",
+      "published": "2026-11-17 05:04:07+00:00",
       "metrics": {},
       "tags": [],
-      "score": 3.388
+      "score": 2.859
     },
     {
-      "id": "cd3ef993ec4b",
-      "title": "Pinecall",
-      "url": "https://www.producthunt.com/products/pinecall",
-      "summary": "The open-source platform for voice AI agents",
+      "id": "777d439e52f9",
+      "title": "Ballet",
+      "url": "https://www.producthunt.com/products/ballet",
+      "summary": "Deterministic AI workflow automation for Ops teams",
       "source": "producthunt",
       "label": "新品发布",
-      "published": "2026-11-16 10:54:15+00:00",
+      "published": "2026-11-16 19:55:26+00:00",
       "metrics": {},
       "tags": [],
-      "score": 3.184
+      "score": 2.562
     },
     {
-      "id": "638311e4dd3a",
-      "title": "Show HN: Push.tg – Email aliases and one-curl alerts, delivered to Telegram",
-      "url": "https://push.tg/",
-      "summary": "",
-      "source": "showhn",
-      "label": "Show HN",
-      "published": "2026-11-17 12:40:17+00:00",
-      "metrics": {},
-      "tags": [],
-      "score": 3.066
-    },
-    {
-      "id": "964cbf465a0f",
-      "title": "Show HN: Shoptimist – Amazon but Curated",
-      "url": "https://shoptimist.co/",
-      "summary": "Shoptimist is Amazon but curated. Amazon is a great place to shop. It is not a great place to browse. We find beautiful, high-quality products for your home, work, travel,... Comments URL: https://news.ycombinator.com/item?id=50530595 Points: 2 # Comments: 1",
-      "source": "showhn",
-      "label": "Show HN",
-      "published": "2026-11-17 12:39:17+00:00",
-      "metrics": {},
-      "tags": [],
-      "score": 3.065
-    },
-    {
-      "id": "29716fd069e4",
-      "title": "Show HN: Gami.Fied – Self-hosted gamification engine (XP, streaks, leaderboards)",
-      "url": "https://github.com/gami-fied/gami.fied",
-      "summary": "",
-      "source": "showhn",
-      "label": "Show HN",
-      "published": "2026-11-17 12:37:21+00:00",
-      "metrics": {},
-      "tags": [],
-      "score": 3.063
-    },
-    {
-      "id": "564662f7963a",
-      "title": "Show HN: Elak – helps you buy/lease/finance a car with better negotiation",
-      "url": "https://elak.app",
-      "summary": "",
-      "source": "showhn",
-      "label": "Show HN",
-      "published": "2026-11-17 12:35:50+00:00",
-      "metrics": {},
-      "tags": [],
-      "score": 3.062
-    },
-    {
-      "id": "37ebb23d9de4",
-      "title": "Show HN: Parser – Turn invoices, scans and long PDFs into JSON or Excel",
-      "url": "https://parserai.co/",
-      "summary": "",
-      "source": "showhn",
-      "label": "Show HN",
-      "published": "2026-11-17 12:35:49+00:00",
-      "metrics": {},
-      "tags": [],
-      "score": 3.062
-    },
-    {
-      "id": "7254957ab298",
-      "title": "Show HN: Aquasand – A pixel-art aquarium everyone shares, with 346 real species",
-      "url": "https://aquasand.ru/en",
-      "summary": "",
-      "source": "showhn",
-      "label": "Show HN",
-      "published": "2026-11-17 12:21:40+00:00",
-      "metrics": {},
-      "tags": [],
-      "score": 3.052
-    },
-    {
-      "id": "5e853cf2c7e5",
-      "title": "Show HN: AI Data Brokerage",
-      "url": "https://mainstreetwealth.ai/ai-data-brokerage",
-      "summary": "",
-      "source": "showhn",
-      "label": "Show HN",
-      "published": "2026-11-17 12:19:41+00:00",
-      "metrics": {},
-      "tags": [],
-      "score": 3.05
-    },
-    {
-      "id": "85bf8776e6fc",
-      "title": "Show HN: CofreAdmin Wallet – Self-Custodial Web3 Personal Finance",
-      "url": "https://github.com/cofreadminwallet/app",
-      "summary": "",
-      "source": "showhn",
-      "label": "Show HN",
-      "published": "2026-11-17 12:18:08+00:00",
-      "metrics": {},
-      "tags": [],
-      "score": 3.049
-    },
-    {
-      "id": "0d29f7a43dcf",
-      "title": "ExtraDock 5",
-      "url": "https://www.producthunt.com/products/extradock",
-      "summary": "Your Mac Dock, on every screen",
+      "id": "b3aae6b0a682",
+      "title": "Clamor",
+      "url": "https://www.producthunt.com/products/clamor-2",
+      "summary": "Turns social signals into actionable insights",
       "source": "producthunt",
       "label": "新品发布",
-      "published": "2026-11-16 18:29:20+00:00",
+      "published": "2026-11-16 19:37:32+00:00",
       "metrics": {},
       "tags": [],
-      "score": 2.591
-    },
-    {
-      "id": "c56097f6219b",
-      "title": "Liquid d1.2",
-      "url": "https://www.producthunt.com/products/lfm2",
-      "summary": "Decision models that return calibrated probabilities",
-      "source": "producthunt",
-      "label": "新品发布",
-      "published": "2026-11-16 16:59:43+00:00",
-      "metrics": {},
-      "tags": [],
-      "score": 2.548
+      "score": 2.553
     },
     {
       "id": "fe2e317feeaa",
@@ -549,31 +538,31 @@
         "Media & Entertainment",
         "Startups"
       ],
-      "score": 2.504
+      "score": 2.433
     },
     {
-      "id": "9bbbe7845306",
-      "title": "VINC",
-      "url": "https://www.producthunt.com/products/vinc",
-      "summary": "Bring your filmmaking vision to life.",
+      "id": "fa1e59225bfc",
+      "title": "BASE Studio",
+      "url": "https://www.producthunt.com/products/base-studio",
+      "summary": "Turn product photos into 3D and AR, automatically",
       "source": "producthunt",
       "label": "新品发布",
-      "published": "2026-11-16 14:15:05+00:00",
+      "published": "2026-11-16 14:16:03+00:00",
       "metrics": {},
       "tags": [],
-      "score": 2.471
+      "score": 2.407
     },
     {
-      "id": "a7eecb468bbc",
-      "title": "RankSpot",
-      "url": "https://www.producthunt.com/products/rankspot",
-      "summary": "Pay-as-you-go SEO and AI Search execution layer for agents",
+      "id": "d7250a688844",
+      "title": "superlog",
+      "url": "https://www.producthunt.com/products/superlog",
+      "summary": "Finds the production bugs your monitoring never sees",
       "source": "producthunt",
       "label": "新品发布",
-      "published": "2026-11-14 10:52:03+00:00",
+      "published": "2026-11-15 17:20:53+00:00",
       "metrics": {},
       "tags": [],
-      "score": 2.457
+      "score": 1.983
     },
     {
       "id": "e999d9c69fb9",
@@ -589,7 +578,7 @@
         "Startups",
         "e-books"
       ],
-      "score": 1.942
+      "score": 1.901
     }
   ],
   "picks": [
@@ -607,23 +596,7 @@
         "Startups",
         "Venture"
       ],
-      "score": 11.37
-    },
-    {
-      "id": "2968876f65de",
-      "title": "Windows 11 is collecting data on which coding agents and developer tools you use",
-      "url": "https://xusheng.dev/posts/windows-coding-agent-telemetry/",
-      "summary": "",
-      "source": "hackernews",
-      "label": "技术热点",
-      "published": "2026-11-16 22:58:20+00:00",
-      "metrics": {
-        "points": 660
-      },
-      "tags": [
-        "hn"
-      ],
-      "score": 9.329
+      "score": 11.355
     },
     {
       "id": "e3c5a2b79aa8",
@@ -639,25 +612,7 @@
         "Fundraising",
         "Security"
       ],
-      "score": 8.351
-    },
-    {
-      "id": "49af02f2ff02",
-      "title": "hitkeeen/blender-ai-mcp-addon",
-      "url": "https://github.com/hitkeeen/blender-ai-mcp-addon",
-      "summary": "AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with ChatGPT/GPT, Claude, Gemini, Ollama, OpenCode. Blender AI addon, copilot for 3D, bpy Python scripting, MCP integration.",
-      "source": "github",
-      "label": "工具与开源",
-      "published": "2026-11-12 14:32:15+00:00",
-      "metrics": {
-        "stars": 2389
-      },
-      "tags": [
-        "ai-agents",
-        "ai-assistant",
-        "blender"
-      ],
-      "score": 7.496
+      "score": 8.272
     },
     {
       "id": "feb988e42901",
@@ -668,12 +623,12 @@
       "label": "工具与开源",
       "published": "2026-11-16 19:28:29+00:00",
       "metrics": {
-        "stars": 1260
+        "stars": 1762
       },
       "tags": [
         "C++"
       ],
-      "score": 6.705
+      "score": 6.834
     },
     {
       "id": "77bcddedc986",
@@ -684,41 +639,73 @@
       "label": "技术热点",
       "published": "2026-11-16 20:43:36+00:00",
       "metrics": {
-        "points": 1769
+        "points": 1985
       },
       "tags": [
         "hn"
       ],
-      "score": 6.647
+      "score": 6.642
     },
     {
-      "id": "94bd945b8b82",
-      "title": "infaiw",
-      "url": "https://www.producthunt.com/products/infaiw",
-      "summary": "Delegate work to sidecar agents that pass an approval script",
-      "source": "producthunt",
-      "label": "新品发布",
-      "published": "2026-11-16 18:23:22+00:00",
-      "metrics": {},
-      "tags": [],
-      "score": 3.388
+      "id": "f2d8a324f212",
+      "title": "New Evidence Shows School Phone Bans Are Gradually Improving Test Scores",
+      "url": "https://www.nytimes.com/2026/11/17/upshot/school-phone-bans-study-scores.html",
+      "summary": "",
+      "source": "hackernews",
+      "label": "技术热点",
+      "published": "2026-11-17 11:45:51+00:00",
+      "metrics": {
+        "points": 586
+      },
+      "tags": [
+        "hn"
+      ],
+      "score": 6.445
     },
     {
-      "id": "cd3ef993ec4b",
-      "title": "Pinecall",
-      "url": "https://www.producthunt.com/products/pinecall",
-      "summary": "The open-source platform for voice AI agents",
-      "source": "producthunt",
-      "label": "新品发布",
-      "published": "2026-11-16 10:54:15+00:00",
+      "id": "86b0f373be54",
+      "title": "deepseek-ai/chat-demo",
+      "url": "https://github.com/deepseek-ai/chat-demo",
+      "summary": "Chat Demo",
+      "source": "github",
+      "label": "工具与开源",
+      "published": "2026-11-12 08:08:19+00:00",
+      "metrics": {
+        "stars": 4473
+      },
+      "tags": [
+        "TypeScript"
+      ],
+      "score": 6.248
+    },
+    {
+      "id": "d8eeb2a7005e",
+      "title": "Show HN: AI Spar – Turn conflicting AI answers into a structured debate",
+      "url": "https://aispar.app",
+      "summary": "Over the last couple of years, I have observed many people (including myself) researching tricky topics by asking the same question to multiple AI's. If those answers conflict, we manually copy the answers back-and-forth between the AI apps to make them debate each other, to get a fuller picture of the topic. I developed AI Spar to organize and automate this debate process. When the user asks a question: 1) Multiple AI's answer the question independent of each other. 2) An analyzer (also an AI model) finds the consensuses and disagreements between those answers, and what important points are missed by which answer. 3) For each disagreement point, each AI tries to defend its stance when presented with its original answer and the other side's opinion (it can concede if it feels the other side is right); and for each missed point, each AI tries to clarify whether it agrees with the point. 4) If all disagreement points have consensus, or the debate has reached max number of rounds, then go to 5); otherwise, go to 3) for the next round of debate with the latest arguments from each side. 5) The analyzer summarizes the debate, synthesizes a final answer, and lists the consensus points, resolved disagreements, unresolved disagreements, and clarified missed points. Note that it might feel slow compared to those AI apps, because of all the steps taken above. Also worth a disclaimer: even if all AI's eventually agree on one point, that doesn't necessarily mean it's correct. Some friends have been testing this system. They mention that sometimes reading the back-and-forth debate details is a lot more fun than reading the final synthesis. Without signing in, you can try two separate questions, with entry-level models from 3 AI providers (Gemini, GPT, Claude). Signing in enables additional features: asking follow-up questions, attaching images or PDFs, saving and sharing conversations. Also, stronger models from these providers are available for signed-in users. In addition, you can enable web-search grounded debates, and optional fact-checking during the debates. You pay as you go, no subscription at this point. Cost of each debate depends on the models and settings. We also support BYOK for these providers, with a separate system fee. CLI/API access is also available if you need them. An interesting debate example: https://aispar.app/share/5f503127-4b4a-4c5c-9b2a-74081016b68... \"Should junior developers use coding agents from their first day? \" Even though all three AI's (Gemini, GPT, Claude) initially broadly agree on the surface, after the debate, each has made pretty big changes on the substance, and at the end there's still unresolved disagreement. Comments URL: https://news.ycombinator.com/item?id=50532699 Points: 1 # Comments: 0",
+      "source": "showhn",
+      "label": "Show HN",
+      "published": "2026-11-17 15:28:42+00:00",
       "metrics": {},
       "tags": [],
-      "score": 3.184
+      "score": 3.883
+    },
+    {
+      "id": "4438f01a2526",
+      "title": "Show HN: Codemany – Run GitHub Actions on Your Mac/Linux. 3x Faster, Save $$$$",
+      "url": "https://news.ycombinator.com/item?id=50532610",
+      "summary": "Hi folks , I built CodeMany [1] - to run your actions on a Mac/Linux box that you own. Stop paying by the minute, as your agents scale. Own your infra, and let CodeMany manage it. Over the last year, we scaled our commits/month by 30x [2]. Over the coming year, I don't see that slowing down. Some highlights about CodeMany: - CodeMany is 3x faster than Github Actions. Benchmarks published [3]. - small Go daemon inside a native mac/linux app. - has brought my CI monthly bill down from $582 to Setup is easy: install it, connect GitHub, select repos, and use runs-on: [self-hosted, codemany] in a workflow. Add Linux or macOS to pick one kind of machine. Cost: $20/mo for 2 machines and $10/mo for each extra, Mac or Linux, one subscription per GitHub account or org, after a 14-day trial, no card. Would love to hear what would you like to see in CodeMany? Arpit [1] CodeMany: https://codemany.com . [2] AI agents made my CI bill 5× bigger. So I built Codemany: https://codemany.com/articles/ai-coding-agents-ci-costs . [3] Benchmarks published nightly on Github: https://github.com/codemanyhq/bench Comments URL: https://news.ycombinator.com/item?id=50532610 Points: 3 # Comments: 0",
+      "source": "showhn",
+      "label": "Show HN",
+      "published": "2026-11-17 15:22:53+00:00",
+      "metrics": {},
+      "tags": [],
+      "score": 3.878
     }
   ],
   "errors": [],
   "stats": {
-    "producthunt": 6,
+    "producthunt": 5,
     "funding": 8,
     "showhn": 8,
     "github": 10,
