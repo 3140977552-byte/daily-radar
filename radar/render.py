@@ -90,6 +90,8 @@ def render_markdown(report, config):
         lines.append("%d. **[%s](%s)**" % (index, item["title"], item["url"]))
         if item["summary"]:
             lines.append("   %s" % _truncate(item["summary"], limit))
+        if item.get("take"):
+            lines.append("   > 💬 %s" % item["take"])
         lines.append("   `%.1f` · %s" % (item["score"], meta))
         lines.append("")
 
@@ -100,6 +102,8 @@ def render_markdown(report, config):
             lines.append("- **[%s](%s)**  `%.1f`%s" % (item["title"], item["url"], item["score"], (" · " + meta) if meta else ""))
             if item["summary"]:
                 lines.append("  %s" % _truncate(item["summary"], limit))
+            if item.get("take"):
+                lines.append("  > 💬 %s" % item["take"])
         lines.append("")
 
     if report["errors"]:
@@ -135,6 +139,8 @@ a:hover{color:var(--accent)}
 .meta{color:var(--muted);font-size:12px;margin-top:6px;display:flex;gap:10px;flex-wrap:wrap;align-items:center}
 .score{background:var(--chip);border-radius:999px;padding:1px 8px;font-variant-numeric:tabular-nums;font-weight:600}
 .tag{color:var(--muted);font-size:12px}
+.take{margin:9px 0 0;padding:8px 12px;background:var(--chip);border-left:3px solid var(--accent);border-radius:0 8px 8px 0;font-size:14px;line-height:1.6}
+.take-label{display:inline-block;margin-right:8px;color:var(--accent);font-size:11px;font-weight:700;letter-spacing:.08em;vertical-align:1px}
 footer{margin-top:48px;padding-top:18px;border-top:1px solid var(--line);color:var(--muted);font-size:13px}
 nav a{color:var(--accent);font-size:14px}
 table{width:100%;border-collapse:collapse;font-size:15px}
@@ -171,9 +177,12 @@ def _item_html(item, limit, with_summary=True):
     summary = ""
     if with_summary and item["summary"]:
         summary = '<p class="d">%s</p>' % _esc(_truncate(item["summary"], limit))
+    take = ""
+    if item.get("take"):
+        take = '<p class="take"><span class="take-label">点评</span>%s</p>' % _esc(item["take"])
     return (
-        '<div class="item"><a href="%s" target="_blank" rel="noopener"><div class="t">%s</div></a>%s'
-        '<div class="meta">%s</div></div>' % (_esc(item["url"]), _esc(item["title"]), summary, "".join(meta))
+        '<div class="item"><a href="%s" target="_blank" rel="noopener"><div class="t">%s</div></a>%s%s'
+        '<div class="meta">%s</div></div>' % (_esc(item["url"]), _esc(item["title"]), summary, take, "".join(meta))
     )
 
 
@@ -199,9 +208,10 @@ def render_html(report, config):
         if signal:
             meta.append('<span class="tag">%s</span>' % _esc(signal))
         summary = '<p class="d">%s</p>' % _esc(_truncate(item["summary"], limit)) if item["summary"] else ""
+        take = '<p class="take"><span class="take-label">点评</span>%s</p>' % _esc(item["take"]) if item.get("take") else ""
         rows.append(
-            '<li><a href="%s" target="_blank" rel="noopener"><span class="t">%s</span></a>%s<div class="meta">%s</div></li>'
-            % (_esc(item["url"]), _esc(item["title"]), summary, "".join(meta))
+            '<li><a href="%s" target="_blank" rel="noopener"><span class="t">%s</span></a>%s%s<div class="meta">%s</div></li>'
+            % (_esc(item["url"]), _esc(item["title"]), summary, take, "".join(meta))
         )
     parts.append('<h2>今日精选</h2><ol class="picks">%s</ol>' % "".join(rows))
 

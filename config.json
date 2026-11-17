@@ -88,8 +88,9 @@
       "type": "hackernews",
       "label": "技术热点",
       "max": 8,
-      "weight": 0.8,
-      "max_age_days": 2
+      "weight": 0.6,
+      "max_age_days": 2,
+      "require_keyword": true
     }
   },
   "output": {
@@ -98,5 +99,13 @@
     "pick_diversity": 2,
     "per_section": 6,
     "max_summary_chars": 160
+  },
+  "ai": {
+    "enabled": true,
+    "base_url": "https://api.deepseek.com",
+    "api_key_env": "RADAR_API_KEY",
+    "model": "deepseek-chat",
+    "max_items": 8,
+    "timeout": 90
   }
 }

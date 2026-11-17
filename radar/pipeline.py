@@ -77,14 +77,10 @@ def dedupe(items):
     return kept
 
 
-def score(item, config, matchers, now):
+def score(item, config, kw_points, now):
     """可解释的加权打分：源权重 + 关键词命中 + 时效衰减 + 热度信号。"""
     rules = config["scoring"]
-    total = float(config["sources"].get(item["source"], {}).get("weight", 1.0))
-
-    multiplier = float(rules["keyword_title_multiplier"])
-    total += keyword_points(item["title"], matchers) * multiplier
-    total += keyword_points(item["summary"], matchers)
+    total = float(config["sources"].get(item["source"], {}).get("weight", 1.0)) + kw_points
 
     published = item.get("published")
     half_life = float(rules["half_life_hours"])
@@ -148,8 +144,21 @@ def build(config, now=None):
         items.extend(normalized)
 
     items = dedupe(items)
+    multiplier = float(config["scoring"]["keyword_title_multiplier"])
     for item in items:
-        item["score"] = score(item, config, matchers, now)
+        kw_points = keyword_points(item["title"], matchers) * multiplier + keyword_points(item["summary"], matchers)
+        item["score"] = score(item, config, kw_points, now)
+        item["_kw"] = kw_points
+
+    # 相关性闸门：对泛资讯源（如 HN 首页），没有命中任何赛道关键词的直接丢弃，
+    # 避免“热度高但和读者无关”的内容挤进精选。
+    items = [
+        item
+        for item in items
+        if not (config["sources"].get(item["source"], {}).get("require_keyword") and item["_kw"] <= 0)
+    ]
+    for item in items:
+        item.pop("_kw", None)
     items.sort(key=lambda x: x["score"], reverse=True)
 
     return {

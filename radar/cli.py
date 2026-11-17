@@ -5,6 +5,7 @@ import os
 import sys
 
 from . import config as config_module
+from .commentary import enrich
 from .pipeline import build
 from .render import render_html, render_index, render_markdown
 
@@ -39,7 +40,7 @@ def main(argv=None):
     args = parser.parse_args(argv)
 
     config = config_module.load(args.config)
-    report = build(config)
+    report = enrich(build(config), config)
 
     if not report["items"]:
         print("没有采集到任何条目，检查网络或数据源配置。", file=sys.stderr)
@@ -72,6 +73,9 @@ def main(argv=None):
     print("日期: %s" % date)
     print("采集: " + " · ".join("%s %d 条" % (k, v) for k, v in report["stats"].items()))
     print("收录: %d 条（去重后）" % len(report["items"]))
+    ai = report.get("ai")
+    if ai:
+        print("AI 点评: %s · 覆盖 %d 条 · 用量 %s tokens" % (ai.get("model"), ai.get("applied", 0), (ai.get("usage") or {}).get("total_tokens", "-")))
     if report["errors"]:
         print("告警:")
         for err in report["errors"]:

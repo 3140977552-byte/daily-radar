@@ -91,6 +91,28 @@ def fetch_mysource(settings, now):
 
 然后在 `config.json` 里用 `"type": "mysource"` 引用它。
 
+## AI 中文点评（这是付费理由所在）
+
+精选的 8 条会多一句中文点评，告诉你“这条值不值得点开”。没有这句，日报就只是搬运；有了这句，才是替读者做判断。
+
+- 一次请求搞定全部精选，**约 1000 tokens/期**，DeepSeek 按这个量一个月不到 1 块钱。
+- 没配 key、网络失败、模型乱输出，都只记一条告警，日报照常生成——**AI 挂了不会导致停更**。
+- 想关掉：`config.json` 里把 `ai.enabled` 设为 `false`。
+- 想换模型：改 `ai.base_url` / `ai.model`（任何 OpenAI 兼容接口都行）。
+
+**API key 绝对不要写进 `config.json`**，仓库是公开的。正确做法：
+
+- 本地：`export RADAR_API_KEY=sk-xxx`（或写进 `~/.config/daily-radar/env`）
+- 线上：仓库 **Settings → Secrets and variables → Actions → New repository secret**，名字填 `RADAR_API_KEY`
+
+工作流里已经用 `${{ secrets.RADAR_API_KEY }}` 注入，key 不会出现在日志里。
+
+## 相关性闸门
+
+泛资讯源（如 Hacker News 首页）默认开启 `require_keyword`：**没命中任何赛道关键词的条目直接丢弃**，不管它热度多高。否则「某学校禁手机提高成绩」这种高赞但无关的内容会挤进精选。
+
+如果你希望某个源不做过滤，去掉它配置里的 `require_keyword` 即可。
+
 ## 部署成免费自动日报
 
 1. GitHub 建一个仓库，把 `~/Desktop/daily-radar` 推上去（`main` 分支）。

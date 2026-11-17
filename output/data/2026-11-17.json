@@ -1,6 +1,6 @@
 {
   "date": "2026-11-17",
-  "generated_at": "2026-11-17 15:51 UTC",
+  "generated_at": "2026-11-17 16:08 UTC",
   "items": [
     {
       "id": "013c50e3f1f0",
@@ -16,7 +16,8 @@
         "Startups",
         "Venture"
       ],
-      "score": 11.355
+      "score": 11.353,
+      "take": "英伟达撒钱模式可能缩水，靠大厂订单撑估值的AI项目要留个心眼。"
     },
     {
       "id": "e3c5a2b79aa8",
@@ -32,7 +33,8 @@
         "Fundraising",
         "Security"
       ],
-      "score": 8.272
+      "score": 8.263,
+      "take": "三个月冲到十亿美金，安全AI泡沫味浓，别拿它当估值参照。"
     },
     {
       "id": "feb988e42901",
@@ -43,44 +45,13 @@
       "label": "工具与开源",
       "published": "2026-11-16 19:28:29+00:00",
       "metrics": {
-        "stars": 1762
+        "stars": 1814
       },
       "tags": [
         "C++"
       ],
-      "score": 6.834
-    },
-    {
-      "id": "77bcddedc986",
-      "title": "Carnegie Mellon is putting computer science courses on YouTube for free",
-      "url": "https://www.cs.cmu.edu/learn/",
-      "summary": "",
-      "source": "hackernews",
-      "label": "技术热点",
-      "published": "2026-11-16 20:43:36+00:00",
-      "metrics": {
-        "points": 1985
-      },
-      "tags": [
-        "hn"
-      ],
-      "score": 6.642
-    },
-    {
-      "id": "f2d8a324f212",
-      "title": "New Evidence Shows School Phone Bans Are Gradually Improving Test Scores",
-      "url": "https://www.nytimes.com/2026/11/17/upshot/school-phone-bans-study-scores.html",
-      "summary": "",
-      "source": "hackernews",
-      "label": "技术热点",
-      "published": "2026-11-17 11:45:51+00:00",
-      "metrics": {
-        "points": 586
-      },
-      "tags": [
-        "hn"
-      ],
-      "score": 6.445
+      "score": 6.843,
+      "take": "小工具解决真痛点，做Windows桌面端的可以拆开看看实现。"
     },
     {
       "id": "e79ab3cdffb9",
@@ -96,7 +67,7 @@
         "Startups",
         "Info edge"
       ],
-      "score": 6.387
+      "score": 6.382
     },
     {
       "id": "86b0f373be54",
@@ -107,44 +78,13 @@
       "label": "工具与开源",
       "published": "2026-11-12 08:08:19+00:00",
       "metrics": {
-        "stars": 4473
+        "stars": 4477
       },
       "tags": [
         "TypeScript"
       ],
-      "score": 6.248
-    },
-    {
-      "id": "afbb0bb90f20",
-      "title": "BugMeNot has closed",
-      "url": "https://www.bugmenot.com/",
-      "summary": "",
-      "source": "hackernews",
-      "label": "技术热点",
-      "published": "2026-11-16 21:32:17+00:00",
-      "metrics": {
-        "points": 654
-      },
-      "tags": [
-        "hn"
-      ],
-      "score": 6.001
-    },
-    {
-      "id": "01a12457935d",
-      "title": "Optimizely compromised, served malware on Zoom, GitLab",
-      "url": "https://blog.report-uri.com/worlds-largest-brands-infected-with-malware-via-optimizely/",
-      "summary": "",
-      "source": "hackernews",
-      "label": "技术热点",
-      "published": "2026-11-16 23:00:34+00:00",
-      "metrics": {
-        "points": 520
-      },
-      "tags": [
-        "hn"
-      ],
-      "score": 5.909
+      "score": 6.248,
+      "take": "官方聊天demo信息太少，先跳过，等有文档和用例再看。"
     },
     {
       "id": "88f2c2b8cdc1",
@@ -155,7 +95,7 @@
       "label": "工具与开源",
       "published": "2026-11-11 04:27:17+00:00",
       "metrics": {
-        "stars": 2556
+        "stars": 2558
       },
       "tags": [
         "C++"
@@ -171,12 +111,12 @@
       "label": "工具与开源",
       "published": "2026-11-12 13:57:34+00:00",
       "metrics": {
-        "stars": 2047
+        "stars": 2051
       },
       "tags": [
         "JavaScript"
       ],
-      "score": 5.794
+      "score": 5.795
     },
     {
       "id": "bd2088ac80cd",
@@ -192,39 +132,7 @@
       "tags": [
         "Python"
       ],
-      "score": 5.786
-    },
-    {
-      "id": "56e4f23c16df",
-      "title": "Frame – 31.5\" color ePaper display",
-      "url": "https://trmnl.com/blog/introducing-frame",
-      "summary": "",
-      "source": "hackernews",
-      "label": "技术热点",
-      "published": "2026-11-16 16:23:22+00:00",
-      "metrics": {
-        "points": 490
-      },
-      "tags": [
-        "hn"
-      ],
-      "score": 5.681
-    },
-    {
-      "id": "2855eb435a6e",
-      "title": "Jiff 1.0: A datetime library for Rust",
-      "url": "https://burntsushi.net/jiff/",
-      "summary": "",
-      "source": "hackernews",
-      "label": "技术热点",
-      "published": "2026-11-16 16:53:39+00:00",
-      "metrics": {
-        "points": 417
-      },
-      "tags": [
-        "hn"
-      ],
-      "score": 5.598
+      "score": 5.784
     },
     {
       "id": "f0a40d9d4c8b",
@@ -235,12 +143,12 @@
       "label": "工具与开源",
       "published": "2026-11-12 23:49:03+00:00",
       "metrics": {
-        "stars": 1314
+        "stars": 1335
       },
       "tags": [
         "Python"
       ],
-      "score": 5.559
+      "score": 5.568
     },
     {
       "id": "05b676055733",
@@ -251,12 +159,12 @@
       "label": "工具与开源",
       "published": "2026-11-12 09:08:11+00:00",
       "metrics": {
-        "stars": 1386
+        "stars": 1390
       },
       "tags": [
         "TypeScript"
       ],
-      "score": 5.548
+      "score": 5.549
     },
     {
       "id": "939e37ce12f3",
@@ -267,12 +175,12 @@
       "label": "工具与开源",
       "published": "2026-11-11 06:25:10+00:00",
       "metrics": {
-        "stars": 1443
+        "stars": 1446
       },
       "tags": [
         "Kotlin"
       ],
-      "score": 5.523
+      "score": 5.524
     },
     {
       "id": "214233d8d9b0",
@@ -288,39 +196,7 @@
         "Startups",
         "educational video"
       ],
-      "score": 5.516
-    },
-    {
-      "id": "37015285ebbb",
-      "title": "Microsoft blames monster email outage on software defect introduced in July fix",
-      "url": "https://www.theregister.com/saas/2026/11/16/microsoft-blames-monster-email-outage-on-software-defect-introduced-in-july-fix/5310026",
-      "summary": "",
-      "source": "hackernews",
-      "label": "技术热点",
-      "published": "2026-11-16 13:18:22+00:00",
-      "metrics": {
-        "points": 402
-      },
-      "tags": [
-        "hn"
-      ],
-      "score": 5.482
-    },
-    {
-      "id": "f902e9f2ab8e",
-      "title": "What is w2rt6byl5nf1opmc-a.com?",
-      "url": "https://jack.cab/blog/siterate",
-      "summary": "",
-      "source": "hackernews",
-      "label": "技术热点",
-      "published": "2026-11-16 13:51:38+00:00",
-      "metrics": {
-        "points": 387
-      },
-      "tags": [
-        "hn"
-      ],
-      "score": 5.474
+      "score": 5.503
     },
     {
       "id": "a3a77daa2264",
@@ -331,7 +207,7 @@
       "label": "工具与开源",
       "published": "2026-11-14 03:59:22+00:00",
       "metrics": {
-        "stars": 887
+        "stars": 899
       },
       "tags": [
         "JavaScript",
@@ -339,26 +215,23 @@
         "chrome-extension",
         "creator-tools"
       ],
-      "score": 5.461
+      "score": 5.468
     },
     {
-      "id": "eed8ea894100",
-      "title": "opencoredev/islandcn",
-      "url": "https://github.com/opencoredev/islandcn",
-      "summary": "The open-source Dynamic Island for React, installed with shadcn.",
+      "id": "7773b7f75959",
+      "title": "haziqahmedqasmi/PeakCut",
+      "url": "https://github.com/haziqahmedqasmi/PeakCut",
+      "summary": "AI clipping for long videos and live streams. Self-hosted, bring your own AI key.",
       "source": "github",
       "label": "工具与开源",
-      "published": "2026-11-13 11:50:50+00:00",
+      "published": "2026-11-14 07:38:20+00:00",
       "metrics": {
         "stars": 792
       },
       "tags": [
-        "TypeScript",
-        "dynamic-island",
-        "nextjs",
-        "react"
+        "Python"
       ],
-      "score": 5.304
+      "score": 5.417
     },
     {
       "id": "ab483ce7b6e0",
@@ -374,7 +247,7 @@
         "Startups",
         "Batteries"
       ],
-      "score": 5.275
+      "score": 5.268
     },
     {
       "id": "285e3e4d016a",
@@ -390,7 +263,7 @@
         "Enterprise",
         "Startups"
       ],
-      "score": 5.263
+      "score": 5.256
     },
     {
       "id": "d8eeb2a7005e",
@@ -402,7 +275,8 @@
       "published": "2026-11-17 15:28:42+00:00",
       "metrics": {},
       "tags": [],
-      "score": 3.883
+      "score": 3.87,
+      "take": "多模型互怼做辩论，思路讨巧，做AI调研工具的可以借鉴。"
     },
     {
       "id": "4438f01a2526",
@@ -414,7 +288,8 @@
       "published": "2026-11-17 15:22:53+00:00",
       "metrics": {},
       "tags": [],
-      "score": 3.878
+      "score": 3.865,
+      "take": "自托管跑Actions省分钟费，小团队CI账单高的值得研究。"
     },
     {
       "id": "5b6300fb4857",
@@ -426,7 +301,7 @@
       "published": "2026-11-17 15:43:37+00:00",
       "metrics": {},
       "tags": [],
-      "score": 3.094
+      "score": 3.081
     },
     {
       "id": "933160720ac8",
@@ -438,7 +313,7 @@
       "published": "2026-11-17 15:40:53+00:00",
       "metrics": {},
       "tags": [],
-      "score": 3.092
+      "score": 3.079
     },
     {
       "id": "754499a8300b",
@@ -450,7 +325,7 @@
       "published": "2026-11-17 15:40:35+00:00",
       "metrics": {},
       "tags": [],
-      "score": 3.092
+      "score": 3.079
     },
     {
       "id": "cf4c93fab6f1",
@@ -462,7 +337,7 @@
       "published": "2026-11-17 15:39:39+00:00",
       "metrics": {},
       "tags": [],
-      "score": 3.091
+      "score": 3.078
     },
     {
       "id": "bc377a0910e9",
@@ -474,7 +349,7 @@
       "published": "2026-11-17 15:39:11+00:00",
       "metrics": {},
       "tags": [],
-      "score": 3.091
+      "score": 3.078
     },
     {
       "id": "397a3c184b32",
@@ -486,7 +361,7 @@
       "published": "2026-11-17 15:24:06+00:00",
       "metrics": {},
       "tags": [],
-      "score": 3.079
+      "score": 3.066
     },
     {
       "id": "949aa23e6c02",
@@ -498,31 +373,21 @@
       "published": "2026-11-17 05:04:07+00:00",
       "metrics": {},
       "tags": [],
-      "score": 2.859
+      "score": 2.849,
+      "take": "本地搜手机相册和文档，隐私卖点不错，但和系统自带功能硬碰。"
     },
     {
-      "id": "777d439e52f9",
-      "title": "Ballet",
-      "url": "https://www.producthunt.com/products/ballet",
-      "summary": "Deterministic AI workflow automation for Ops teams",
+      "id": "a7eecb468bbc",
+      "title": "RankSpot",
+      "url": "https://www.producthunt.com/products/rankspot",
+      "summary": "Pay-as-you-go SEO and AI Search execution layer for agents",
       "source": "producthunt",
       "label": "新品发布",
-      "published": "2026-11-16 19:55:26+00:00",
+      "published": "2026-11-14 10:52:03+00:00",
       "metrics": {},
       "tags": [],
-      "score": 2.562
-    },
-    {
-      "id": "b3aae6b0a682",
-      "title": "Clamor",
-      "url": "https://www.producthunt.com/products/clamor-2",
-      "summary": "Turns social signals into actionable insights",
-      "source": "producthunt",
-      "label": "新品发布",
-      "published": "2026-11-16 19:37:32+00:00",
-      "metrics": {},
-      "tags": [],
-      "score": 2.553
+      "score": 2.435,
+      "take": "按量付费的SEO执行层，方向新但需求真假难说，先观望。"
     },
     {
       "id": "fe2e317feeaa",
@@ -538,19 +403,7 @@
         "Media & Entertainment",
         "Startups"
       ],
-      "score": 2.433
-    },
-    {
-      "id": "fa1e59225bfc",
-      "title": "BASE Studio",
-      "url": "https://www.producthunt.com/products/base-studio",
-      "summary": "Turn product photos into 3D and AR, automatically",
-      "source": "producthunt",
-      "label": "新品发布",
-      "published": "2026-11-16 14:16:03+00:00",
-      "metrics": {},
-      "tags": [],
-      "score": 2.407
+      "score": 2.424
     },
     {
       "id": "d7250a688844",
@@ -562,7 +415,7 @@
       "published": "2026-11-15 17:20:53+00:00",
       "metrics": {},
       "tags": [],
-      "score": 1.983
+      "score": 1.978
     },
     {
       "id": "e999d9c69fb9",
@@ -578,7 +431,7 @@
         "Startups",
         "e-books"
       ],
-      "score": 1.901
+      "score": 1.897
     }
   ],
   "picks": [
@@ -596,7 +449,8 @@
         "Startups",
         "Venture"
       ],
-      "score": 11.355
+      "score": 11.353,
+      "take": "英伟达撒钱模式可能缩水，靠大厂订单撑估值的AI项目要留个心眼。"
     },
     {
       "id": "e3c5a2b79aa8",
@@ -612,7 +466,8 @@
         "Fundraising",
         "Security"
       ],
-      "score": 8.272
+      "score": 8.263,
+      "take": "三个月冲到十亿美金，安全AI泡沫味浓，别拿它当估值参照。"
     },
     {
       "id": "feb988e42901",
@@ -623,44 +478,13 @@
       "label": "工具与开源",
       "published": "2026-11-16 19:28:29+00:00",
       "metrics": {
-        "stars": 1762
+        "stars": 1814
       },
       "tags": [
         "C++"
       ],
-      "score": 6.834
-    },
-    {
-      "id": "77bcddedc986",
-      "title": "Carnegie Mellon is putting computer science courses on YouTube for free",
-      "url": "https://www.cs.cmu.edu/learn/",
-      "summary": "",
-      "source": "hackernews",
-      "label": "技术热点",
-      "published": "2026-11-16 20:43:36+00:00",
-      "metrics": {
-        "points": 1985
-      },
-      "tags": [
-        "hn"
-      ],
-      "score": 6.642
-    },
-    {
-      "id": "f2d8a324f212",
-      "title": "New Evidence Shows School Phone Bans Are Gradually Improving Test Scores",
-      "url": "https://www.nytimes.com/2026/11/17/upshot/school-phone-bans-study-scores.html",
-      "summary": "",
-      "source": "hackernews",
-      "label": "技术热点",
-      "published": "2026-11-17 11:45:51+00:00",
-      "metrics": {
-        "points": 586
-      },
-      "tags": [
-        "hn"
-      ],
-      "score": 6.445
+      "score": 6.843,
+      "take": "小工具解决真痛点，做Windows桌面端的可以拆开看看实现。"
     },
     {
       "id": "86b0f373be54",
@@ -671,12 +495,13 @@
       "label": "工具与开源",
       "published": "2026-11-12 08:08:19+00:00",
       "metrics": {
-        "stars": 4473
+        "stars": 4477
       },
       "tags": [
         "TypeScript"
       ],
-      "score": 6.248
+      "score": 6.248,
+      "take": "官方聊天demo信息太少，先跳过，等有文档和用例再看。"
     },
     {
       "id": "d8eeb2a7005e",
@@ -688,7 +513,8 @@
       "published": "2026-11-17 15:28:42+00:00",
       "metrics": {},
       "tags": [],
-      "score": 3.883
+      "score": 3.87,
+      "take": "多模型互怼做辩论，思路讨巧，做AI调研工具的可以借鉴。"
     },
     {
       "id": "4438f01a2526",
@@ -700,15 +526,56 @@
       "published": "2026-11-17 15:22:53+00:00",
       "metrics": {},
       "tags": [],
-      "score": 3.878
+      "score": 3.865,
+      "take": "自托管跑Actions省分钟费，小团队CI账单高的值得研究。"
+    },
+    {
+      "id": "949aa23e6c02",
+      "title": "Retriever",
+      "url": "https://www.producthunt.com/products/retriever-4",
+      "summary": "Search your phone's photos, documents and videos privately",
+      "source": "producthunt",
+      "label": "新品发布",
+      "published": "2026-11-17 05:04:07+00:00",
+      "metrics": {},
+      "tags": [],
+      "score": 2.849,
+      "take": "本地搜手机相册和文档，隐私卖点不错，但和系统自带功能硬碰。"
+    },
+    {
+      "id": "a7eecb468bbc",
+      "title": "RankSpot",
+      "url": "https://www.producthunt.com/products/rankspot",
+      "summary": "Pay-as-you-go SEO and AI Search execution layer for agents",
+      "source": "producthunt",
+      "label": "新品发布",
+      "published": "2026-11-14 10:52:03+00:00",
+      "metrics": {},
+      "tags": [],
+      "score": 2.435,
+      "take": "按量付费的SEO执行层，方向新但需求真假难说，先观望。"
     }
   ],
   "errors": [],
   "stats": {
-    "producthunt": 5,
+    "producthunt": 3,
     "funding": 8,
     "showhn": 8,
     "github": 10,
     "hackernews": 8
+  },
+  "ai": {
+    "model": "deepseek-flash",
+    "applied": 8,
+    "usage": {
+      "prompt_tokens": 748,
+      "completion_tokens": 301,
+      "total_tokens": 1049,
+      "prompt_tokens_details": {
+        "cached_tokens": 256
+      },
+      "prompt_cache_hit_tokens": 256,
+      "prompt_cache_miss_tokens": 492
+    }
   }
 }
