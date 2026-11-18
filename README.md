@@ -7,11 +7,13 @@
 ## 快速开始
 
 ```bash
-cd ~/Desktop/daily-radar
+cd ~/daily-radar
 python3 -m radar
 ```
 
 约 5 秒出报，只依赖 Python 3.9+ 标准库，**不用 pip install 任何东西**。
+
+> 项目真实位置是 `~/daily-radar`。桌面上有一个同名软链接指过来——因为 launchd 定时任务读不了 macOS 保护的桌面目录，必须把真身放在家目录下。
 
 产物在 `output/`：
 
@@ -135,7 +137,12 @@ python3 -m radar --publish-only    # 只出小红书稿，不动网站
 python3 -m radar --publish         # 出稿 + 更新网站/归档
 ```
 
-产物只有一个文件：`发布包/YYYY-MM-DD/小红书.md`（已 git 忽略），含标题、300–450 字正文、5 个标签、封面文案。一次调用约 1200 tokens。
+产物在 `发布包/YYYY-MM-DD/`（已 git 忽略）：
+
+- `小红书.md` — 标题、300–450 字正文、5 个标签
+- `封面.png` — 1080×1440（3:4），直接上传
+
+文字一次调用约 1200 tokens；封面用 SVG 排版经 QuickLook 转图，不调用任何图像模型，成本为零，中文不会乱码。
 
 ### 每天自动出稿
 
@@ -161,7 +168,7 @@ tail -f 发布包/run.log                                # 看日志
 
 ## 部署成免费自动日报
 
-1. GitHub 建一个仓库，把 `~/Desktop/daily-radar` 推上去（`main` 分支）。
+1. GitHub 建一个仓库，把 `~/daily-radar` 推上去（`main` 分支）。
 2. 仓库 **Settings → Actions → General → Workflow permissions** 选 **Read and write**。
 3. 仓库 **Settings → Pages → Source** 选 **GitHub Actions**。
 4. 完成。`.github/workflows/daily.yml` 每天北京时间 09:00 自动出报并部署；也能在 Actions 页面点 **Run workflow** 手动跑。

@@ -147,9 +147,12 @@ def main(argv=None):
         try:
             bundle = publish_module.build_bundle(report, config, api_key)
             if bundle:
-                written += publish_module.write_bundle(
+                paths, cover_error = publish_module.write_bundle(
                     bundle, report, os.path.join(config_module.ROOT, "发布包", report["date"])
                 )
+                written += paths
+                if cover_error:
+                    publish_error = cover_error
             else:
                 publish_error = "未配置 AI，跳过发布包"
         except Exception as exc:  # noqa: BLE001 - 发布包失败不影响日报

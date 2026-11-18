@@ -6,6 +6,7 @@
 import json
 import os
 
+from . import cover as cover_module
 from .commentary import _post
 from .util import clean
 
@@ -100,8 +101,31 @@ def render_markdown(bundle):
 
 
 def write_bundle(bundle, report, out_dir):
-    path = os.path.join(out_dir, "小红书.md")
+    """落盘小红书稿 + 3:4 封面图，返回 (文件列表, 封面错误信息)。"""
     os.makedirs(out_dir, exist_ok=True)
+    paths = []
+    cover_error = ""
+    cover_path = ""
+
+    cover_cfg = (bundle.get("cover") or {})
+    try:
+        cover_path = os.path.join(out_dir, "封面.png")
+        cover_module.render(
+            cover_cfg.get("title") or bundle.get("title", ""),
+            cover_cfg.get("subtitle") or "",
+            report["date"],
+            cover_path,
+        )
+        paths.append(cover_path)
+    except Exception as exc:  # noqa: BLE001 - 封面失败不影响文字稿
+        cover_error = "封面生成失败：%s" % exc
+        cover_path = ""
+
+    path = os.path.join(out_dir, "小红书.md")
+    markdown = render_markdown(bundle)
+    if cover_path:
+        markdown = markdown.rstrip() + "\n\n## 封面\n封面.png（1080×1440，直接上传）\n"
     with open(path, "w", encoding="utf-8") as handle:
-        handle.write(render_markdown(bundle))
-    return [path]
+        handle.write(markdown)
+    paths.insert(0, path)
+    return paths, cover_error
