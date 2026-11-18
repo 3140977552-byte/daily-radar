@@ -113,6 +113,31 @@ def fetch_mysource(settings, now):
 
 如果你希望某个源不做过滤，去掉它配置里的 `require_keyword` 即可。
 
+## 双层产出：免费版公开、付费版只在本机
+
+| 层 | 位置 | 内容 |
+| --- | --- | --- |
+| 免费 | `output/`（会推到公开仓库） | 5 条精选 · 其中 2 条带点评 · 每频道 3 条 |
+| 付费 | `paid/`（**已 git 忽略，永不上传**） | 9–10 条精选全带点评 · 每频道最多 10 条 · 周报 |
+
+关键设计：**付费内容永远不会进公开仓库**。`paid/` 写在 `.gitignore` 里，公开的归档 JSON 也会被自动剥掉 `take` 字段（点评是付费资产，不能跟着数据一起漏出去）。CI 只跑 `--tier free`，所以线上永远只有免费版。
+
+```bash
+python3 -m radar                 # 免费版 + 付费版
+python3 -m radar --tier free     # 只出公开版（CI 用这个）
+python3 -m radar --weekly        # 额外生成周报到 paid/
+```
+
+## 每天 30 秒的发布流程
+
+1. 本机跑 `python3 -m radar --weekly`
+2. 打开 `paid/latest.md`，全选复制，粘进你的付费渠道（小报童 / 知识星球 / 邮件）
+3. 周日下午再发一次 `paid/latest-weekly.md`
+
+免费版网页由 GitHub Actions 每天自动更新，你不用管。**你每天唯一的人工动作，是把付费版粘出去**——这也是目前唯一必须由你亲自做的事。
+
+周报里的「本周观察」是 LLM 根据一周的条目自己写的趋势判断，不是拼凑标题。单日情报谁都能抄，一周的判断力抄不走，这就是付费层的护城河。
+
 ## 部署成免费自动日报
 
 1. GitHub 建一个仓库，把 `~/Desktop/daily-radar` 推上去（`main` 分支）。
@@ -137,15 +162,18 @@ def fetch_mysource(settings, now):
 
 ```
 daily-radar/
-├── config.json              # 唯一的业务配置
+├── config.json              # 唯一的业务配置（含 tiers / ai）
 ├── radar/
 │   ├── __main__.py          # python3 -m radar
-│   ├── cli.py               # 命令行入口
+│   ├── cli.py               # 命令行入口（--tier / --weekly）
 │   ├── config.py            # 配置加载 / 默认值
 │   ├── pipeline.py          # 采集→去重→打分→排序→精选
-│   ├── render.py            # Markdown / HTML / 归档页
+│   ├── commentary.py        # LLM 中文点评
+│   ├── weekly.py            # 周报汇总 + 趋势观察
+│   ├── render.py            # Markdown / HTML / 归档页（支持分层）
 │   ├── sources.py           # 数据源适配器（含通用 RSS/Atom）
 │   └── util.py              # HTTP / 时间 / 文本工具
-├── output/                  # 产物（会被 Actions 提交并部署）
+├── output/                  # 免费版产物（会被 Actions 提交并部署）
+├── paid/                    # 付费版产物（git 忽略，只在本机）
 └── .github/workflows/daily.yml
 ```

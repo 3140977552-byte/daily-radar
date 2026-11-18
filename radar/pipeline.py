@@ -96,8 +96,13 @@ def score(item, config, kw_points, now):
 
 
 def select_picks(items, config):
-    """今日精选：按分数取，但限制单个频道的占比，避免整屏都是融资新闻。"""
+    """今日精选：按分数取，但限制单个频道的占比，避免整屏都是融资新闻。
+
+    数量取各层级里最大的 top_n，这样免费版截断展示时，付费版仍然拿得到完整名单。
+    """
     top_n = int(config["output"].get("top_n", 8))
+    for preset in (config.get("tiers") or {}).values():
+        top_n = max(top_n, int(preset.get("top_n", 0)))
     cap = int(config["output"].get("pick_diversity", 2))
     counts, picks = {}, []
     for item in items:

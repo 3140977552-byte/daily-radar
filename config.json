@@ -105,7 +105,24 @@
     "base_url": "https://api.deepseek.com",
     "api_key_env": "RADAR_API_KEY",
     "model": "deepseek-chat",
-    "max_items": 8,
+    "max_items": 10,
     "timeout": 90
+  },
+  "tiers": {
+    "free": {
+      "top_n": 5,
+      "per_section": 3,
+      "show_takes": 2,
+      "sections": "all",
+      "promo": "这是免费版：每天 5 条精选，其中 2 条带点评。付费版每天 10 条全部带点评，另附每周复盘。"
+    },
+    "paid": {
+      "title": "独立开发情报 · 付费版",
+      "top_n": 10,
+      "per_section": 10,
+      "show_takes": 99,
+      "sections": "all",
+      "promo": "付费版：全部条目 + 每条点评 + 每周复盘。"
+    }
   }
 }

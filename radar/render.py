@@ -1,4 +1,7 @@
-"""渲染：Markdown（邮件/公众号）与 HTML（网页订阅）。"""
+"""渲染：Markdown（邮件/公众号/小报童）与 HTML（网页订阅）。
+
+同一份 report 可以渲染成不同层级（free / paid），差别只在数量和点评的露出范围。
+"""
 import html
 from datetime import datetime, timezone
 
@@ -33,6 +36,13 @@ def _age(published):
     return "%d 天前" % int(hours // 24)
 
 
+def _compact(number):
+    number = int(number)
+    if number >= 1000:
+        return "%.1fk" % (number / 1000.0)
+    return str(number)
+
+
 def _signal(item):
     stars = item["metrics"].get("stars")
     if stars:
@@ -43,71 +53,91 @@ def _signal(item):
     return ""
 
 
-def _compact(number):
-    number = int(number)
-    if number >= 1000:
-        return "%.1fk" % (number / 1000.0)
-    return str(number)
-
-
-def _sections(report, config):
-    per_section = int(config["output"]["per_section"])
-    grouped = []
-    for name in config.get("sources", {}):
-        rows = [item for item in report["items"] if item["source"] == name]
-        if not rows:
-            continue
-        grouped.append((name, rows[:per_section]))
-    return grouped
-
 def _truncate(text, limit):
     if limit and len(text) > limit:
         return text[: limit - 1].rstrip() + "…"
     return text
 
 
+def _esc(text):
+    return html.escape(str(text or ""))
+
+
+# --------------------------------------------------------------------------- #
+# 层级配置：free 与 paid 的差异全部来自 config.json 的 tiers
+# --------------------------------------------------------------------------- #
+def tier_options(config, name):
+    preset = (config.get("tiers") or {}).get(name) or {}
+    out = config.get("output") or {}
+    return {
+        "name": name,
+        "title": preset.get("title") or config["title"],
+        "subtitle": preset.get("subtitle") or config.get("subtitle") or "",
+        "top_n": int(preset.get("top_n", out.get("top_n", 8))),
+        "per_section": int(preset.get("per_section", out.get("per_section", 6))),
+        "show_takes": int(preset.get("show_takes", 10 ** 6)),
+        "sections": preset.get("sections", "all"),
+        "promo": preset.get("promo") or "",
+    }
+
+
+def _sections(report, config, tier):
+    grouped = []
+    for name in config.get("sources", {}):
+        rows = [item for item in report["items"] if item["source"] == name]
+        if rows:
+            grouped.append((name, rows[: tier["per_section"]]))
+    limit = tier["sections"]
+    if isinstance(limit, int):
+        grouped = grouped[:limit]
+    return grouped
+
+
+def _takes_enabled(tier, index):
+    return index <= tier["show_takes"]
+
+
 # --------------------------------------------------------------------------- #
 # Markdown
 # --------------------------------------------------------------------------- #
-def render_markdown(report, config):
+def render_markdown(report, config, tier_name="paid"):
+    tier = tier_options(config, tier_name)
     limit = int(config["output"]["max_summary_chars"])
-    lines = [
-        "# %s · %s" % (config["title"], report["date"]),
-        "",
-    ]
-    if config.get("subtitle"):
-        lines += ["> %s" % config["subtitle"]]
-    lines += [
-        "> 本期收录 %d 条 · 生成于 %s" % (len(report["items"]), report["generated_at"]),
-        "",
-        "## 🔥 今日精选",
-        "",
-    ]
+    picks = (report.get("picks") or report["items"])[: tier["top_n"]]
 
-    picks = report.get("picks") or report["items"][: int(config["output"]["top_n"])]
+    lines = ["# %s · %s" % (tier["title"], report["date"]), ""]
+    if tier["subtitle"]:
+        lines.append("> %s" % tier["subtitle"])
+    lines += ["> 本期收录 %d 条 · 生成于 %s" % (len(report["items"]), report["generated_at"]), ""]
+    lines += ["## 🔥 今日精选", ""]
+
     for index, item in enumerate(picks, 1):
         meta = " · ".join(x for x in [_item_label(item), _age(item["published"]), _signal(item)] if x)
         lines.append("%d. **[%s](%s)**" % (index, item["title"], item["url"]))
         if item["summary"]:
             lines.append("   %s" % _truncate(item["summary"], limit))
-        if item.get("take"):
+        if item.get("take") and _takes_enabled(tier, index):
             lines.append("   > 💬 %s" % item["take"])
         lines.append("   `%.1f` · %s" % (item["score"], meta))
         lines.append("")
 
-    for name, rows in _sections(report, config):
+    for name, rows in _sections(report, config, tier):
         lines += ["## %s %s" % (SOURCE_ICON.get(name, "•"), _section_label(rows)), ""]
         for item in rows:
             meta = " · ".join(x for x in [_age(item["published"]), _signal(item)] if x)
-            lines.append("- **[%s](%s)**  `%.1f`%s" % (item["title"], item["url"], item["score"], (" · " + meta) if meta else ""))
+            lines.append(
+                "- **[%s](%s)**  `%.1f`%s"
+                % (item["title"], item["url"], item["score"], (" · " + meta) if meta else "")
+            )
             if item["summary"]:
                 lines.append("  %s" % _truncate(item["summary"], limit))
-            if item.get("take"):
-                lines.append("  > 💬 %s" % item["take"])
         lines.append("")
 
+    if tier["promo"]:
+        lines += ["---", "", tier["promo"], ""]
+
     if report["errors"]:
-        lines += ["---", "", "数据源告警：", ""]
+        lines += ["---", "", "运行告警：", ""]
         lines += ["- %s" % err for err in report["errors"]]
         lines.append("")
 
@@ -141,6 +171,7 @@ a:hover{color:var(--accent)}
 .tag{color:var(--muted);font-size:12px}
 .take{margin:9px 0 0;padding:8px 12px;background:var(--chip);border-left:3px solid var(--accent);border-radius:0 8px 8px 0;font-size:14px;line-height:1.6}
 .take-label{display:inline-block;margin-right:8px;color:var(--accent);font-size:11px;font-weight:700;letter-spacing:.08em;vertical-align:1px}
+.promo{margin-top:44px;padding:16px 18px;border:1px dashed var(--line);border-radius:10px;color:var(--muted);font-size:14px;line-height:1.7}
 footer{margin-top:48px;padding-top:18px;border-top:1px solid var(--line);color:var(--muted);font-size:13px}
 nav a{color:var(--accent);font-size:14px}
 table{width:100%;border-collapse:collapse;font-size:15px}
@@ -149,23 +180,26 @@ td.r{text-align:right;color:var(--muted);font-size:13px}
 """
 
 
-def _esc(text):
-    return html.escape(str(text or ""))
-
-
 def _page(title, body):
     return (
-        "<!doctype html>\n<html lang=\"zh-CN\">\n<head>\n<meta charset=\"utf-8\">\n"
-        "<meta name=\"viewport\" content=\"width=device-width,initial-scale=1\">\n"
+        '<!doctype html>\n<html lang="zh-CN">\n<head>\n<meta charset="utf-8">\n'
+        '<meta name="viewport" content="width=device-width,initial-scale=1">\n'
         "<title>%s</title>\n<style>%s</style>\n</head>\n<body>\n<div class=\"wrap\">\n%s\n</div>\n</body>\n</html>\n"
         % (_esc(title), CSS, body)
     )
 
 
-def _item_html(item, limit, with_summary=True):
-    meta = []
-    meta.append('<span class="score">%.1f</span>' % item["score"])
-    meta.append('<span class="tag">%s</span>' % _esc(_item_label(item)))
+def _take_html(item):
+    if not item.get("take"):
+        return ""
+    return '<p class="take"><span class="take-label">点评</span>%s</p>' % _esc(item["take"])
+
+
+def _item_html(item, limit):
+    meta = [
+        '<span class="score">%.1f</span>' % item["score"],
+        '<span class="tag">%s</span>' % _esc(_item_label(item)),
+    ]
     age = _age(item["published"])
     if age:
         meta.append('<span class="tag">%s</span>' % _esc(age))
@@ -174,29 +208,26 @@ def _item_html(item, limit, with_summary=True):
         meta.append('<span class="tag">%s</span>' % _esc(signal))
     for tag in item.get("tags", [])[:2]:
         meta.append('<span class="tag">#%s</span>' % _esc(tag))
-    summary = ""
-    if with_summary and item["summary"]:
-        summary = '<p class="d">%s</p>' % _esc(_truncate(item["summary"], limit))
-    take = ""
-    if item.get("take"):
-        take = '<p class="take"><span class="take-label">点评</span>%s</p>' % _esc(item["take"])
+    summary = '<p class="d">%s</p>' % _esc(_truncate(item["summary"], limit)) if item["summary"] else ""
     return (
         '<div class="item"><a href="%s" target="_blank" rel="noopener"><div class="t">%s</div></a>%s%s'
-        '<div class="meta">%s</div></div>' % (_esc(item["url"]), _esc(item["title"]), summary, take, "".join(meta))
+        '<div class="meta">%s</div></div>'
+        % (_esc(item["url"]), _esc(item["title"]), summary, _take_html(item), "".join(meta))
     )
 
 
-def render_html(report, config):
+def render_html(report, config, tier_name="paid", with_archive=True):
+    tier = tier_options(config, tier_name)
     limit = int(config["output"]["max_summary_chars"])
-    total = len(report["items"])
+    picks = (report.get("picks") or report["items"])[: tier["top_n"]]
+
     parts = [
-        "<header><h1>%s</h1><p class=\"sub\">%s · %d 条 · %s</p></header>"
-        % (_esc(config["title"]), _esc(report["date"]), total, _esc(report["generated_at"]))
+        '<header><h1>%s</h1><p class="sub">%s · %d 条 · %s</p></header>'
+        % (_esc(tier["title"]), _esc(report["date"]), len(report["items"]), _esc(report["generated_at"]))
     ]
 
-    picks = report.get("picks") or report["items"][: int(config["output"]["top_n"])]
     rows = []
-    for item in picks:
+    for index, item in enumerate(picks, 1):
         meta = [
             '<span class="score">%.1f</span>' % item["score"],
             '<span class="tag">%s</span>' % _esc(_item_label(item)),
@@ -208,25 +239,30 @@ def render_html(report, config):
         if signal:
             meta.append('<span class="tag">%s</span>' % _esc(signal))
         summary = '<p class="d">%s</p>' % _esc(_truncate(item["summary"], limit)) if item["summary"] else ""
-        take = '<p class="take"><span class="take-label">点评</span>%s</p>' % _esc(item["take"]) if item.get("take") else ""
+        take = _take_html(item) if _takes_enabled(tier, index) else ""
         rows.append(
-            '<li><a href="%s" target="_blank" rel="noopener"><span class="t">%s</span></a>%s%s<div class="meta">%s</div></li>'
+            '<li><a href="%s" target="_blank" rel="noopener"><span class="t">%s</span></a>%s%s'
+            '<div class="meta">%s</div></li>'
             % (_esc(item["url"]), _esc(item["title"]), summary, take, "".join(meta))
         )
     parts.append('<h2>今日精选</h2><ol class="picks">%s</ol>' % "".join(rows))
 
-    for name, items in _sections(report, config):
+    for name, items in _sections(report, config, tier):
         parts.append(
             '<h2>%s %s</h2>%s'
             % (SOURCE_ICON.get(name, "•"), _esc(_section_label(items)), "".join(_item_html(i, limit) for i in items))
         )
 
-    footer = "由 daily-radar 自动生成 · 采集 %d 条 / 收录 %d 条" % (sum(report["stats"].values()), total)
+    if tier["promo"]:
+        parts.append('<div class="promo">%s</div>' % _esc(tier["promo"]))
+
+    footer = "由 daily-radar 自动生成 · 采集 %d 条 / 收录 %d 条" % (sum(report["stats"].values()), len(report["items"]))
     if report["errors"]:
         footer += " · 告警 %d 项" % len(report["errors"])
-    parts.append('<footer>%s<br><nav><a href="index.html">历史归档</a></nav></footer>' % _esc(footer))
+    nav = '<br><nav><a href="index.html">历史归档</a></nav>' if with_archive else ""
+    parts.append("<footer>%s%s</footer>" % (_esc(footer), nav))
 
-    return _page("%s · %s" % (config["title"], report["date"]), "\n".join(parts))
+    return _page("%s · %s" % (tier["title"], report["date"]), "\n".join(parts))
 
 
 def render_index(entries, config):
@@ -238,6 +274,6 @@ def render_index(entries, config):
     body = '<header><h1>%s</h1><p class="sub">%s · 历史归档</p></header><table>%s</table>' % (
         _esc(config["title"]),
         _esc(config.get("subtitle") or ""),
-        rows or '<tr><td>暂无归档</td></tr>',
+        rows or "<tr><td>暂无归档</td></tr>",
     )
     return _page("%s · 归档" % config["title"], body)

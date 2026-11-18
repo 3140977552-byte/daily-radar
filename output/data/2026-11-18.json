@@ -1,7 +1,19 @@
 {
   "date": "2026-11-18",
-  "generated_at": "2026-11-18 08:21 UTC",
+  "generated_at": "2026-11-18 11:16 UTC",
   "items": [
+    {
+      "id": "f11ed3643ed7",
+      "title": "Show HN: Prototype of a product management tool for AI agent companies",
+      "url": "https://featurestream-prototype.vercel.app/",
+      "summary": "Hi HN, I'm a solo founder. Teams building AI agents in a specific domain (legal, healthcare, etc.) have to piece together customer, product and market signals to decide which features to build next for their agent. This prototype is a product management tool that automates that manual process for PMs and helps them manage the agentic product. It currently runs on sample data (a fictional loans and insurance company). I'm about to start the MVP, and I'd love feedback from AI agent builders and PMs. In particular: how do you decide what to build today, and what would v1 need to do for you to try it? Comments URL: https://news.ycombinator.com/item?id=50544566 Points: 1 # Comments: 0",
+      "source": "showhn",
+      "label": "Show HN",
+      "published": "2026-11-18 10:42:09+00:00",
+      "metrics": {},
+      "tags": [],
+      "score": 11.874
+    },
     {
       "id": "5f39e0ce0783",
       "title": "Nvidia stopped disclosing Singapore sales as revenues hit $104B",
@@ -11,12 +23,12 @@
       "label": "技术热点",
       "published": "2026-11-17 17:12:06+00:00",
       "metrics": {
-        "points": 512
+        "points": 558
       },
       "tags": [
         "hn"
       ],
-      "score": 8.753
+      "score": 8.713
     },
     {
       "id": "8ab23e48a7ef",
@@ -32,7 +44,7 @@
         "Startups",
         "AI agents"
       ],
-      "score": 8.038
+      "score": 7.944
     },
     {
       "id": "091e9e5dac40",
@@ -43,7 +55,7 @@
       "label": "工具与开源",
       "published": "2026-11-16 18:40:04+00:00",
       "metrics": {
-        "stars": 991
+        "stars": 1013
       },
       "tags": [
         "Python",
@@ -51,7 +63,7 @@
         "benchmarking",
         "claude-code"
       ],
-      "score": 7.877
+      "score": 7.836
     },
     {
       "id": "e3c5a2b79aa8",
@@ -67,23 +79,23 @@
         "Fundraising",
         "Security"
       ],
-      "score": 7.837
+      "score": 7.776
     },
     {
-      "id": "e9e8a0d7b799",
-      "title": "gylive/google-ultra",
-      "url": "https://github.com/gylive/google-ultra",
-      "summary": "",
+      "id": "b4a7ccb27e01",
+      "title": "joshpuckett/allo",
+      "url": "https://github.com/joshpuckett/allo",
+      "summary": "Allo is your friendly neighborhood typeface, free and open source",
       "source": "github",
       "label": "工具与开源",
-      "published": "2026-11-17 10:21:54+00:00",
+      "published": "2026-11-15 17:33:42+00:00",
       "metrics": {
-        "stars": 2270
+        "stars": 968
       },
       "tags": [
         "Python"
       ],
-      "score": 6.94
+      "score": 7.164
     },
     {
       "id": "feb988e42901",
@@ -94,12 +106,31 @@
       "label": "工具与开源",
       "published": "2026-11-16 19:28:29+00:00",
       "metrics": {
-        "stars": 3238
+        "stars": 3422
       },
       "tags": [
         "C++"
       ],
-      "score": 6.803
+      "score": 6.78
+    },
+    {
+      "id": "1f9bc238f405",
+      "title": "erkamyaman/rust-anything",
+      "url": "https://github.com/erkamyaman/rust-anything",
+      "summary": "Rewrite your whole app in Rust, one piece at a time, checked against the original's recorded behavior at every step. CLIs, HTTP servers and libraries in TypeScript, Python, C, Go, Ruby and Java.",
+      "source": "github",
+      "label": "工具与开源",
+      "published": "2026-11-16 12:10:36+00:00",
+      "metrics": {
+        "stars": 2322
+      },
+      "tags": [
+        "Rust",
+        "agent-skills",
+        "claude-code",
+        "cli"
+      ],
+      "score": 6.424
     },
     {
       "id": "dc5c9851a021",
@@ -115,26 +146,7 @@
         "Biotech & Health",
         "Startups"
       ],
-      "score": 6.422
-    },
-    {
-      "id": "1f9bc238f405",
-      "title": "erkamyaman/rust-anything",
-      "url": "https://github.com/erkamyaman/rust-anything",
-      "summary": "Rewrite your whole app in Rust, one piece at a time, checked against the original's recorded behavior at every step. CLIs, HTTP servers and libraries in TypeScript, Python, C, Go, Ruby and Java.",
-      "source": "github",
-      "label": "工具与开源",
-      "published": "2026-11-16 12:10:36+00:00",
-      "metrics": {
-        "stars": 2016
-      },
-      "tags": [
-        "Rust",
-        "agent-skills",
-        "claude-code",
-        "cli"
-      ],
-      "score": 6.386
+      "score": 6.336
     },
     {
       "id": "86b0f373be54",
@@ -145,12 +157,12 @@
       "label": "工具与开源",
       "published": "2026-11-12 08:08:19+00:00",
       "metrics": {
-        "stars": 4650
+        "stars": 4679
       },
       "tags": [
         "TypeScript"
       ],
-      "score": 6.238
+      "score": 6.237
     },
     {
       "id": "560c1dcfb5e3",
@@ -161,12 +173,12 @@
       "label": "工具与开源",
       "published": "2026-11-12 13:57:34+00:00",
       "metrics": {
-        "stars": 2256
+        "stars": 2291
       },
       "tags": [
         "JavaScript"
       ],
-      "score": 5.815
+      "score": 5.819
     },
     {
       "id": "f0a40d9d4c8b",
@@ -177,12 +189,12 @@
       "label": "工具与开源",
       "published": "2026-11-12 23:49:03+00:00",
       "metrics": {
-        "stars": 1924
+        "stars": 1968
       },
       "tags": [
         "Python"
       ],
-      "score": 5.74
+      "score": 5.747
     },
     {
       "id": "bd2088ac80cd",
@@ -193,12 +205,12 @@
       "label": "工具与开源",
       "published": "2026-11-14 01:24:58+00:00",
       "metrics": {
-        "stars": 1609
+        "stars": 1616
       },
       "tags": [
         "Python"
       ],
-      "score": 5.716
+      "score": 5.706
     },
     {
       "id": "05b676055733",
@@ -209,12 +221,12 @@
       "label": "工具与开源",
       "published": "2026-11-12 09:08:11+00:00",
       "metrics": {
-        "stars": 1511
+        "stars": 1533
       },
       "tags": [
         "TypeScript"
       ],
-      "score": 5.566
+      "score": 5.57
     },
     {
       "id": "a3a77daa2264",
@@ -225,7 +237,7 @@
       "label": "工具与开源",
       "published": "2026-11-14 03:59:22+00:00",
       "metrics": {
-        "stars": 1170
+        "stars": 1213
       },
       "tags": [
         "JavaScript",
@@ -233,7 +245,7 @@
         "chrome-extension",
         "creator-tools"
       ],
-      "score": 5.536
+      "score": 5.545
     },
     {
       "id": "ab483ce7b6e0",
@@ -249,7 +261,7 @@
         "Startups",
         "Batteries"
       ],
-      "score": 4.935
+      "score": 4.887
     },
     {
       "id": "285e3e4d016a",
@@ -265,23 +277,7 @@
         "Enterprise",
         "Startups"
       ],
-      "score": 4.926
-    },
-    {
-      "id": "44ce8c447b80",
-      "title": "Nvidia’s startup stakes ballooned to $65B, but Huang’s exit puts future deals in doubt",
-      "url": "https://techcrunch.com/2026/11/17/nvidias-startup-stakes-ballooned-to-65b-but-huangs-exit-puts-future-deals-in-doubt/",
-      "summary": "The value of Nvidia’s private investments has nearly tripled over the past nine months, fueled by Jensen Huang’s aggressive dealmaking and rising valuations of its existing portfolio companies.",
-      "source": "funding",
-      "label": "融资动态",
-      "published": "2026-11-18 01:44:21+00:00",
-      "metrics": {},
-      "tags": [
-        "AI",
-        "Startups",
-        "Colette Kress"
-      ],
-      "score": 4.917
+      "score": 4.879
     },
     {
       "id": "214233d8d9b0",
@@ -297,103 +293,167 @@
         "Startups",
         "educational video"
       ],
-      "score": 4.909
+      "score": 4.824
     },
     {
-      "id": "c606237cdcf3",
-      "title": "Show HN: Pbc – a CLI for any PocketBase instance",
-      "url": "https://github.com/pocketbasecloud/cli",
-      "summary": "",
+      "id": "44ce8c447b80",
+      "title": "Nvidia’s startup stakes ballooned to $65B, but Huang’s exit puts future deals in doubt",
+      "url": "https://techcrunch.com/2026/11/17/nvidias-startup-stakes-ballooned-to-65b-but-huangs-exit-puts-future-deals-in-doubt/",
+      "summary": "The value of Nvidia’s private investments has nearly tripled over the past nine months, fueled by Jensen Huang’s aggressive dealmaking and rising valuations of its existing portfolio companies.",
+      "source": "funding",
+      "label": "融资动态",
+      "published": "2026-11-18 01:44:21+00:00",
+      "metrics": {},
+      "tags": [
+        "AI",
+        "Startups",
+        "Colette Kress"
+      ],
+      "score": 4.805
+    },
+    {
+      "id": "3027a34b004b",
+      "title": "Show HN: Arbituro",
+      "url": "https://arbituro.com/",
+      "summary": "Looking for some honest feedback, set me straight! Over the past year I've built Arbituro, its a work management tool. Its built on the assumption that a lot of the work going forward will be done by agents, and that the hard part is no longer doing the work but agreeing when it’s finished. I've built a contract into the tool, with \"done-when\" clauses, and I give the agents the option of claiming work is done, but it ends up with you the owner to judge if what has been done is satisfactory. Looking forward and appreciate in advance anyone who takes the time Comments URL: https://news.ycombinator.com/item?id=50544381 Points: 1 # Comments: 0",
       "source": "showhn",
       "label": "Show HN",
-      "published": "2026-11-18 07:20:52+00:00",
+      "published": "2026-11-18 10:18:55+00:00",
       "metrics": {},
       "tags": [],
-      "score": 3.054
+      "score": 4.657
     },
     {
-      "id": "692edf088d15",
-      "title": "Show HN: I built a ATS Resume Checker. Paste your resume and JD to check",
-      "url": "https://www.onestoplinkedin.com/free/ats-resume-checker",
+      "id": "77f63798ee29",
+      "title": "Show HN: Qpilot – an AI agent that runs plain-text manual test cases in Chrome",
+      "url": "https://github.com/broxhq/qpilot",
       "summary": "",
       "source": "showhn",
       "label": "Show HN",
-      "published": "2026-11-18 07:10:31+00:00",
+      "published": "2026-11-18 10:15:10+00:00",
+      "metrics": {},
+      "tags": [],
+      "score": 4.654
+    },
+    {
+      "id": "2cddf78928ed",
+      "title": "Show HN: Agent World – workflows and playbooks for multi-provider coding agents",
+      "url": "https://github.com/hodkep/agent-world/",
+      "summary": "",
+      "source": "showhn",
+      "label": "Show HN",
+      "published": "2026-11-18 09:31:57+00:00",
+      "metrics": {},
+      "tags": [],
+      "score": 4.621
+    },
+    {
+      "id": "ff58c9eba526",
+      "title": "Incredible Agents",
+      "url": "https://www.producthunt.com/products/incredible",
+      "summary": "Proactive AIs that do work directly on your computer, 24/7",
+      "source": "producthunt",
+      "label": "新品发布",
+      "published": "2026-11-17 22:02:24+00:00",
+      "metrics": {},
+      "tags": [],
+      "score": 4.373
+    },
+    {
+      "id": "0dbf9d484bf9",
+      "title": "Show HN: Neopane. Run Neovim once, show its windows in your multiplexer's panes",
+      "url": "https://github.com/spiritledsoftware/neopane",
+      "summary": "Hi HN, I built a tool that allows neovim to use your native terminal multiplexer's splits instead of drawing its own. :vsplit opens a new tmux/zellij/herdr pane and it's the same neovim process behind each pane. I have not tested on linux yet, but I daily drive it on macOS (I even have nvim aliased to it!). Really looking forward to receiving feedback from all mux users to provide polish. You may ask \"What's the use case?\" when looking at the video, but it's less about looks and more about feel. You stop fighting your muxer and neovim and instead have them working together seamlessly. Comments URL: https://news.ycombinator.com/item?id=50544553 Points: 2 # Comments: 1",
+      "source": "showhn",
+      "label": "Show HN",
+      "published": "2026-11-18 10:40:31+00:00",
+      "metrics": {},
+      "tags": [],
+      "score": 3.873
+    },
+    {
+      "id": "07735f4b26d8",
+      "title": "AI Canvas",
+      "url": "https://www.producthunt.com/products/ai-canvas-2",
+      "summary": "A design system for AI agents to design badass interfaces",
+      "source": "producthunt",
+      "label": "新品发布",
+      "published": "2026-11-17 15:46:37+00:00",
+      "metrics": {},
+      "tags": [],
+      "score": 3.375
+    },
+    {
+      "id": "4d08b2077434",
+      "title": "Beacon",
+      "url": "https://www.producthunt.com/products/beacon-26",
+      "summary": "Give your AI agent the browser you're already signed into",
+      "source": "producthunt",
+      "label": "新品发布",
+      "published": "2026-11-17 10:45:51+00:00",
+      "metrics": {},
+      "tags": [],
+      "score": 3.235
+    },
+    {
+      "id": "2f649750d351",
+      "title": "Show HN: Offline knowledge library for survival and rebuilding",
+      "url": "https://lastbook.apposters.com/",
+      "summary": "",
+      "source": "showhn",
+      "label": "Show HN",
+      "published": "2026-11-18 10:04:31+00:00",
       "metrics": {},
       "tags": [],
       "score": 3.046
     },
     {
-      "id": "ffc0307e9ade",
-      "title": "Show HN: Murer AI – Single Platform Multiple Models",
-      "url": "https://murer.ai",
+      "id": "90cba8495f7a",
+      "title": "Show HN: Readplace read-it-later self-registration Public API",
+      "url": "https://readplace.com/developers",
       "summary": "",
       "source": "showhn",
       "label": "Show HN",
-      "published": "2026-11-18 06:51:14+00:00",
+      "published": "2026-11-18 09:43:32+00:00",
       "metrics": {},
       "tags": [],
-      "score": 3.032
+      "score": 3.03
     },
     {
-      "id": "44a836cb3d5a",
-      "title": "Show HN: Sip pacer that helps you drink slower",
-      "url": "https://pourdecision.app/blog/sip-pacing-method",
-      "summary": "It's a new feature I've added to my app Pour Decision. The idea is: 1. Set an interval on your phone and slip it in your pocket 2. The phone vibrates in your pocket on every interval 3. Condition yourself to have sips when you feel the vibration Benefits: - You end up drinking way less in a night than you normally would - You don't feel like you're moderating cus you're never without a drink - It's discreet so people you're drinking with won't know you're doing this This is sort of like a HIIT-timer, but to preserve battery I took another approach. It works by pre-scheduling on-device notifications when you start the timer. iOS allows apps to schedule up to 64 notifications. If you were to set say 5-minute intervals, that covers the next 320 minutes - more than 5 hours. The phone uses no battery in between intervals, and only wakes up the device once every 5 minutes, so battery drain is negligible. Comments URL: https://news.ycombinator.com/item?id=50542566 Points: 2 # Comments: 0",
-      "source": "showhn",
-      "label": "Show HN",
-      "published": "2026-11-18 06:27:40+00:00",
-      "metrics": {},
-      "tags": [],
-      "score": 3.014
-    },
-    {
-      "id": "519756170739",
-      "title": "Show HN: New chess variant – liminal chess",
-      "url": "https://levmiseri.com/liminalchess/",
+      "id": "f96a5bfeb574",
+      "title": "Show HN: I cut an LLM's screen-watching cost to ~138 tokens per step",
+      "url": "https://github.com/Vumb-VibeCoder/super-computer-agent",
       "summary": "",
       "source": "showhn",
       "label": "Show HN",
-      "published": "2026-11-18 06:14:18+00:00",
+      "published": "2026-11-18 09:39:09+00:00",
       "metrics": {},
       "tags": [],
-      "score": 3.005
+      "score": 3.027
     },
     {
-      "id": "e6e829591dbd",
-      "title": "Show HN: Yantra – an assistant that works in your own browser tab, with your OK",
-      "url": "https://yantra.app/new",
-      "summary": "",
-      "source": "showhn",
-      "label": "Show HN",
-      "published": "2026-11-18 05:21:48+00:00",
+      "id": "60268a97a314",
+      "title": "Diagramly 2.0",
+      "url": "https://www.producthunt.com/products/diagramly-2",
+      "summary": "Type a diagram. Get it reviewed. Present it as the deck.",
+      "source": "producthunt",
+      "label": "新品发布",
+      "published": "2026-11-17 23:51:50+00:00",
       "metrics": {},
       "tags": [],
-      "score": 2.966
+      "score": 2.837
     },
     {
-      "id": "a668305fd762",
-      "title": "Show HN: Hacker Series on AWS in zines way",
-      "url": "https://securityzines.com/aws/",
-      "summary": "",
-      "source": "showhn",
-      "label": "Show HN",
-      "published": "2026-11-18 04:55:24+00:00",
+      "id": "367b2f38cf7d",
+      "title": "Qwen4-Max",
+      "url": "https://www.producthunt.com/products/qwen3",
+      "summary": "Qwen's new flagship for long-running agent work",
+      "source": "producthunt",
+      "label": "新品发布",
+      "published": "2026-11-16 12:32:32+00:00",
       "metrics": {},
       "tags": [],
-      "score": 2.948
-    },
-    {
-      "id": "3be703dfb6db",
-      "title": "Show HN: WalletFeed, Apple Card Transactions to Webhooks, Sheets and S3",
-      "url": "https://walletfeed.app/",
-      "summary": "",
-      "source": "showhn",
-      "label": "Show HN",
-      "published": "2026-11-18 04:47:22+00:00",
-      "metrics": {},
-      "tags": [],
-      "score": 2.942
+      "score": 2.779
     },
     {
       "id": "e792bb1403d4",
@@ -405,43 +465,7 @@
       "published": "2026-11-17 18:06:04+00:00",
       "metrics": {},
       "tags": [],
-      "score": 2.739
-    },
-    {
-      "id": "c88d4d36379a",
-      "title": "KaDeep AI",
-      "url": "https://www.producthunt.com/products/kadeep-ai",
-      "summary": "AI QA, localization and accessibility to know when to ship",
-      "source": "producthunt",
-      "label": "新品发布",
-      "published": "2026-11-17 08:00:01+00:00",
-      "metrics": {},
-      "tags": [],
-      "score": 2.439
-    },
-    {
-      "id": "be1b461f69af",
-      "title": "Replay QA Self-healing Mode",
-      "url": "https://www.producthunt.com/products/replayio",
-      "summary": "Turn user frustration into verified fixes",
-      "source": "producthunt",
-      "label": "新品发布",
-      "published": "2026-11-16 21:45:46+00:00",
-      "metrics": {},
-      "tags": [],
-      "score": 2.199
-    },
-    {
-      "id": "fb503a0e520e",
-      "title": "OX212",
-      "url": "https://www.producthunt.com/products/ox212",
-      "summary": "Don't predict the market, predict the trader",
-      "source": "producthunt",
-      "label": "新品发布",
-      "published": "2026-11-16 13:57:19+00:00",
-      "metrics": {},
-      "tags": [],
-      "score": 2.051
+      "score": 2.645
     },
     {
       "id": "fe2e317feeaa",
@@ -457,22 +481,22 @@
         "Media & Entertainment",
         "Startups"
       ],
-      "score": 2.042
-    },
-    {
-      "id": "397bd9b081eb",
-      "title": "Tencent Hy4 flash",
-      "url": "https://www.producthunt.com/products/hunyuan-a13b",
-      "summary": "Fast, low-cost model from $0.07/M input",
-      "source": "producthunt",
-      "label": "新品发布",
-      "published": "2026-11-16 06:53:29+00:00",
-      "metrics": {},
-      "tags": [],
-      "score": 1.938
+      "score": 1.987
     }
   ],
   "picks": [
+    {
+      "id": "f11ed3643ed7",
+      "title": "Show HN: Prototype of a product management tool for AI agent companies",
+      "url": "https://featurestream-prototype.vercel.app/",
+      "summary": "Hi HN, I'm a solo founder. Teams building AI agents in a specific domain (legal, healthcare, etc.) have to piece together customer, product and market signals to decide which features to build next for their agent. This prototype is a product management tool that automates that manual process for PMs and helps them manage the agentic product. It currently runs on sample data (a fictional loans and insurance company). I'm about to start the MVP, and I'd love feedback from AI agent builders and PMs. In particular: how do you decide what to build today, and what would v1 need to do for you to try it? Comments URL: https://news.ycombinator.com/item?id=50544566 Points: 1 # Comments: 0",
+      "source": "showhn",
+      "label": "Show HN",
+      "published": "2026-11-18 10:42:09+00:00",
+      "metrics": {},
+      "tags": [],
+      "score": 11.874
+    },
     {
       "id": "5f39e0ce0783",
       "title": "Nvidia stopped disclosing Singapore sales as revenues hit $104B",
@@ -482,12 +506,12 @@
       "label": "技术热点",
       "published": "2026-11-17 17:12:06+00:00",
       "metrics": {
-        "points": 512
+        "points": 558
       },
       "tags": [
         "hn"
       ],
-      "score": 8.753
+      "score": 8.713
     },
     {
       "id": "8ab23e48a7ef",
@@ -503,7 +527,7 @@
         "Startups",
         "AI agents"
       ],
-      "score": 8.038
+      "score": 7.944
     },
     {
       "id": "091e9e5dac40",
@@ -514,7 +538,7 @@
       "label": "工具与开源",
       "published": "2026-11-16 18:40:04+00:00",
       "metrics": {
-        "stars": 991
+        "stars": 1013
       },
       "tags": [
         "Python",
@@ -522,7 +546,7 @@
         "benchmarking",
         "claude-code"
       ],
-      "score": 7.877
+      "score": 7.836
     },
     {
       "id": "e3c5a2b79aa8",
@@ -538,69 +562,81 @@
         "Fundraising",
         "Security"
       ],
-      "score": 7.837
+      "score": 7.776
     },
     {
-      "id": "e9e8a0d7b799",
-      "title": "gylive/google-ultra",
-      "url": "https://github.com/gylive/google-ultra",
-      "summary": "",
+      "id": "b4a7ccb27e01",
+      "title": "joshpuckett/allo",
+      "url": "https://github.com/joshpuckett/allo",
+      "summary": "Allo is your friendly neighborhood typeface, free and open source",
       "source": "github",
       "label": "工具与开源",
-      "published": "2026-11-17 10:21:54+00:00",
+      "published": "2026-11-15 17:33:42+00:00",
       "metrics": {
-        "stars": 2270
+        "stars": 968
       },
       "tags": [
         "Python"
       ],
-      "score": 6.94
+      "score": 7.164
     },
     {
-      "id": "c606237cdcf3",
-      "title": "Show HN: Pbc – a CLI for any PocketBase instance",
-      "url": "https://github.com/pocketbasecloud/cli",
-      "summary": "",
+      "id": "3027a34b004b",
+      "title": "Show HN: Arbituro",
+      "url": "https://arbituro.com/",
+      "summary": "Looking for some honest feedback, set me straight! Over the past year I've built Arbituro, its a work management tool. Its built on the assumption that a lot of the work going forward will be done by agents, and that the hard part is no longer doing the work but agreeing when it’s finished. I've built a contract into the tool, with \"done-when\" clauses, and I give the agents the option of claiming work is done, but it ends up with you the owner to judge if what has been done is satisfactory. Looking forward and appreciate in advance anyone who takes the time Comments URL: https://news.ycombinator.com/item?id=50544381 Points: 1 # Comments: 0",
       "source": "showhn",
       "label": "Show HN",
-      "published": "2026-11-18 07:20:52+00:00",
+      "published": "2026-11-18 10:18:55+00:00",
       "metrics": {},
       "tags": [],
-      "score": 3.054
+      "score": 4.657
     },
     {
-      "id": "692edf088d15",
-      "title": "Show HN: I built a ATS Resume Checker. Paste your resume and JD to check",
-      "url": "https://www.onestoplinkedin.com/free/ats-resume-checker",
-      "summary": "",
-      "source": "showhn",
-      "label": "Show HN",
-      "published": "2026-11-18 07:10:31+00:00",
-      "metrics": {},
-      "tags": [],
-      "score": 3.046
-    },
-    {
-      "id": "e792bb1403d4",
-      "title": "GPT-6.2 Astra and Sol",
-      "url": "https://www.producthunt.com/products/openai",
-      "summary": "Two new OpenAI models: frontier Astra and efficient Sol",
+      "id": "ff58c9eba526",
+      "title": "Incredible Agents",
+      "url": "https://www.producthunt.com/products/incredible",
+      "summary": "Proactive AIs that do work directly on your computer, 24/7",
       "source": "producthunt",
       "label": "新品发布",
-      "published": "2026-11-17 18:06:04+00:00",
+      "published": "2026-11-17 22:02:24+00:00",
       "metrics": {},
       "tags": [],
-      "score": 2.739
+      "score": 4.373
+    },
+    {
+      "id": "07735f4b26d8",
+      "title": "AI Canvas",
+      "url": "https://www.producthunt.com/products/ai-canvas-2",
+      "summary": "A design system for AI agents to design badass interfaces",
+      "source": "producthunt",
+      "label": "新品发布",
+      "published": "2026-11-17 15:46:37+00:00",
+      "metrics": {},
+      "tags": [],
+      "score": 3.375
     }
   ],
-  "errors": [
-    "AI 点评已跳过：环境变量 RADAR_API_KEY 未设置"
-  ],
+  "errors": [],
   "stats": {
-    "producthunt": 5,
+    "producthunt": 6,
     "funding": 8,
     "showhn": 8,
     "github": 10,
     "hackernews": 8
+  },
+  "ai": {
+    "model": "deepseek-flash",
+    "applied": 9,
+    "usage": {
+      "prompt_tokens": 764,
+      "completion_tokens": 333,
+      "total_tokens": 1097,
+      "prompt_tokens_details": {
+        "cached_tokens": 512
+      },
+      "prompt_cache_hit_tokens": 512,
+      "prompt_cache_miss_tokens": 252
+    }
   }
 }

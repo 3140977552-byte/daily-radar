@@ -26,7 +26,7 @@ jobs:
           python-version: "3.11"
 
       - name: 生成日报
-        run: python3 -m radar
+        run: python3 -m radar --tier free
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           RADAR_API_KEY: ${{ secrets.RADAR_API_KEY }}
