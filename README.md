@@ -128,24 +128,26 @@ python3 -m radar --tier free     # 只出公开版（CI 用这个）
 python3 -m radar --weekly        # 额外生成周报到 paid/
 ```
 
-## 一键出发布包（不想等平台审核就走这条）
+## 小红书发布包
 
 ```bash
-python3 -m radar --publish
+python3 -m radar --publish-only    # 只出小红书稿，不动网站
+python3 -m radar --publish         # 出稿 + 更新网站/归档
 ```
 
-产物在 `发布包/YYYY-MM-DD/`（已 git 忽略）：
+产物只有一个文件：`发布包/YYYY-MM-DD/小红书.md`（已 git 忽略），含标题、300–450 字正文、5 个标签、封面文案。一次调用约 1200 tokens。
 
-| 文件 | 内容 |
-| --- | --- |
-| `小红书.md` | 标题 + 300–450 字正文 + 5 个标签 + 封面文案 |
-| `公众号.md` | 标题 + 摘要 + 700–900 字长文 + 原文清单 |
-| `朋友圈.txt` | 两三行短文案 |
-| `发布指引.md` | 当天发布顺序 |
+### 每天自动出稿
 
-一次 LLM 调用出三份稿子，约 2500 tokens。小红书和公众号的稿子不是同一个东西的复制粘贴：小红书要短、要分点、不能带链接；公众号要有论证和落点。
+已安装 launchd 定时任务 `com.libokai.dailyradar.xhs`，每天 **09:30** 生成到 `发布包/<日期>/`。
 
-对标的是「内容我来产，平台你随便挑」——小红书、公众号、知乎、即刻都不需要审核，注册就能发。
+```bash
+launchctl list | grep dailyradar                      # 查看是否在跑
+launchctl kickstart -k gui/$(id -u)/com.libokai.dailyradar.xhs  # 立刻跑一次
+tail -f 发布包/run.log                                # 看日志
+```
+
+注意：电脑睡眠时任务不会跑，唤醒后会补跑；API key 从 `~/.config/daily-radar/env` 读取，不经过仓库。
 
 ## 每天 30 秒的发布流程
 
@@ -189,12 +191,13 @@ daily-radar/
 │   ├── pipeline.py          # 采集→去重→打分→排序→精选
 │   ├── commentary.py        # LLM 中文点评
 │   ├── weekly.py            # 周报汇总 + 趋势观察
-│   ├── publish.py           # 多平台发布包（小红书/公众号/朋友圈）
+│   ├── publish.py           # 小红书发布包
 │   ├── render.py            # Markdown / HTML / 归档页（支持分层）
 │   ├── sources.py           # 数据源适配器（含通用 RSS/Atom）
 │   └── util.py              # HTTP / 时间 / 文本工具
 ├── output/                  # 免费版产物（会被 Actions 提交并部署）
 ├── paid/                    # 付费版产物（git 忽略，只在本机）
-├── 发布包/                  # 各平台成稿（git 忽略，只在本机）
+├── 发布包/                  # 小红书成稿（git 忽略，只在本机）
+├── scripts/daily-xhs.sh     # launchd 调用的出稿脚本
 └── .github/workflows/daily.yml
 ```

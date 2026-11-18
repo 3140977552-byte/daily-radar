@@ -111,7 +111,8 @@ def main(argv=None):
     parser.add_argument("--config", default="config.json", help="配置文件路径（默认 config.json）")
     parser.add_argument("--tier", choices=["free", "paid", "both"], default="both", help="产出哪一层（默认 both）")
     parser.add_argument("--weekly", action="store_true", help="额外生成周报（写入 paid/）")
-    parser.add_argument("--publish", action="store_true", help="额外生成多平台发布包（写入 发布包/）")
+    parser.add_argument("--publish", action="store_true", help="额外生成小红书发布包（写入 发布包/）")
+    parser.add_argument("--publish-only", action="store_true", help="只生成小红书发布包，不写网站和归档")
     parser.add_argument("--quiet", action="store_true", help="只输出结果路径")
     args = parser.parse_args(argv)
 
@@ -128,18 +129,19 @@ def main(argv=None):
     paid_dir = os.path.join(config_module.ROOT, PAID_DIRNAME)
     written = []
 
-    if args.tier in ("free", "both"):
-        written += write_free(report, config, out_dir)
-    if args.tier in ("paid", "both"):
-        written += write_paid(report, config, paid_dir)
+    if not args.publish_only:
+        if args.tier in ("free", "both"):
+            written += write_free(report, config, out_dir)
+        if args.tier in ("paid", "both"):
+            written += write_paid(report, config, paid_dir)
 
     weekly = None
-    if args.weekly:
+    if args.weekly and not args.publish_only:
         weekly, weekly_paths = write_weekly(config, os.path.join(out_dir, "data"), paid_dir)
         written += weekly_paths
 
     publish_error = ""
-    if args.publish:
+    if args.publish or args.publish_only:
         ai = config.get("ai") or {}
         api_key = os.environ.get(ai.get("api_key_env") or "RADAR_API_KEY")
         try:
