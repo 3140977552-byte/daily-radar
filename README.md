@@ -128,6 +128,25 @@ python3 -m radar --tier free     # 只出公开版（CI 用这个）
 python3 -m radar --weekly        # 额外生成周报到 paid/
 ```
 
+## 一键出发布包（不想等平台审核就走这条）
+
+```bash
+python3 -m radar --publish
+```
+
+产物在 `发布包/YYYY-MM-DD/`（已 git 忽略）：
+
+| 文件 | 内容 |
+| --- | --- |
+| `小红书.md` | 标题 + 300–450 字正文 + 5 个标签 + 封面文案 |
+| `公众号.md` | 标题 + 摘要 + 700–900 字长文 + 原文清单 |
+| `朋友圈.txt` | 两三行短文案 |
+| `发布指引.md` | 当天发布顺序 |
+
+一次 LLM 调用出三份稿子，约 2500 tokens。小红书和公众号的稿子不是同一个东西的复制粘贴：小红书要短、要分点、不能带链接；公众号要有论证和落点。
+
+对标的是「内容我来产，平台你随便挑」——小红书、公众号、知乎、即刻都不需要审核，注册就能发。
+
 ## 每天 30 秒的发布流程
 
 1. 本机跑 `python3 -m radar --weekly`
@@ -170,10 +189,12 @@ daily-radar/
 │   ├── pipeline.py          # 采集→去重→打分→排序→精选
 │   ├── commentary.py        # LLM 中文点评
 │   ├── weekly.py            # 周报汇总 + 趋势观察
+│   ├── publish.py           # 多平台发布包（小红书/公众号/朋友圈）
 │   ├── render.py            # Markdown / HTML / 归档页（支持分层）
 │   ├── sources.py           # 数据源适配器（含通用 RSS/Atom）
 │   └── util.py              # HTTP / 时间 / 文本工具
 ├── output/                  # 免费版产物（会被 Actions 提交并部署）
 ├── paid/                    # 付费版产物（git 忽略，只在本机）
+├── 发布包/                  # 各平台成稿（git 忽略，只在本机）
 └── .github/workflows/daily.yml
 ```

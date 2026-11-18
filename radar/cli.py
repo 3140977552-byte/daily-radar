@@ -11,6 +11,7 @@ import os
 import sys
 
 from . import config as config_module
+from . import publish as publish_module
 from . import weekly as weekly_module
 from .commentary import enrich
 from .pipeline import build
@@ -110,6 +111,7 @@ def main(argv=None):
     parser.add_argument("--config", default="config.json", help="配置文件路径（默认 config.json）")
     parser.add_argument("--tier", choices=["free", "paid", "both"], default="both", help="产出哪一层（默认 both）")
     parser.add_argument("--weekly", action="store_true", help="额外生成周报（写入 paid/）")
+    parser.add_argument("--publish", action="store_true", help="额外生成多平台发布包（写入 发布包/）")
     parser.add_argument("--quiet", action="store_true", help="只输出结果路径")
     args = parser.parse_args(argv)
 
@@ -136,6 +138,21 @@ def main(argv=None):
         weekly, weekly_paths = write_weekly(config, os.path.join(out_dir, "data"), paid_dir)
         written += weekly_paths
 
+    publish_error = ""
+    if args.publish:
+        ai = config.get("ai") or {}
+        api_key = os.environ.get(ai.get("api_key_env") or "RADAR_API_KEY")
+        try:
+            bundle = publish_module.build_bundle(report, config, api_key)
+            if bundle:
+                written += publish_module.write_bundle(
+                    bundle, report, os.path.join(config_module.ROOT, "发布包", report["date"])
+                )
+            else:
+                publish_error = "未配置 AI，跳过发布包"
+        except Exception as exc:  # noqa: BLE001 - 发布包失败不影响日报
+            publish_error = "发布包生成失败：%s" % exc
+
     if args.quiet:
         for path in written:
             print(path)
@@ -152,6 +169,8 @@ def main(argv=None):
         )
     if weekly:
         print("周报: %s · %d 天 / %d 条%s" % (weekly["range"], weekly["days"], len(weekly["items"]), "（含 AI 观察）" if weekly["observation"] else ""))
+    if publish_error:
+        print(publish_error)
     if report["errors"]:
         print("告警:")
         for err in report["errors"]:
