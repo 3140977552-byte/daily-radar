@@ -108,6 +108,7 @@ def write_bundle(bundle, report, out_dir):
     cover_path = ""
 
     cover_cfg = (bundle.get("cover") or {})
+    pub_cfg = config.get("publish") or {}
     try:
         cover_path = os.path.join(out_dir, "封面.png")
         cover_module.render(
@@ -115,6 +116,8 @@ def write_bundle(bundle, report, out_dir):
             cover_cfg.get("subtitle") or "",
             report["date"],
             cover_path,
+            footer=pub_cfg.get("cover_footer", "每日更新"),
+            show_date=bool(pub_cfg.get("cover_show_date", True)),
         )
         paths.append(cover_path)
     except Exception as exc:  # noqa: BLE001 - 封面失败不影响文字稿

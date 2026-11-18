@@ -70,7 +70,7 @@ def wrap(text, size, max_width, max_lines=4):
     return lines or [""]
 
 
-def build_svg(title, subtitle, date_label, brand="独立开发情报", footer="每天 09:30 更新"):
+def build_svg(title, subtitle, date_label, brand="独立开发情报", footer="每日更新", show_date=True):
     title_lines = wrap(title, 82, CONTENT_W, max_lines=4)
     sub_lines = wrap(subtitle, 40, CONTENT_W, max_lines=2) if subtitle else []
 
@@ -125,14 +125,16 @@ def build_svg(title, subtitle, date_label, brand="独立开发情报", footer="�
         '<line x1="%d" y1="1160" x2="%d" y2="1160" stroke="#243049" stroke-width="2"/>'
         % (MARGIN, CANVAS - MARGIN)
     )
-    parts.append(
-        '<text x="%d" y="1220" font-family="%s" font-size="30" fill="%s">%s</text>'
-        % (MARGIN, FONT, MUTED, _esc(date_label))
-    )
-    parts.append(
-        '<text x="%d" y="1220" text-anchor="end" font-family="%s" font-size="30" fill="%s">%s</text>'
-        % (CANVAS - MARGIN, FONT, MUTED, _esc(footer))
-    )
+    if show_date and date_label:
+        parts.append(
+            '<text x="%d" y="1220" font-family="%s" font-size="30" fill="%s">%s</text>'
+            % (MARGIN, FONT, MUTED, _esc(date_label))
+        )
+    if footer:
+        parts.append(
+            '<text x="%d" y="1220" text-anchor="end" font-family="%s" font-size="30" fill="%s">%s</text>'
+            % (CANVAS - MARGIN, FONT, MUTED, _esc(footer))
+        )
     parts.append("</svg>")
     return "\n".join(parts)
 
