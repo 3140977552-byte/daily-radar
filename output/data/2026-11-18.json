@@ -1,0 +1,606 @@
+{
+  "date": "2026-11-18",
+  "generated_at": "2026-11-18 08:21 UTC",
+  "items": [
+    {
+      "id": "5f39e0ce0783",
+      "title": "Nvidia stopped disclosing Singapore sales as revenues hit $104B",
+      "url": "https://www.ft.com/content/dbde7a30-548c-4f9d-a4be-7898a0c24dcf",
+      "summary": "",
+      "source": "hackernews",
+      "label": "技术热点",
+      "published": "2026-11-17 17:12:06+00:00",
+      "metrics": {
+        "points": 512
+      },
+      "tags": [
+        "hn"
+      ],
+      "score": 8.753
+    },
+    {
+      "id": "8ab23e48a7ef",
+      "title": "Pedestal AI raises $4.7 million to agentify the supply chain",
+      "url": "https://techcrunch.com/2026/11/17/pedestal-ai-raises-4-7-million-to-agentify-the-supply-chain/",
+      "summary": "The company uses agentic AI to make supply chains faster and more reliable.",
+      "source": "funding",
+      "label": "融资动态",
+      "published": "2026-11-17 18:04:16+00:00",
+      "metrics": {},
+      "tags": [
+        "AI",
+        "Startups",
+        "AI agents"
+      ],
+      "score": 8.038
+    },
+    {
+      "id": "091e9e5dac40",
+      "title": "sybil-solutions/inference-optimisation-skill",
+      "url": "https://github.com/sybil-solutions/inference-optimisation-skill",
+      "summary": "Agent skill for hill-climbing local LLM serving speed (decode, speculative decoding, prefill, KV, startup, TTFT) on any hardware and quantization",
+      "source": "github",
+      "label": "工具与开源",
+      "published": "2026-11-16 18:40:04+00:00",
+      "metrics": {
+        "stars": 991
+      },
+      "tags": [
+        "Python",
+        "agent-skill",
+        "benchmarking",
+        "claude-code"
+      ],
+      "score": 7.877
+    },
+    {
+      "id": "e3c5a2b79aa8",
+      "title": "Cybersecurity AI startup Corma reaches $1B valuation in about 3 months",
+      "url": "https://techcrunch.com/2026/11/16/cybersecurity-ai-startup-corma-reaches-1b-valuation-in-about-3-months/",
+      "summary": "Three months since introducing its product, AI cybersecurity startup Corba has raised a $125 million Series A at a $1 billion valuation led by NEA.",
+      "source": "funding",
+      "label": "融资动态",
+      "published": "2026-11-16 23:32:32+00:00",
+      "metrics": {},
+      "tags": [
+        "AI",
+        "Fundraising",
+        "Security"
+      ],
+      "score": 7.837
+    },
+    {
+      "id": "e9e8a0d7b799",
+      "title": "gylive/google-ultra",
+      "url": "https://github.com/gylive/google-ultra",
+      "summary": "",
+      "source": "github",
+      "label": "工具与开源",
+      "published": "2026-11-17 10:21:54+00:00",
+      "metrics": {
+        "stars": 2270
+      },
+      "tags": [
+        "Python"
+      ],
+      "score": 6.94
+    },
+    {
+      "id": "feb988e42901",
+      "title": "krisgfx9/Wireless-Device-Battery-Monitor",
+      "url": "https://github.com/krisgfx9/Wireless-Device-Battery-Monitor",
+      "summary": "Show the battery level of wireless mice, headsets, keyboards and controllers on the Windows 10/11 taskbar. Lightweight tray app, no vendor software needed. Supports Logitech, Razer, SteelSeries, Corsair, HyperX, Glorious, PS4/PS5 DualSense, Xbox and Bluetooth devices.",
+      "source": "github",
+      "label": "工具与开源",
+      "published": "2026-11-16 19:28:29+00:00",
+      "metrics": {
+        "stars": 3238
+      },
+      "tags": [
+        "C++"
+      ],
+      "score": 6.803
+    },
+    {
+      "id": "dc5c9851a021",
+      "title": "Science Corporation’s brain tech is worth $3.5 billion after new funding",
+      "url": "https://techcrunch.com/2026/11/17/science-corporations-brain-tech-is-worth-3-5-billion-after-new-funding/",
+      "summary": "Science Corp. raised a $400 million Series D to scale up its anti-blindness business.",
+      "source": "funding",
+      "label": "融资动态",
+      "published": "2026-11-17 14:26:46+00:00",
+      "metrics": {},
+      "tags": [
+        "AI",
+        "Biotech & Health",
+        "Startups"
+      ],
+      "score": 6.422
+    },
+    {
+      "id": "1f9bc238f405",
+      "title": "erkamyaman/rust-anything",
+      "url": "https://github.com/erkamyaman/rust-anything",
+      "summary": "Rewrite your whole app in Rust, one piece at a time, checked against the original's recorded behavior at every step. CLIs, HTTP servers and libraries in TypeScript, Python, C, Go, Ruby and Java.",
+      "source": "github",
+      "label": "工具与开源",
+      "published": "2026-11-16 12:10:36+00:00",
+      "metrics": {
+        "stars": 2016
+      },
+      "tags": [
+        "Rust",
+        "agent-skills",
+        "claude-code",
+        "cli"
+      ],
+      "score": 6.386
+    },
+    {
+      "id": "86b0f373be54",
+      "title": "deepseek-ai/chat-demo",
+      "url": "https://github.com/deepseek-ai/chat-demo",
+      "summary": "Chat Demo",
+      "source": "github",
+      "label": "工具与开源",
+      "published": "2026-11-12 08:08:19+00:00",
+      "metrics": {
+        "stars": 4650
+      },
+      "tags": [
+        "TypeScript"
+      ],
+      "score": 6.238
+    },
+    {
+      "id": "560c1dcfb5e3",
+      "title": "Noniv/abyssal-garden",
+      "url": "https://github.com/Noniv/abyssal-garden",
+      "summary": "A dreamy underwater world you can swim through in your browser: swaying kelp forests, sunbeams, a sunken ship and manta rays. Everything is generated by code with WebGPU (no images, models or sound files), all in a single 97 KB HTML file.",
+      "source": "github",
+      "label": "工具与开源",
+      "published": "2026-11-12 13:57:34+00:00",
+      "metrics": {
+        "stars": 2256
+      },
+      "tags": [
+        "JavaScript"
+      ],
+      "score": 5.815
+    },
+    {
+      "id": "f0a40d9d4c8b",
+      "title": "Immortal-Protocols/lastbook",
+      "url": "https://github.com/Immortal-Protocols/lastbook",
+      "summary": "Offline knowledge AI, maps and videos for survival and rebuilding",
+      "source": "github",
+      "label": "工具与开源",
+      "published": "2026-11-12 23:49:03+00:00",
+      "metrics": {
+        "stars": 1924
+      },
+      "tags": [
+        "Python"
+      ],
+      "score": 5.74
+    },
+    {
+      "id": "bd2088ac80cd",
+      "title": "duwqijlk/muse-protocol",
+      "url": "https://github.com/duwqijlk/muse-protocol",
+      "summary": "muse.ai 注册与邀请码兑换协议研究（纯 HTTP Python 实现）",
+      "source": "github",
+      "label": "工具与开源",
+      "published": "2026-11-14 01:24:58+00:00",
+      "metrics": {
+        "stars": 1609
+      },
+      "tags": [
+        "Python"
+      ],
+      "score": 5.716
+    },
+    {
+      "id": "05b676055733",
+      "title": "ZiChuanLan/freebie-radar",
+      "url": "https://github.com/ZiChuanLan/freebie-radar",
+      "summary": "白嫖与资讯资源聚合雷达：100+个源定时采集 + AI 二审过滤假福利 + 获取方式分级隔离抽奖/试用/推广 + Telegram 即时推送",
+      "source": "github",
+      "label": "工具与开源",
+      "published": "2026-11-12 09:08:11+00:00",
+      "metrics": {
+        "stars": 1511
+      },
+      "tags": [
+        "TypeScript"
+      ],
+      "score": 5.566
+    },
+    {
+      "id": "a3a77daa2264",
+      "title": "CzzzzzzJ/mdldm-maitian",
+      "url": "https://github.com/CzzzzzzJ/mdldm-maitian",
+      "summary": "麦田：自媒体多平台发布中控与数据监控（B站/抖音/小红书/视频号/YouTube/X），飞书卡片通知 + 数据大屏",
+      "source": "github",
+      "label": "工具与开源",
+      "published": "2026-11-14 03:59:22+00:00",
+      "metrics": {
+        "stars": 1170
+      },
+      "tags": [
+        "JavaScript",
+        "automation",
+        "chrome-extension",
+        "creator-tools"
+      ],
+      "score": 5.536
+    },
+    {
+      "id": "ab483ce7b6e0",
+      "title": "After dodging death, battery startup Our Next Energy is now going public",
+      "url": "https://techcrunch.com/2026/11/16/after-dodging-death-battery-startup-our-next-energy-is-now-going-public/",
+      "summary": "Our Next Energy is the latest battery startup to go public via SPAC. Does it now have what it needs to survive in the cutthroat battery industry?",
+      "source": "funding",
+      "label": "融资动态",
+      "published": "2026-11-16 13:00:00+00:00",
+      "metrics": {},
+      "tags": [
+        "Climate",
+        "Startups",
+        "Batteries"
+      ],
+      "score": 4.935
+    },
+    {
+      "id": "285e3e4d016a",
+      "title": "Freshworks alums raise $53M to take on Salesforce, HubSpot with AI-native CRM",
+      "url": "https://techcrunch.com/2026/11/16/freshworks-alums-raise-53m-to-take-on-salesforce-hubspot-with-ai-native-crm/",
+      "summary": "Dreamteam has signed up more than 100 customers across 13 countries, with some businesses switching from established CRMs.",
+      "source": "funding",
+      "label": "融资动态",
+      "published": "2026-11-16 12:30:00+00:00",
+      "metrics": {},
+      "tags": [
+        "AI",
+        "Enterprise",
+        "Startups"
+      ],
+      "score": 4.926
+    },
+    {
+      "id": "44ce8c447b80",
+      "title": "Nvidia’s startup stakes ballooned to $65B, but Huang’s exit puts future deals in doubt",
+      "url": "https://techcrunch.com/2026/11/17/nvidias-startup-stakes-ballooned-to-65b-but-huangs-exit-puts-future-deals-in-doubt/",
+      "summary": "The value of Nvidia’s private investments has nearly tripled over the past nine months, fueled by Jensen Huang’s aggressive dealmaking and rising valuations of its existing portfolio companies.",
+      "source": "funding",
+      "label": "融资动态",
+      "published": "2026-11-18 01:44:21+00:00",
+      "metrics": {},
+      "tags": [
+        "AI",
+        "Startups",
+        "Colette Kress"
+      ],
+      "score": 4.917
+    },
+    {
+      "id": "214233d8d9b0",
+      "title": "Hank Green is self-funding ClockwiseTV, a curated educational video platform for kids",
+      "url": "https://techcrunch.com/2026/11/17/hank-green-is-self-funding-clockwisetv-a-curated-educational-video-platform-for-kids/",
+      "summary": "Alongside CEO Leslie Morgan, Hank Green set out to create the video platform he wished his kid had.",
+      "source": "funding",
+      "label": "融资动态",
+      "published": "2026-11-17 14:00:00+00:00",
+      "metrics": {},
+      "tags": [
+        "Media & Entertainment",
+        "Startups",
+        "educational video"
+      ],
+      "score": 4.909
+    },
+    {
+      "id": "c606237cdcf3",
+      "title": "Show HN: Pbc – a CLI for any PocketBase instance",
+      "url": "https://github.com/pocketbasecloud/cli",
+      "summary": "",
+      "source": "showhn",
+      "label": "Show HN",
+      "published": "2026-11-18 07:20:52+00:00",
+      "metrics": {},
+      "tags": [],
+      "score": 3.054
+    },
+    {
+      "id": "692edf088d15",
+      "title": "Show HN: I built a ATS Resume Checker. Paste your resume and JD to check",
+      "url": "https://www.onestoplinkedin.com/free/ats-resume-checker",
+      "summary": "",
+      "source": "showhn",
+      "label": "Show HN",
+      "published": "2026-11-18 07:10:31+00:00",
+      "metrics": {},
+      "tags": [],
+      "score": 3.046
+    },
+    {
+      "id": "ffc0307e9ade",
+      "title": "Show HN: Murer AI – Single Platform Multiple Models",
+      "url": "https://murer.ai",
+      "summary": "",
+      "source": "showhn",
+      "label": "Show HN",
+      "published": "2026-11-18 06:51:14+00:00",
+      "metrics": {},
+      "tags": [],
+      "score": 3.032
+    },
+    {
+      "id": "44a836cb3d5a",
+      "title": "Show HN: Sip pacer that helps you drink slower",
+      "url": "https://pourdecision.app/blog/sip-pacing-method",
+      "summary": "It's a new feature I've added to my app Pour Decision. The idea is: 1. Set an interval on your phone and slip it in your pocket 2. The phone vibrates in your pocket on every interval 3. Condition yourself to have sips when you feel the vibration Benefits: - You end up drinking way less in a night than you normally would - You don't feel like you're moderating cus you're never without a drink - It's discreet so people you're drinking with won't know you're doing this This is sort of like a HIIT-timer, but to preserve battery I took another approach. It works by pre-scheduling on-device notifications when you start the timer. iOS allows apps to schedule up to 64 notifications. If you were to set say 5-minute intervals, that covers the next 320 minutes - more than 5 hours. The phone uses no battery in between intervals, and only wakes up the device once every 5 minutes, so battery drain is negligible. Comments URL: https://news.ycombinator.com/item?id=50542566 Points: 2 # Comments: 0",
+      "source": "showhn",
+      "label": "Show HN",
+      "published": "2026-11-18 06:27:40+00:00",
+      "metrics": {},
+      "tags": [],
+      "score": 3.014
+    },
+    {
+      "id": "519756170739",
+      "title": "Show HN: New chess variant – liminal chess",
+      "url": "https://levmiseri.com/liminalchess/",
+      "summary": "",
+      "source": "showhn",
+      "label": "Show HN",
+      "published": "2026-11-18 06:14:18+00:00",
+      "metrics": {},
+      "tags": [],
+      "score": 3.005
+    },
+    {
+      "id": "e6e829591dbd",
+      "title": "Show HN: Yantra – an assistant that works in your own browser tab, with your OK",
+      "url": "https://yantra.app/new",
+      "summary": "",
+      "source": "showhn",
+      "label": "Show HN",
+      "published": "2026-11-18 05:21:48+00:00",
+      "metrics": {},
+      "tags": [],
+      "score": 2.966
+    },
+    {
+      "id": "a668305fd762",
+      "title": "Show HN: Hacker Series on AWS in zines way",
+      "url": "https://securityzines.com/aws/",
+      "summary": "",
+      "source": "showhn",
+      "label": "Show HN",
+      "published": "2026-11-18 04:55:24+00:00",
+      "metrics": {},
+      "tags": [],
+      "score": 2.948
+    },
+    {
+      "id": "3be703dfb6db",
+      "title": "Show HN: WalletFeed, Apple Card Transactions to Webhooks, Sheets and S3",
+      "url": "https://walletfeed.app/",
+      "summary": "",
+      "source": "showhn",
+      "label": "Show HN",
+      "published": "2026-11-18 04:47:22+00:00",
+      "metrics": {},
+      "tags": [],
+      "score": 2.942
+    },
+    {
+      "id": "e792bb1403d4",
+      "title": "GPT-6.2 Astra and Sol",
+      "url": "https://www.producthunt.com/products/openai",
+      "summary": "Two new OpenAI models: frontier Astra and efficient Sol",
+      "source": "producthunt",
+      "label": "新品发布",
+      "published": "2026-11-17 18:06:04+00:00",
+      "metrics": {},
+      "tags": [],
+      "score": 2.739
+    },
+    {
+      "id": "c88d4d36379a",
+      "title": "KaDeep AI",
+      "url": "https://www.producthunt.com/products/kadeep-ai",
+      "summary": "AI QA, localization and accessibility to know when to ship",
+      "source": "producthunt",
+      "label": "新品发布",
+      "published": "2026-11-17 08:00:01+00:00",
+      "metrics": {},
+      "tags": [],
+      "score": 2.439
+    },
+    {
+      "id": "be1b461f69af",
+      "title": "Replay QA Self-healing Mode",
+      "url": "https://www.producthunt.com/products/replayio",
+      "summary": "Turn user frustration into verified fixes",
+      "source": "producthunt",
+      "label": "新品发布",
+      "published": "2026-11-16 21:45:46+00:00",
+      "metrics": {},
+      "tags": [],
+      "score": 2.199
+    },
+    {
+      "id": "fb503a0e520e",
+      "title": "OX212",
+      "url": "https://www.producthunt.com/products/ox212",
+      "summary": "Don't predict the market, predict the trader",
+      "source": "producthunt",
+      "label": "新品发布",
+      "published": "2026-11-16 13:57:19+00:00",
+      "metrics": {},
+      "tags": [],
+      "score": 2.051
+    },
+    {
+      "id": "fe2e317feeaa",
+      "title": "Island is a new screen-time app that turns staying off your phone into a game",
+      "url": "https://techcrunch.com/2026/11/16/island-is-a-new-screen-time-app-that-turns-staying-off-your-phone-into-a-game/",
+      "summary": "YC-backed Island turns screen time goals into a farming game, rewarding users with new crops, animals, and more when they stick to their limits.",
+      "source": "funding",
+      "label": "融资动态",
+      "published": "2026-11-16 18:54:18+00:00",
+      "metrics": {},
+      "tags": [
+        "Apps",
+        "Media & Entertainment",
+        "Startups"
+      ],
+      "score": 2.042
+    },
+    {
+      "id": "397bd9b081eb",
+      "title": "Tencent Hy4 flash",
+      "url": "https://www.producthunt.com/products/hunyuan-a13b",
+      "summary": "Fast, low-cost model from $0.07/M input",
+      "source": "producthunt",
+      "label": "新品发布",
+      "published": "2026-11-16 06:53:29+00:00",
+      "metrics": {},
+      "tags": [],
+      "score": 1.938
+    }
+  ],
+  "picks": [
+    {
+      "id": "5f39e0ce0783",
+      "title": "Nvidia stopped disclosing Singapore sales as revenues hit $104B",
+      "url": "https://www.ft.com/content/dbde7a30-548c-4f9d-a4be-7898a0c24dcf",
+      "summary": "",
+      "source": "hackernews",
+      "label": "技术热点",
+      "published": "2026-11-17 17:12:06+00:00",
+      "metrics": {
+        "points": 512
+      },
+      "tags": [
+        "hn"
+      ],
+      "score": 8.753
+    },
+    {
+      "id": "8ab23e48a7ef",
+      "title": "Pedestal AI raises $4.7 million to agentify the supply chain",
+      "url": "https://techcrunch.com/2026/11/17/pedestal-ai-raises-4-7-million-to-agentify-the-supply-chain/",
+      "summary": "The company uses agentic AI to make supply chains faster and more reliable.",
+      "source": "funding",
+      "label": "融资动态",
+      "published": "2026-11-17 18:04:16+00:00",
+      "metrics": {},
+      "tags": [
+        "AI",
+        "Startups",
+        "AI agents"
+      ],
+      "score": 8.038
+    },
+    {
+      "id": "091e9e5dac40",
+      "title": "sybil-solutions/inference-optimisation-skill",
+      "url": "https://github.com/sybil-solutions/inference-optimisation-skill",
+      "summary": "Agent skill for hill-climbing local LLM serving speed (decode, speculative decoding, prefill, KV, startup, TTFT) on any hardware and quantization",
+      "source": "github",
+      "label": "工具与开源",
+      "published": "2026-11-16 18:40:04+00:00",
+      "metrics": {
+        "stars": 991
+      },
+      "tags": [
+        "Python",
+        "agent-skill",
+        "benchmarking",
+        "claude-code"
+      ],
+      "score": 7.877
+    },
+    {
+      "id": "e3c5a2b79aa8",
+      "title": "Cybersecurity AI startup Corma reaches $1B valuation in about 3 months",
+      "url": "https://techcrunch.com/2026/11/16/cybersecurity-ai-startup-corma-reaches-1b-valuation-in-about-3-months/",
+      "summary": "Three months since introducing its product, AI cybersecurity startup Corba has raised a $125 million Series A at a $1 billion valuation led by NEA.",
+      "source": "funding",
+      "label": "融资动态",
+      "published": "2026-11-16 23:32:32+00:00",
+      "metrics": {},
+      "tags": [
+        "AI",
+        "Fundraising",
+        "Security"
+      ],
+      "score": 7.837
+    },
+    {
+      "id": "e9e8a0d7b799",
+      "title": "gylive/google-ultra",
+      "url": "https://github.com/gylive/google-ultra",
+      "summary": "",
+      "source": "github",
+      "label": "工具与开源",
+      "published": "2026-11-17 10:21:54+00:00",
+      "metrics": {
+        "stars": 2270
+      },
+      "tags": [
+        "Python"
+      ],
+      "score": 6.94
+    },
+    {
+      "id": "c606237cdcf3",
+      "title": "Show HN: Pbc – a CLI for any PocketBase instance",
+      "url": "https://github.com/pocketbasecloud/cli",
+      "summary": "",
+      "source": "showhn",
+      "label": "Show HN",
+      "published": "2026-11-18 07:20:52+00:00",
+      "metrics": {},
+      "tags": [],
+      "score": 3.054
+    },
+    {
+      "id": "692edf088d15",
+      "title": "Show HN: I built a ATS Resume Checker. Paste your resume and JD to check",
+      "url": "https://www.onestoplinkedin.com/free/ats-resume-checker",
+      "summary": "",
+      "source": "showhn",
+      "label": "Show HN",
+      "published": "2026-11-18 07:10:31+00:00",
+      "metrics": {},
+      "tags": [],
+      "score": 3.046
+    },
+    {
+      "id": "e792bb1403d4",
+      "title": "GPT-6.2 Astra and Sol",
+      "url": "https://www.producthunt.com/products/openai",
+      "summary": "Two new OpenAI models: frontier Astra and efficient Sol",
+      "source": "producthunt",
+      "label": "新品发布",
+      "published": "2026-11-17 18:06:04+00:00",
+      "metrics": {},
+      "tags": [],
+      "score": 2.739
+    }
+  ],
+  "errors": [
+    "AI 点评已跳过：环境变量 RADAR_API_KEY 未设置"
+  ],
+  "stats": {
+    "producthunt": 5,
+    "funding": 8,
+    "showhn": 8,
+    "github": 10,
+    "hackernews": 8
+  }
+}

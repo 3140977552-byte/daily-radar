@@ -1,104 +1,96 @@
-# 独立开发情报 · 2026-11-17
+# 独立开发情报 · 2026-11-18
 
 > 新品 · 融资 · 工具 · 增长
-> 本期收录 29 条 · 生成于 2026-11-17 16:08 UTC
+> 本期收录 32 条 · 生成于 2026-11-18 08:21 UTC
 
 ## 🔥 今日精选
 
-1. **[Jensen Huang’s departure blasts big hole in AI startup funding, VCs and founders say](https://techcrunch.com/2026/11/13/jensen-huangs-departure-blasts-big-hole-in-ai-startup-funding-vcs-and-founders-say/)**
-   Nvidia poured tens of billions into AI startups under Huang. Without him at the helm, founders and VCs are bracing for smaller checks and lower valuations.
-   > 💬 英伟达撒钱模式可能缩水，靠大厂订单撑估值的AI项目要留个心眼。
-   `11.4` · 融资动态 · 3 天前
+1. **[Nvidia stopped disclosing Singapore sales as revenues hit $104B](https://www.ft.com/content/dbde7a30-548c-4f9d-a4be-7898a0c24dcf)**
+   `8.8` · 技术热点 · 15 小时前 · 512 分
 
-2. **[Cybersecurity AI startup Corma reaches $1B valuation in about 3 months](https://techcrunch.com/2026/11/16/cybersecurity-ai-startup-corma-reaches-1b-valuation-in-about-3-months/)**
+2. **[Pedestal AI raises $4.7 million to agentify the supply chain](https://techcrunch.com/2026/11/17/pedestal-ai-raises-4-7-million-to-agentify-the-supply-chain/)**
+   The company uses agentic AI to make supply chains faster and more reliable.
+   `8.0` · 融资动态 · 14 小时前
+
+3. **[sybil-solutions/inference-optimisation-skill](https://github.com/sybil-solutions/inference-optimisation-skill)**
+   Agent skill for hill-climbing local LLM serving speed (decode, speculative decoding, prefill, KV, startup, TTFT) on any hardware and quantization
+   `7.9` · 工具与开源 · 1 天前 · ★ 991
+
+4. **[Cybersecurity AI startup Corma reaches $1B valuation in about 3 months](https://techcrunch.com/2026/11/16/cybersecurity-ai-startup-corma-reaches-1b-valuation-in-about-3-months/)**
    Three months since introducing its product, AI cybersecurity startup Corba has raised a $125 million Series A at a $1 billion valuation led by NEA.
-   > 💬 三个月冲到十亿美金，安全AI泡沫味浓，别拿它当估值参照。
-   `8.3` · 融资动态 · 16 小时前
+   `7.8` · 融资动态 · 1 天前
 
-3. **[krisgfx9/Wireless-Device-Battery-Monitor](https://github.com/krisgfx9/Wireless-Device-Battery-Monitor)**
-   Show the battery level of wireless mice, headsets, keyboards and controllers on the Windows 10/11 taskbar. Lightweight tray app, no vendor software needed. Sup…
-   > 💬 小工具解决真痛点，做Windows桌面端的可以拆开看看实现。
-   `6.8` · 工具与开源 · 20 小时前 · ★ 1.8k
+5. **[gylive/google-ultra](https://github.com/gylive/google-ultra)**
+   `6.9` · 工具与开源 · 21 小时前 · ★ 2.3k
 
-4. **[deepseek-ai/chat-demo](https://github.com/deepseek-ai/chat-demo)**
-   Chat Demo
-   > 💬 官方聊天demo信息太少，先跳过，等有文档和用例再看。
-   `6.2` · 工具与开源 · 5 天前 · ★ 4.5k
+6. **[Show HN: Pbc – a CLI for any PocketBase instance](https://github.com/pocketbasecloud/cli)**
+   `3.1` · Show HN · 1 小时前
 
-5. **[Show HN: AI Spar – Turn conflicting AI answers into a structured debate](https://aispar.app)**
-   Over the last couple of years, I have observed many people (including myself) researching tricky topics by asking the same question to multiple AI's. If those…
-   > 💬 多模型互怼做辩论，思路讨巧，做AI调研工具的可以借鉴。
-   `3.9` · Show HN · 刚刚
+7. **[Show HN: I built a ATS Resume Checker. Paste your resume and JD to check](https://www.onestoplinkedin.com/free/ats-resume-checker)**
+   `3.0` · Show HN · 1 小时前
 
-6. **[Show HN: Codemany – Run GitHub Actions on Your Mac/Linux. 3x Faster, Save $$$$](https://news.ycombinator.com/item?id=50532610)**
-   Hi folks , I built CodeMany [1] - to run your actions on a Mac/Linux box that you own. Stop paying by the minute, as your agents scale. Own your infra, and let…
-   > 💬 自托管跑Actions省分钟费，小团队CI账单高的值得研究。
-   `3.9` · Show HN · 刚刚
-
-7. **[Retriever](https://www.producthunt.com/products/retriever-4)**
-   Search your phone's photos, documents and videos privately
-   > 💬 本地搜手机相册和文档，隐私卖点不错，但和系统自带功能硬碰。
-   `2.8` · 新品发布 · 11 小时前
-
-8. **[RankSpot](https://www.producthunt.com/products/rankspot)**
-   Pay-as-you-go SEO and AI Search execution layer for agents
-   > 💬 按量付费的SEO执行层，方向新但需求真假难说，先观望。
-   `2.4` · 新品发布 · 3 天前
+8. **[GPT-6.2 Astra and Sol](https://www.producthunt.com/products/openai)**
+   Two new OpenAI models: frontier Astra and efficient Sol
+   `2.7` · 新品发布 · 14 小时前
 
 ## 🆕 新品发布
 
-- **[Retriever](https://www.producthunt.com/products/retriever-4)**  `2.8` · 11 小时前
-  Search your phone's photos, documents and videos privately
-  > 💬 本地搜手机相册和文档，隐私卖点不错，但和系统自带功能硬碰。
-- **[RankSpot](https://www.producthunt.com/products/rankspot)**  `2.4` · 3 天前
-  Pay-as-you-go SEO and AI Search execution layer for agents
-  > 💬 按量付费的SEO执行层，方向新但需求真假难说，先观望。
-- **[superlog](https://www.producthunt.com/products/superlog)**  `2.0` · 1 天前
-  Finds the production bugs your monitoring never sees
+- **[GPT-6.2 Astra and Sol](https://www.producthunt.com/products/openai)**  `2.7` · 14 小时前
+  Two new OpenAI models: frontier Astra and efficient Sol
+- **[KaDeep AI](https://www.producthunt.com/products/kadeep-ai)**  `2.4` · 1 天前
+  AI QA, localization and accessibility to know when to ship
+- **[Replay QA Self-healing Mode](https://www.producthunt.com/products/replayio)**  `2.2` · 1 天前
+  Turn user frustration into verified fixes
+- **[OX212](https://www.producthunt.com/products/ox212)**  `2.1` · 1 天前
+  Don't predict the market, predict the trader
+- **[Tencent Hy4 flash](https://www.producthunt.com/products/hunyuan-a13b)**  `1.9` · 2 天前
+  Fast, low-cost model from $0.07/M input
 
 ## 💰 融资动态
 
-- **[Jensen Huang’s departure blasts big hole in AI startup funding, VCs and founders say](https://techcrunch.com/2026/11/13/jensen-huangs-departure-blasts-big-hole-in-ai-startup-funding-vcs-and-founders-say/)**  `11.4` · 3 天前
-  Nvidia poured tens of billions into AI startups under Huang. Without him at the helm, founders and VCs are bracing for smaller checks and lower valuations.
-  > 💬 英伟达撒钱模式可能缩水，靠大厂订单撑估值的AI项目要留个心眼。
-- **[Cybersecurity AI startup Corma reaches $1B valuation in about 3 months](https://techcrunch.com/2026/11/16/cybersecurity-ai-startup-corma-reaches-1b-valuation-in-about-3-months/)**  `8.3` · 16 小时前
+- **[Pedestal AI raises $4.7 million to agentify the supply chain](https://techcrunch.com/2026/11/17/pedestal-ai-raises-4-7-million-to-agentify-the-supply-chain/)**  `8.0` · 14 小时前
+  The company uses agentic AI to make supply chains faster and more reliable.
+- **[Cybersecurity AI startup Corma reaches $1B valuation in about 3 months](https://techcrunch.com/2026/11/16/cybersecurity-ai-startup-corma-reaches-1b-valuation-in-about-3-months/)**  `7.8` · 1 天前
   Three months since introducing its product, AI cybersecurity startup Corba has raised a $125 million Series A at a $1 billion valuation led by NEA.
-  > 💬 三个月冲到十亿美金，安全AI泡沫味浓，别拿它当估值参照。
-- **[Indian chip startup Bharat Semi lands $24M seed round as it eyes global AI sensor market](https://techcrunch.com/2026/11/15/indian-chip-startup-bharat-semi-lands-24m-seed-round-as-it-eyes-global-ai-sensor-market/)**  `6.4` · 1 天前
-  Bharat Semi says it has secured design wins for its AI-enabled sensor technology with companies, including General Atomics.
-- **[Hank Green is self-funding ClockwiseTV, a curated educational video platform for kids](https://techcrunch.com/2026/11/17/hank-green-is-self-funding-clockwisetv-a-curated-educational-video-platform-for-kids/)**  `5.5` · 2 小时前
-  Alongside CEO Leslie Morgan, Hank Green set out to create the video platform he wished his kid had.
-- **[After dodging death, battery startup Our Next Energy is now going public](https://techcrunch.com/2026/11/16/after-dodging-death-battery-startup-our-next-energy-is-now-going-public/)**  `5.3` · 1 天前
+- **[Science Corporation’s brain tech is worth $3.5 billion after new funding](https://techcrunch.com/2026/11/17/science-corporations-brain-tech-is-worth-3-5-billion-after-new-funding/)**  `6.4` · 17 小时前
+  Science Corp. raised a $400 million Series D to scale up its anti-blindness business.
+- **[After dodging death, battery startup Our Next Energy is now going public](https://techcrunch.com/2026/11/16/after-dodging-death-battery-startup-our-next-energy-is-now-going-public/)**  `4.9` · 1 天前
   Our Next Energy is the latest battery startup to go public via SPAC. Does it now have what it needs to survive in the cutthroat battery industry?
-- **[Freshworks alums raise $53M to take on Salesforce, HubSpot with AI-native CRM](https://techcrunch.com/2026/11/16/freshworks-alums-raise-53m-to-take-on-salesforce-hubspot-with-ai-native-crm/)**  `5.3` · 1 天前
+- **[Freshworks alums raise $53M to take on Salesforce, HubSpot with AI-native CRM](https://techcrunch.com/2026/11/16/freshworks-alums-raise-53m-to-take-on-salesforce-hubspot-with-ai-native-crm/)**  `4.9` · 1 天前
   Dreamteam has signed up more than 100 customers across 13 countries, with some businesses switching from established CRMs.
+- **[Nvidia’s startup stakes ballooned to $65B, but Huang’s exit puts future deals in doubt](https://techcrunch.com/2026/11/17/nvidias-startup-stakes-ballooned-to-65b-but-huangs-exit-puts-future-deals-in-doubt/)**  `4.9` · 6 小时前
+  The value of Nvidia’s private investments has nearly tripled over the past nine months, fueled by Jensen Huang’s aggressive dealmaking and rising valuations of…
 
 ## 🛠️ Show HN
 
-- **[Show HN: AI Spar – Turn conflicting AI answers into a structured debate](https://aispar.app)**  `3.9` · 刚刚
-  Over the last couple of years, I have observed many people (including myself) researching tricky topics by asking the same question to multiple AI's. If those…
-  > 💬 多模型互怼做辩论，思路讨巧，做AI调研工具的可以借鉴。
-- **[Show HN: Codemany – Run GitHub Actions on Your Mac/Linux. 3x Faster, Save $$$$](https://news.ycombinator.com/item?id=50532610)**  `3.9` · 刚刚
-  Hi folks , I built CodeMany [1] - to run your actions on a Mac/Linux box that you own. Stop paying by the minute, as your agents scale. Own your infra, and let…
-  > 💬 自托管跑Actions省分钟费，小团队CI账单高的值得研究。
-- **[Show HN: Timelock.dev: Send a Message into the Future](https://timelock.dev/)**  `3.1` · 刚刚
-- **[Show HN: Fardesk – fast iPhone app to manage your Claude sessions](https://github.com/franzenzenhofer/fardesk-open-source)**  `3.1` · 刚刚
-- **[Show HN: I mapped LA's new speed cameras so you can count them on your route](https://la-speed-cameras-nine.vercel.app)**  `3.1` · 刚刚
-- **[Show HN: Feasible, web analytics in one Go binary with SQLite per account](https://github.com/Feasible-Analytics/app.feasible.lol)**  `3.1` · 刚刚
+- **[Show HN: Pbc – a CLI for any PocketBase instance](https://github.com/pocketbasecloud/cli)**  `3.1` · 1 小时前
+- **[Show HN: I built a ATS Resume Checker. Paste your resume and JD to check](https://www.onestoplinkedin.com/free/ats-resume-checker)**  `3.0` · 1 小时前
+- **[Show HN: Murer AI – Single Platform Multiple Models](https://murer.ai)**  `3.0` · 1 小时前
+- **[Show HN: Sip pacer that helps you drink slower](https://pourdecision.app/blog/sip-pacing-method)**  `3.0` · 1 小时前
+  It's a new feature I've added to my app Pour Decision. The idea is: 1. Set an interval on your phone and slip it in your pocket 2. The phone vibrates in your p…
+- **[Show HN: New chess variant – liminal chess](https://levmiseri.com/liminalchess/)**  `3.0` · 2 小时前
+- **[Show HN: Yantra – an assistant that works in your own browser tab, with your OK](https://yantra.app/new)**  `3.0` · 2 小时前
 
 ## 🚀 工具与开源
 
-- **[krisgfx9/Wireless-Device-Battery-Monitor](https://github.com/krisgfx9/Wireless-Device-Battery-Monitor)**  `6.8` · 20 小时前 · ★ 1.8k
+- **[sybil-solutions/inference-optimisation-skill](https://github.com/sybil-solutions/inference-optimisation-skill)**  `7.9` · 1 天前 · ★ 991
+  Agent skill for hill-climbing local LLM serving speed (decode, speculative decoding, prefill, KV, startup, TTFT) on any hardware and quantization
+- **[gylive/google-ultra](https://github.com/gylive/google-ultra)**  `6.9` · 21 小时前 · ★ 2.3k
+- **[krisgfx9/Wireless-Device-Battery-Monitor](https://github.com/krisgfx9/Wireless-Device-Battery-Monitor)**  `6.8` · 1 天前 · ★ 3.2k
   Show the battery level of wireless mice, headsets, keyboards and controllers on the Windows 10/11 taskbar. Lightweight tray app, no vendor software needed. Sup…
-  > 💬 小工具解决真痛点，做Windows桌面端的可以拆开看看实现。
-- **[deepseek-ai/chat-demo](https://github.com/deepseek-ai/chat-demo)**  `6.2` · 5 天前 · ★ 4.5k
+- **[erkamyaman/rust-anything](https://github.com/erkamyaman/rust-anything)**  `6.4` · 1 天前 · ★ 2.0k
+  Rewrite your whole app in Rust, one piece at a time, checked against the original's recorded behavior at every step. CLIs, HTTP servers and libraries in TypeSc…
+- **[deepseek-ai/chat-demo](https://github.com/deepseek-ai/chat-demo)**  `6.2` · 6 天前 · ★ 4.7k
   Chat Demo
-  > 💬 官方聊天demo信息太少，先跳过，等有文档和用例再看。
-- **[apex-compute/ANR](https://github.com/apex-compute/ANR)**  `5.9` · 6 天前 · ★ 2.6k
-  Apex Neural Rendering (ANR) by Apex Compute
-- **[Noniv/abyssal-garden](https://github.com/Noniv/abyssal-garden)**  `5.8` · 5 天前 · ★ 2.1k
+- **[Noniv/abyssal-garden](https://github.com/Noniv/abyssal-garden)**  `5.8` · 5 天前 · ★ 2.3k
   A dreamy underwater world you can swim through in your browser: swaying kelp forests, sunbeams, a sunken ship and manta rays. Everything is generated by code w…
-- **[duwqijlk/muse-protocol](https://github.com/duwqijlk/muse-protocol)**  `5.8` · 3 天前 · ★ 1.6k
-  muse.ai 注册与邀请码兑换协议研究（纯 HTTP Python 实现）
-- **[Immortal-Protocols/lastbook](https://github.com/Immortal-Protocols/lastbook)**  `5.6` · 4 天前 · ★ 1.3k
-  Offline knowledge AI, maps and videos for survival and rebuilding
+
+## 🔥 技术热点
+
+- **[Nvidia stopped disclosing Singapore sales as revenues hit $104B](https://www.ft.com/content/dbde7a30-548c-4f9d-a4be-7898a0c24dcf)**  `8.8` · 15 小时前 · 512 分
+
+---
+
+数据源告警：
+
+- AI 点评已跳过：环境变量 RADAR_API_KEY 未设置
