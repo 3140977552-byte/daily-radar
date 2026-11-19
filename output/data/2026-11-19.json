@@ -1,0 +1,657 @@
+{
+  "date": "2026-11-19",
+  "generated_at": "2026-11-19 08:33 UTC",
+  "items": [
+    {
+      "id": "446fee42b436",
+      "title": "Show HN: Satelital – How I made a custom game engine for my indie game",
+      "url": "https://spectralorbit.com/blog/satelital_game_engine",
+      "summary": "",
+      "source": "showhn",
+      "label": "Show HN",
+      "published": "2026-11-19 04:46:33+00:00",
+      "metrics": {},
+      "tags": [],
+      "score": 8.933
+    },
+    {
+      "id": "3092588d3b19",
+      "title": "Hut-hzf/ung220z-tool",
+      "url": "https://github.com/Hut-hzf/ung220z-tool",
+      "summary": "ung220z-tool 是一个针对 UNG220Z（九联/Unionman 中国移动光猫）的一键凭据提取工具，仅限在你自己的设备上用于找回忘记的管理密码、迁移宽带配置或安全自查。",
+      "source": "github",
+      "label": "工具与开源",
+      "published": "2026-11-15 11:16:46+00:00",
+      "metrics": {
+        "stars": 1513
+      },
+      "tags": [
+        "Python"
+      ],
+      "score": 8.125
+    },
+    {
+      "id": "3805189ad2a9",
+      "title": "India’s Humyn Labs raises $47M to feed US robotics companies the data they need",
+      "url": "https://techcrunch.com/2026/11/18/accel-backs-indias-humyn-labs-to-supply-training-data-needed-by-u-s-robotics-ai-developers/",
+      "summary": "Founded in February, Humyn Labs competes with startups such as Mecka AI and XDOF, with about 90% of its revenue coming from the U.S.",
+      "source": "funding",
+      "label": "融资动态",
+      "published": "2026-11-18 11:30:00+00:00",
+      "metrics": {},
+      "tags": [
+        "AI",
+        "Robotics",
+        "Startups"
+      ],
+      "score": 7.93
+    },
+    {
+      "id": "091e9e5dac40",
+      "title": "sybil-solutions/inference-optimisation-skill",
+      "url": "https://github.com/sybil-solutions/inference-optimisation-skill",
+      "summary": "Agent skill for hill-climbing local LLM serving speed (decode, speculative decoding, prefill, KV, startup, TTFT) on any hardware and quantization",
+      "source": "github",
+      "label": "工具与开源",
+      "published": "2026-11-16 18:40:04+00:00",
+      "metrics": {
+        "stars": 1168
+      },
+      "tags": [
+        "Python",
+        "agent-skill",
+        "benchmarking",
+        "claude-code"
+      ],
+      "score": 7.617
+    },
+    {
+      "id": "e3c5a2b79aa8",
+      "title": "Cybersecurity AI startup Corma reaches $1B valuation in about 3 months",
+      "url": "https://techcrunch.com/2026/11/16/cybersecurity-ai-startup-corma-reaches-1b-valuation-in-about-3-months/",
+      "summary": "Three months since introducing its product, AI cybersecurity startup Corba has raised a $125 million Series A at a $1 billion valuation led by NEA.",
+      "source": "funding",
+      "label": "融资动态",
+      "published": "2026-11-16 23:32:32+00:00",
+      "metrics": {},
+      "tags": [
+        "AI",
+        "Fundraising",
+        "Security"
+      ],
+      "score": 7.436
+    },
+    {
+      "id": "8ab23e48a7ef",
+      "title": "Pedestal AI raises $4.7 million to agentify the supply chain",
+      "url": "https://techcrunch.com/2026/11/17/pedestal-ai-raises-4-7-million-to-agentify-the-supply-chain/",
+      "summary": "The company uses agentic AI to make supply chains faster and more reliable.",
+      "source": "funding",
+      "label": "融资动态",
+      "published": "2026-11-17 18:04:16+00:00",
+      "metrics": {},
+      "tags": [
+        "AI",
+        "Startups",
+        "AI agents"
+      ],
+      "score": 7.422
+    },
+    {
+      "id": "6eadd1044778",
+      "title": "AI agents ask better questions than KPMG accountants in audit trial",
+      "url": "https://europeanbusinessmagazine.com/ai-agents-better-questions-kpmg/",
+      "summary": "",
+      "source": "hackernews",
+      "label": "技术热点",
+      "published": "2026-11-18 15:49:34+00:00",
+      "metrics": {
+        "points": 446
+      },
+      "tags": [
+        "hn"
+      ],
+      "score": 7.22
+    },
+    {
+      "id": "b4a7ccb27e01",
+      "title": "joshpuckett/allo",
+      "url": "https://github.com/joshpuckett/allo",
+      "summary": "Allo is your friendly neighborhood typeface, free and open source",
+      "source": "github",
+      "label": "工具与开源",
+      "published": "2026-11-15 17:33:42+00:00",
+      "metrics": {
+        "stars": 1073
+      },
+      "tags": [
+        "Python"
+      ],
+      "score": 7.055
+    },
+    {
+      "id": "feb988e42901",
+      "title": "krisgfx9/Wireless-Device-Battery-Monitor",
+      "url": "https://github.com/krisgfx9/Wireless-Device-Battery-Monitor",
+      "summary": "Show the battery level of wireless mice, headsets, keyboards and controllers on the Windows 10/11 taskbar. Lightweight tray app, no vendor software needed. Supports Logitech, Razer, SteelSeries, Corsair, HyperX, Glorious, PS4/PS5 DualSense, Xbox and Bluetooth devices.",
+      "source": "github",
+      "label": "工具与开源",
+      "published": "2026-11-16 19:28:29+00:00",
+      "metrics": {
+        "stars": 4209
+      },
+      "tags": [
+        "C++"
+      ],
+      "score": 6.595
+    },
+    {
+      "id": "618cd00e94b0",
+      "title": "Spend management platform Payhawk announces $280M raise, 2B valuation",
+      "url": "https://techcrunch.com/2026/11/18/spend-management-platform-payhawk-announces-280m-raise-2b-valuation/",
+      "summary": "Founded in 2018, Payhawk is an enterprise financial management platform that helps companies track and manage expenses and procurement using AI agents.",
+      "source": "funding",
+      "label": "融资动态",
+      "published": "2026-11-18 19:29:41+00:00",
+      "metrics": {},
+      "tags": [
+        "Startups",
+        "Venture",
+        "corporate spend management"
+      ],
+      "score": 6.479
+    },
+    {
+      "id": "1f9bc238f405",
+      "title": "erkamyaman/rust-anything",
+      "url": "https://github.com/erkamyaman/rust-anything",
+      "summary": "Rewrite your whole app in Rust, one piece at a time, checked against the original's recorded behavior at every step. CLIs, HTTP servers and libraries in TypeScript, Python, C, Go, Ruby and Java.",
+      "source": "github",
+      "label": "工具与开源",
+      "published": "2026-11-16 12:10:36+00:00",
+      "metrics": {
+        "stars": 3934
+      },
+      "tags": [
+        "Rust",
+        "agent-skills",
+        "claude-code",
+        "cli"
+      ],
+      "score": 6.479
+    },
+    {
+      "id": "4a85caac3ecf",
+      "title": "Show HN: What is localhost? An interactive guide",
+      "url": "https://whatislocalhost.com/",
+      "summary": "I've build whatislocalhost.com to showcase an app deployed to cloudish.ai -- Why? Well, I can either buy ads and brain wash people or, I can burn time, tokens and effort creating value for the community, we chose the latter :) The last year our team at Hal9 has been helping a bunch of founders that vibe-coded apps turn them into real MVPs (Minimum Viable Products) and then real products that scale in usage and revenue. One of the top questions we get was: why can't I just use my Claude Coded app as my website? Well, technically you can, but as many of you in HN already know, not the best idea. Computers go to sleep, are more likely to get hacked with exposed ports, have slow and unreliable internet, you only have one, and if you are doing heavy work it will slowdown your website. Therefore, I created https://whatislocalhost.com , which i an interactive explanation into what is localhost / 127.0.0.1 / ::1 Hope this is useful to some, or at least insightful. Comments URL: https://news.ycombinator.com/item?id=50556819 Points: 2 # Comments: 2",
+      "source": "showhn",
+      "label": "Show HN",
+      "published": "2026-11-19 06:54:08+00:00",
+      "metrics": {},
+      "tags": [],
+      "score": 6.025
+    },
+    {
+      "id": "dc5c9851a021",
+      "title": "Science Corporation’s brain tech is worth $3.5 billion after new funding",
+      "url": "https://techcrunch.com/2026/11/17/science-corporations-brain-tech-is-worth-3-5-billion-after-new-funding/",
+      "summary": "Science Corp. raised a $400 million Series D to scale up its anti-blindness business.",
+      "source": "funding",
+      "label": "融资动态",
+      "published": "2026-11-17 14:26:46+00:00",
+      "metrics": {},
+      "tags": [
+        "AI",
+        "Biotech & Health",
+        "Startups"
+      ],
+      "score": 5.856
+    },
+    {
+      "id": "bd2088ac80cd",
+      "title": "duwqijlk/muse-protocol",
+      "url": "https://github.com/duwqijlk/muse-protocol",
+      "summary": "muse.ai 注册与邀请码兑换协议研究（纯 HTTP Python 实现）",
+      "source": "github",
+      "label": "工具与开源",
+      "published": "2026-11-14 01:24:58+00:00",
+      "metrics": {
+        "stars": 1635
+      },
+      "tags": [
+        "Python"
+      ],
+      "score": 5.646
+    },
+    {
+      "id": "d20bb6cfac2a",
+      "title": "chuanqisun/spaceship",
+      "url": "https://github.com/chuanqisun/spaceship",
+      "summary": "Steer your ideas in realtime",
+      "source": "github",
+      "label": "工具与开源",
+      "published": "2026-11-16 14:43:45+00:00",
+      "metrics": {
+        "stars": 882
+      },
+      "tags": [
+        "HTML"
+      ],
+      "score": 5.607
+    },
+    {
+      "id": "a3a77daa2264",
+      "title": "CzzzzzzJ/mdldm-maitian",
+      "url": "https://github.com/CzzzzzzJ/mdldm-maitian",
+      "summary": "麦田：自媒体多平台发布中控与数据监控（B站/抖音/小红书/视频号/YouTube/X），飞书卡片通知 + 数据大屏",
+      "source": "github",
+      "label": "工具与开源",
+      "published": "2026-11-14 03:59:22+00:00",
+      "metrics": {
+        "stars": 1465
+      },
+      "tags": [
+        "JavaScript",
+        "automation",
+        "chrome-extension",
+        "creator-tools"
+      ],
+      "score": 5.587
+    },
+    {
+      "id": "7773b7f75959",
+      "title": "haziqahmedqasmi/PeakCut",
+      "url": "https://github.com/haziqahmedqasmi/PeakCut",
+      "summary": "AI clipping for long videos and live streams. Self-hosted, bring your own AI key.",
+      "source": "github",
+      "label": "工具与开源",
+      "published": "2026-11-14 07:38:20+00:00",
+      "metrics": {
+        "stars": 1159
+      },
+      "tags": [
+        "Python"
+      ],
+      "score": 5.456
+    },
+    {
+      "id": "e7455f91b6c7",
+      "title": "zephyr4123/snug",
+      "url": "https://github.com/zephyr4123/snug",
+      "summary": "让远程 Mac 在任意设备上获得原生级体验。专为 UU远程 打造的显示与触控增强：手机、平板、电脑各有专属屏幕，画面铺满、字号随屏，原生触屏手势，App 资源库。Make UU Remote native on any device: a dedicated screen for every phone, tablet and computer, with native touch gestures and an App Library.",
+      "source": "github",
+      "label": "工具与开源",
+      "published": "2026-11-13 03:26:21+00:00",
+      "metrics": {
+        "stars": 1052
+      },
+      "tags": [
+        "Swift",
+        "android",
+        "gestures",
+        "ipad"
+      ],
+      "score": 5.339
+    },
+    {
+      "id": "4d77db20d092",
+      "title": "Felicis leads $7.5M bet on Unsiloed AI to make enterprise documents usable by AI agents",
+      "url": "https://techcrunch.com/2026/11/18/felicis-leads-7-5m-bet-on-unsiloed-ai-to-make-enterprise-documents-usable-by-ai-agents/",
+      "summary": "With a team of just seven, Unsiloed AI plans to compete with tech giants and specialized startups in the crowded AI document-processing market.",
+      "source": "funding",
+      "label": "融资动态",
+      "published": "2026-11-18 12:00:00+00:00",
+      "metrics": {},
+      "tags": [
+        "AI",
+        "Startups",
+        "AI agents"
+      ],
+      "score": 5.044
+    },
+    {
+      "id": "692d7514f99d",
+      "title": "Show HN: A small coding tool for kids",
+      "url": "https://dinoscript.org/",
+      "summary": "",
+      "source": "showhn",
+      "label": "Show HN",
+      "published": "2026-11-19 05:35:05+00:00",
+      "metrics": {},
+      "tags": [],
+      "score": 4.567
+    },
+    {
+      "id": "214233d8d9b0",
+      "title": "Hank Green is self-funding ClockwiseTV, a curated educational video platform for kids",
+      "url": "https://techcrunch.com/2026/11/17/hank-green-is-self-funding-clockwisetv-a-curated-educational-video-platform-for-kids/",
+      "summary": "Alongside CEO Leslie Morgan, Hank Green set out to create the video platform he wished his kid had.",
+      "source": "funding",
+      "label": "融资动态",
+      "published": "2026-11-17 14:00:00+00:00",
+      "metrics": {},
+      "tags": [
+        "Media & Entertainment",
+        "Startups",
+        "educational video"
+      ],
+      "score": 4.348
+    },
+    {
+      "id": "44ce8c447b80",
+      "title": "Nvidia’s startup stakes ballooned to $65B, but Huang’s exit puts future deals in doubt",
+      "url": "https://techcrunch.com/2026/11/17/nvidias-startup-stakes-ballooned-to-65b-but-huangs-exit-puts-future-deals-in-doubt/",
+      "summary": "The value of Nvidia’s private investments has nearly tripled over the past nine months, fueled by Jensen Huang’s aggressive dealmaking and rising valuations of its existing portfolio companies.",
+      "source": "funding",
+      "label": "融资动态",
+      "published": "2026-11-18 01:44:21+00:00",
+      "metrics": {},
+      "tags": [
+        "AI",
+        "Startups",
+        "Colette Kress"
+      ],
+      "score": 4.181
+    },
+    {
+      "id": "73d53c61fc0e",
+      "title": "Show HN: Git Hook for Model Identifation",
+      "url": "https://github.com/orsenthil/git-hook-model-identification",
+      "summary": "I have started using multiple models (Claude, Codex, Grok via cursor-agent, Z.ai, Deepseek, Hy4 via OpenCode, agy) etc, and I realized that I not able to identify which commit was made by which model. After looking around and not finding anything, I create a format specification that will let Model self-identify itself. The goal is a higher ranked model can verify the output of other models and suggest changes. It is similar how to a Senior Engineer will review the output of Junior Engineers. As Humans, we know which model is behaving well, and which we can trust more. My AI based commits have a identification like this. Add retry backoff to fetch Model: claude-sonnet-5-5 harness=claude-code effort=high conf=medium Model: opencode/hy4-flash-free harness=opencode effort=high conf=medium In using this, I get an intuition what I can expect when I fire off model on a particular task. Comments URL: https://news.ycombinator.com/item?id=50556343 Points: 2 # Comments: 0",
+      "source": "showhn",
+      "label": "Show HN",
+      "published": "2026-11-19 05:18:23+00:00",
+      "metrics": {},
+      "tags": [],
+      "score": 3.755
+    },
+    {
+      "id": "099099aa80c9",
+      "title": "Rezora IO",
+      "url": "https://www.producthunt.com/products/rezora-io-ai-calling-assistant",
+      "summary": "Shopify for AI voice agents: live in 10 minutes",
+      "source": "producthunt",
+      "label": "新品发布",
+      "published": "2026-11-18 23:23:32+00:00",
+      "metrics": {},
+      "tags": [],
+      "score": 3.718
+    },
+    {
+      "id": "6aa1a11ad2eb",
+      "title": "Nuko",
+      "url": "https://www.producthunt.com/products/nuko",
+      "summary": "Motion design in your browser",
+      "source": "producthunt",
+      "label": "新品发布",
+      "published": "2026-11-19 03:34:35+00:00",
+      "metrics": {},
+      "tags": [],
+      "score": 3.083
+    },
+    {
+      "id": "fc770e3f201b",
+      "title": "Show HN: Cyravo SecureBuild AI",
+      "url": "https://cyravo-securebuild-a-9jtc.bolt.host/",
+      "summary": "",
+      "source": "showhn",
+      "label": "Show HN",
+      "published": "2026-11-19 06:53:11+00:00",
+      "metrics": {},
+      "tags": [],
+      "score": 3.024
+    },
+    {
+      "id": "2a3f93881c69",
+      "title": "Show HN: Hybld – Package for selective and incremental static build",
+      "url": "https://github.com/hyscaler/hybld",
+      "summary": "hybld, is an npm package to manage static builds for incremental or selective builds in React, Next.js, and Astro.js projects, which is backed by a Headless CMS like WordPress Comments URL: https://news.ycombinator.com/item?id=50556665 Points: 1 # Comments: 1",
+      "source": "showhn",
+      "label": "Show HN",
+      "published": "2026-11-19 06:19:40+00:00",
+      "metrics": {},
+      "tags": [],
+      "score": 3.0
+    },
+    {
+      "id": "754ed4dfbb89",
+      "title": "Show HN: Zpup – Zdog style 3D scenes in JSON, SVG from any angle",
+      "url": "https://github.com/rxolve/zpup",
+      "summary": "Hi. I made small project called Zpup. It takes small 3D scene written in JSON and gives back a flat SVG from any angle. There is no JavaScript in the file, so it works in img-tag or README. I needed 3D for small project at my company, and Zdog make big impression on me. But Zdog has not had a release for several years, so I wanted to make modern version. One thing works different. Zdog sorts each shape by one point. so small thing on big floor gets covered when you turn it. Zpup compares the shapes that overlap. You can see both in the README. I wrote it with Claude Code Fable 5.2. No canvas renderer, no text shape, and it is 0.2 version. Playground: https://rxolve.github.io/zpup Feedback is always welcome :) Comments URL: https://news.ycombinator.com/item?id=50556534 Points: 3 # Comments: 0",
+      "source": "showhn",
+      "label": "Show HN",
+      "published": "2026-11-19 05:56:41+00:00",
+      "metrics": {},
+      "tags": [],
+      "score": 2.983
+    },
+    {
+      "id": "c9159e3f8acf",
+      "title": "Show HN: Snowchive – Snowden archive of all published documents",
+      "url": "https://snowchive.org",
+      "summary": "",
+      "source": "showhn",
+      "label": "Show HN",
+      "published": "2026-11-19 05:11:26+00:00",
+      "metrics": {},
+      "tags": [],
+      "score": 2.95
+    },
+    {
+      "id": "6b130cbe0b2f",
+      "title": "Play That Back",
+      "url": "https://www.producthunt.com/products/play-that-back",
+      "summary": "A pro camera built for iPhone Duo",
+      "source": "producthunt",
+      "label": "新品发布",
+      "published": "2026-11-18 23:42:14+00:00",
+      "metrics": {},
+      "tags": [],
+      "score": 2.93
+    },
+    {
+      "id": "5311867bf256",
+      "title": "Room AI",
+      "url": "https://www.producthunt.com/products/room-ai-2",
+      "summary": "Talk to it like a designer. Your room, one change at a time",
+      "source": "producthunt",
+      "label": "新品发布",
+      "published": "2026-11-18 15:37:31+00:00",
+      "metrics": {},
+      "tags": [],
+      "score": 2.653
+    },
+    {
+      "id": "732afecc7723",
+      "title": "Fieldwork Code",
+      "url": "https://www.producthunt.com/products/fieldwork-code",
+      "summary": "AI coding on your laptop or in the cloud, from your phone",
+      "source": "producthunt",
+      "label": "新品发布",
+      "published": "2026-11-18 13:32:13+00:00",
+      "metrics": {},
+      "tags": [],
+      "score": 2.589
+    },
+    {
+      "id": "c941390039a8",
+      "title": "Source",
+      "url": "https://www.producthunt.com/products/source-public-beta",
+      "summary": "The attribution data layer for your agents to drive pipeline",
+      "source": "producthunt",
+      "label": "新品发布",
+      "published": "2026-11-16 17:34:12+00:00",
+      "metrics": {},
+      "tags": [],
+      "score": 2.567
+    },
+    {
+      "id": "2bcb81602ced",
+      "title": "Verse Engine by Ctruh",
+      "url": "https://www.producthunt.com/products/verse-engine-by-ctruh",
+      "summary": "Blender, Unity or Unreal to a live 3D link in one click",
+      "source": "producthunt",
+      "label": "新品发布",
+      "published": "2026-11-17 14:44:33+00:00",
+      "metrics": {},
+      "tags": [],
+      "score": 2.061
+    }
+  ],
+  "picks": [
+    {
+      "id": "446fee42b436",
+      "title": "Show HN: Satelital – How I made a custom game engine for my indie game",
+      "url": "https://spectralorbit.com/blog/satelital_game_engine",
+      "summary": "",
+      "source": "showhn",
+      "label": "Show HN",
+      "published": "2026-11-19 04:46:33+00:00",
+      "metrics": {},
+      "tags": [],
+      "score": 8.933
+    },
+    {
+      "id": "3092588d3b19",
+      "title": "Hut-hzf/ung220z-tool",
+      "url": "https://github.com/Hut-hzf/ung220z-tool",
+      "summary": "ung220z-tool 是一个针对 UNG220Z（九联/Unionman 中国移动光猫）的一键凭据提取工具，仅限在你自己的设备上用于找回忘记的管理密码、迁移宽带配置或安全自查。",
+      "source": "github",
+      "label": "工具与开源",
+      "published": "2026-11-15 11:16:46+00:00",
+      "metrics": {
+        "stars": 1513
+      },
+      "tags": [
+        "Python"
+      ],
+      "score": 8.125
+    },
+    {
+      "id": "3805189ad2a9",
+      "title": "India’s Humyn Labs raises $47M to feed US robotics companies the data they need",
+      "url": "https://techcrunch.com/2026/11/18/accel-backs-indias-humyn-labs-to-supply-training-data-needed-by-u-s-robotics-ai-developers/",
+      "summary": "Founded in February, Humyn Labs competes with startups such as Mecka AI and XDOF, with about 90% of its revenue coming from the U.S.",
+      "source": "funding",
+      "label": "融资动态",
+      "published": "2026-11-18 11:30:00+00:00",
+      "metrics": {},
+      "tags": [
+        "AI",
+        "Robotics",
+        "Startups"
+      ],
+      "score": 7.93
+    },
+    {
+      "id": "091e9e5dac40",
+      "title": "sybil-solutions/inference-optimisation-skill",
+      "url": "https://github.com/sybil-solutions/inference-optimisation-skill",
+      "summary": "Agent skill for hill-climbing local LLM serving speed (decode, speculative decoding, prefill, KV, startup, TTFT) on any hardware and quantization",
+      "source": "github",
+      "label": "工具与开源",
+      "published": "2026-11-16 18:40:04+00:00",
+      "metrics": {
+        "stars": 1168
+      },
+      "tags": [
+        "Python",
+        "agent-skill",
+        "benchmarking",
+        "claude-code"
+      ],
+      "score": 7.617
+    },
+    {
+      "id": "e3c5a2b79aa8",
+      "title": "Cybersecurity AI startup Corma reaches $1B valuation in about 3 months",
+      "url": "https://techcrunch.com/2026/11/16/cybersecurity-ai-startup-corma-reaches-1b-valuation-in-about-3-months/",
+      "summary": "Three months since introducing its product, AI cybersecurity startup Corba has raised a $125 million Series A at a $1 billion valuation led by NEA.",
+      "source": "funding",
+      "label": "融资动态",
+      "published": "2026-11-16 23:32:32+00:00",
+      "metrics": {},
+      "tags": [
+        "AI",
+        "Fundraising",
+        "Security"
+      ],
+      "score": 7.436
+    },
+    {
+      "id": "6eadd1044778",
+      "title": "AI agents ask better questions than KPMG accountants in audit trial",
+      "url": "https://europeanbusinessmagazine.com/ai-agents-better-questions-kpmg/",
+      "summary": "",
+      "source": "hackernews",
+      "label": "技术热点",
+      "published": "2026-11-18 15:49:34+00:00",
+      "metrics": {
+        "points": 446
+      },
+      "tags": [
+        "hn"
+      ],
+      "score": 7.22
+    },
+    {
+      "id": "4a85caac3ecf",
+      "title": "Show HN: What is localhost? An interactive guide",
+      "url": "https://whatislocalhost.com/",
+      "summary": "I've build whatislocalhost.com to showcase an app deployed to cloudish.ai -- Why? Well, I can either buy ads and brain wash people or, I can burn time, tokens and effort creating value for the community, we chose the latter :) The last year our team at Hal9 has been helping a bunch of founders that vibe-coded apps turn them into real MVPs (Minimum Viable Products) and then real products that scale in usage and revenue. One of the top questions we get was: why can't I just use my Claude Coded app as my website? Well, technically you can, but as many of you in HN already know, not the best idea. Computers go to sleep, are more likely to get hacked with exposed ports, have slow and unreliable internet, you only have one, and if you are doing heavy work it will slowdown your website. Therefore, I created https://whatislocalhost.com , which i an interactive explanation into what is localhost / 127.0.0.1 / ::1 Hope this is useful to some, or at least insightful. Comments URL: https://news.ycombinator.com/item?id=50556819 Points: 2 # Comments: 2",
+      "source": "showhn",
+      "label": "Show HN",
+      "published": "2026-11-19 06:54:08+00:00",
+      "metrics": {},
+      "tags": [],
+      "score": 6.025
+    },
+    {
+      "id": "099099aa80c9",
+      "title": "Rezora IO",
+      "url": "https://www.producthunt.com/products/rezora-io-ai-calling-assistant",
+      "summary": "Shopify for AI voice agents: live in 10 minutes",
+      "source": "producthunt",
+      "label": "新品发布",
+      "published": "2026-11-18 23:23:32+00:00",
+      "metrics": {},
+      "tags": [],
+      "score": 3.718
+    },
+    {
+      "id": "6aa1a11ad2eb",
+      "title": "Nuko",
+      "url": "https://www.producthunt.com/products/nuko",
+      "summary": "Motion design in your browser",
+      "source": "producthunt",
+      "label": "新品发布",
+      "published": "2026-11-19 03:34:35+00:00",
+      "metrics": {},
+      "tags": [],
+      "score": 3.083
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "producthunt": 7,
+    "funding": 8,
+    "showhn": 8,
+    "github": 10,
+    "hackernews": 8
+  },
+  "ai": {
+    "model": "deepseek-flash",
+    "applied": 9,
+    "usage": {
+      "prompt_tokens": 792,
+      "completion_tokens": 330,
+      "total_tokens": 1122,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 792
+    }
+  }
+}

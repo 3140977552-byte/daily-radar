@@ -1,69 +1,68 @@
-# 独立开发情报 · 2026-11-18
+# 独立开发情报 · 2026-11-19
 
 > 新品 · 融资 · 工具 · 增长
-> 本期收录 32 条 · 生成于 2026-11-18 11:25 UTC
+> 本期收录 34 条 · 生成于 2026-11-19 08:33 UTC
 
 ## 🔥 今日精选
 
-1. **[Show HN: Prototype of a product management tool for AI agent companies](https://featurestream-prototype.vercel.app/)**
-   Hi HN, I'm a solo founder. Teams building AI agents in a specific domain (legal, healthcare, etc.) have to piece together customer, product and market signals…
-   > 💬 垂直行业AI agent团队的工具，国内这块还空着，值得点开看看别人怎么切。
-   `11.9` · Show HN · 刚刚
+1. **[Show HN: Satelital – How I made a custom game engine for my indie game](https://spectralorbit.com/blog/satelital_game_engine)**
+   > 💬 值得看，自研引擎的取舍过程比成品更能帮你判断要不要自己造轮子。
+   `8.9` · Show HN · 3 小时前
 
-2. **[Nvidia stopped disclosing Singapore sales as revenues hit $104B](https://www.ft.com/content/dbde7a30-548c-4f9d-a4be-7898a0c24dcf)**
-   > 💬 新加坡销售不披露，跟做应用的关系不大，除非你关心算力供应链，可以先跳过。
-   `8.7` · 技术热点 · 18 小时前 · 558 分
+2. **[Hut-hzf/ung220z-tool](https://github.com/Hut-hzf/ung220z-tool)**
+   ung220z-tool 是一个针对 UNG220Z（九联/Unionman 中国移动光猫）的一键凭据提取工具，仅限在你自己的设备上用于找回忘记的管理密码、迁移宽带配置或安全自查。
+   > 💬 小众但实用，家里有九联光猫的可以收藏，别用在别人设备上。
+   `8.1` · 工具与开源 · 3 天前 · ★ 1.5k
 
-3. **[Pedestal AI raises $4.7 million to agentify the supply chain](https://techcrunch.com/2026/11/17/pedestal-ai-raises-4-7-million-to-agentify-the-supply-chain/)**
-   The company uses agentic AI to make supply chains faster and more reliable.
-   `7.9` · 融资动态 · 17 小时前
+3. **[India’s Humyn Labs raises $47M to feed US robotics companies the data they need](https://techcrunch.com/2026/11/18/accel-backs-indias-humyn-labs-to-supply-training-data-needed-by-u-s-robotics-ai-developers/)**
+   Founded in February, Humyn Labs competes with startups such as Mecka AI and XDOF, with about 90% of its revenue coming from the U.S.
+   `7.9` · 融资动态 · 21 小时前
 
 4. **[sybil-solutions/inference-optimisation-skill](https://github.com/sybil-solutions/inference-optimisation-skill)**
    Agent skill for hill-climbing local LLM serving speed (decode, speculative decoding, prefill, KV, startup, TTFT) on any hardware and quantization
-   `7.8` · 工具与开源 · 1 天前 · ★ 1.0k
+   `7.6` · 工具与开源 · 2 天前 · ★ 1.2k
 
 5. **[Cybersecurity AI startup Corma reaches $1B valuation in about 3 months](https://techcrunch.com/2026/11/16/cybersecurity-ai-startup-corma-reaches-1b-valuation-in-about-3-months/)**
    Three months since introducing its product, AI cybersecurity startup Corba has raised a $125 million Series A at a $1 billion valuation led by NEA.
-   `7.8` · 融资动态 · 1 天前
+   `7.4` · 融资动态 · 2 天前
 
 ## 🆕 新品发布
 
-- **[Ody Ai Business Phone](https://www.producthunt.com/products/ody-ai-business-phone)**  `2.9` · 1 天前
-  Shared workspace + manageable AI agents
-- **[Qwen4-Max](https://www.producthunt.com/products/qwen3)**  `2.8` · 1 天前
-  Qwen's new flagship for long-running agent work
-- **[MAI Cyber 2 Flash](https://www.producthunt.com/products/mai-image-2-3)**  `2.7` · 16 小时前
-  Microsoft’s low-cost security AI with a 1M-token context
+- **[Rezora IO](https://www.producthunt.com/products/rezora-io-ai-calling-assistant)**  `3.7` · 9 小时前
+  Shopify for AI voice agents: live in 10 minutes
+- **[Nuko](https://www.producthunt.com/products/nuko)**  `3.1` · 4 小时前
+  Motion design in your browser
+- **[Play That Back](https://www.producthunt.com/products/play-that-back)**  `2.9` · 8 小时前
+  A pro camera built for iPhone Duo
 
 ## 💰 融资动态
 
-- **[Pedestal AI raises $4.7 million to agentify the supply chain](https://techcrunch.com/2026/11/17/pedestal-ai-raises-4-7-million-to-agentify-the-supply-chain/)**  `7.9` · 17 小时前
-  The company uses agentic AI to make supply chains faster and more reliable.
-- **[Cybersecurity AI startup Corma reaches $1B valuation in about 3 months](https://techcrunch.com/2026/11/16/cybersecurity-ai-startup-corma-reaches-1b-valuation-in-about-3-months/)**  `7.8` · 1 天前
+- **[India’s Humyn Labs raises $47M to feed US robotics companies the data they need](https://techcrunch.com/2026/11/18/accel-backs-indias-humyn-labs-to-supply-training-data-needed-by-u-s-robotics-ai-developers/)**  `7.9` · 21 小时前
+  Founded in February, Humyn Labs competes with startups such as Mecka AI and XDOF, with about 90% of its revenue coming from the U.S.
+- **[Cybersecurity AI startup Corma reaches $1B valuation in about 3 months](https://techcrunch.com/2026/11/16/cybersecurity-ai-startup-corma-reaches-1b-valuation-in-about-3-months/)**  `7.4` · 2 天前
   Three months since introducing its product, AI cybersecurity startup Corba has raised a $125 million Series A at a $1 billion valuation led by NEA.
-- **[Science Corporation’s brain tech is worth $3.5 billion after new funding](https://techcrunch.com/2026/11/17/science-corporations-brain-tech-is-worth-3-5-billion-after-new-funding/)**  `6.3` · 20 小时前
-  Science Corp. raised a $400 million Series D to scale up its anti-blindness business.
+- **[Pedestal AI raises $4.7 million to agentify the supply chain](https://techcrunch.com/2026/11/17/pedestal-ai-raises-4-7-million-to-agentify-the-supply-chain/)**  `7.4` · 1 天前
+  The company uses agentic AI to make supply chains faster and more reliable.
 
 ## 🛠️ Show HN
 
-- **[Show HN: Prototype of a product management tool for AI agent companies](https://featurestream-prototype.vercel.app/)**  `11.9` · 刚刚
-  Hi HN, I'm a solo founder. Teams building AI agents in a specific domain (legal, healthcare, etc.) have to piece together customer, product and market signals…
-- **[Show HN: Arbituro](https://arbituro.com/)**  `4.6` · 1 小时前
-  Looking for some honest feedback, set me straight! Over the past year I've built Arbituro, its a work management tool. Its built on the assumption that a lot o…
-- **[Show HN: Qpilot – an AI agent that runs plain-text manual test cases in Chrome](https://github.com/broxhq/qpilot)**  `4.6` · 1 小时前
+- **[Show HN: Satelital – How I made a custom game engine for my indie game](https://spectralorbit.com/blog/satelital_game_engine)**  `8.9` · 3 小时前
+- **[Show HN: What is localhost? An interactive guide](https://whatislocalhost.com/)**  `6.0` · 1 小时前
+  I've build whatislocalhost.com to showcase an app deployed to cloudish.ai -- Why? Well, I can either buy ads and brain wash people or, I can burn time, tokens…
+- **[Show HN: A small coding tool for kids](https://dinoscript.org/)**  `4.6` · 2 小时前
 
 ## 🚀 工具与开源
 
-- **[sybil-solutions/inference-optimisation-skill](https://github.com/sybil-solutions/inference-optimisation-skill)**  `7.8` · 1 天前 · ★ 1.0k
+- **[Hut-hzf/ung220z-tool](https://github.com/Hut-hzf/ung220z-tool)**  `8.1` · 3 天前 · ★ 1.5k
+  ung220z-tool 是一个针对 UNG220Z（九联/Unionman 中国移动光猫）的一键凭据提取工具，仅限在你自己的设备上用于找回忘记的管理密码、迁移宽带配置或安全自查。
+- **[sybil-solutions/inference-optimisation-skill](https://github.com/sybil-solutions/inference-optimisation-skill)**  `7.6` · 2 天前 · ★ 1.2k
   Agent skill for hill-climbing local LLM serving speed (decode, speculative decoding, prefill, KV, startup, TTFT) on any hardware and quantization
-- **[joshpuckett/allo](https://github.com/joshpuckett/allo)**  `7.2` · 2 天前 · ★ 969
+- **[joshpuckett/allo](https://github.com/joshpuckett/allo)**  `7.1` · 3 天前 · ★ 1.1k
   Allo is your friendly neighborhood typeface, free and open source
-- **[krisgfx9/Wireless-Device-Battery-Monitor](https://github.com/krisgfx9/Wireless-Device-Battery-Monitor)**  `6.8` · 1 天前 · ★ 3.4k
-  Show the battery level of wireless mice, headsets, keyboards and controllers on the Windows 10/11 taskbar. Lightweight tray app, no vendor software needed. Sup…
 
 ## 🔥 技术热点
 
-- **[Nvidia stopped disclosing Singapore sales as revenues hit $104B](https://www.ft.com/content/dbde7a30-548c-4f9d-a4be-7898a0c24dcf)**  `8.7` · 18 小时前 · 558 分
+- **[AI agents ask better questions than KPMG accountants in audit trial](https://europeanbusinessmagazine.com/ai-agents-better-questions-kpmg/)**  `7.2` · 16 小时前 · 446 分
 
 ---
 
