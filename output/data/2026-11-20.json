@@ -1,0 +1,598 @@
+{
+  "date": "2026-11-20",
+  "generated_at": "2026-11-20 08:15 UTC",
+  "items": [
+    {
+      "id": "3092588d3b19",
+      "title": "Hut-hzf/ung220z-tool",
+      "url": "https://github.com/Hut-hzf/ung220z-tool",
+      "summary": "ung220z-tool 是一个针对 UNG220Z（九联/Unionman 中国移动光猫）的一键凭据提取工具，仅限在你自己的设备上用于找回忘记的管理密码、迁移宽带配置或安全自查。",
+      "source": "github",
+      "label": "工具与开源",
+      "published": "2026-11-15 11:16:46+00:00",
+      "metrics": {
+        "stars": 1858
+      },
+      "tags": [
+        "Python"
+      ],
+      "score": 8.151
+    },
+    {
+      "id": "091e9e5dac40",
+      "title": "sybil-solutions/inference-optimisation-skill",
+      "url": "https://github.com/sybil-solutions/inference-optimisation-skill",
+      "summary": "Agent skill for hill-climbing local LLM serving speed (decode, speculative decoding, prefill, KV, startup, TTFT) on any hardware and quantization",
+      "source": "github",
+      "label": "工具与开源",
+      "published": "2026-11-16 18:40:04+00:00",
+      "metrics": {
+        "stars": 1278
+      },
+      "tags": [
+        "Python",
+        "agent-skill",
+        "benchmarking",
+        "claude-code"
+      ],
+      "score": 7.469
+    },
+    {
+      "id": "3805189ad2a9",
+      "title": "India’s Humyn Labs raises $47M to feed US robotics companies the data they need",
+      "url": "https://techcrunch.com/2026/11/18/accel-backs-indias-humyn-labs-to-supply-training-data-needed-by-u-s-robotics-ai-developers/",
+      "summary": "Founded in February, Humyn Labs competes with startups such as Mecka AI and XDOF, with about 90% of its revenue coming from the U.S.",
+      "source": "funding",
+      "label": "融资动态",
+      "published": "2026-11-18 11:30:00+00:00",
+      "metrics": {},
+      "tags": [
+        "AI",
+        "Robotics",
+        "Startups"
+      ],
+      "score": 7.411
+    },
+    {
+      "id": "ef2a4e8bc399",
+      "title": "Former Alibaba exec’s Everful raises $48.5M to connect retailers with Chinese factories",
+      "url": "https://techcrunch.com/2026/11/19/former-alibaba-execs-everful-raises-48-5m-to-connect-retailers-with-chinese-factories/",
+      "summary": "Everful has raised $48.5 million to expand its factory-direct sourcing platform, helping retailers source products from overseas manufacturers.",
+      "source": "funding",
+      "label": "融资动态",
+      "published": "2026-11-19 17:00:00+00:00",
+      "metrics": {},
+      "tags": [
+        "AI",
+        "Startups",
+        "alibaba"
+      ],
+      "score": 7.106
+    },
+    {
+      "id": "8ab23e48a7ef",
+      "title": "Pedestal AI raises $4.7 million to agentify the supply chain",
+      "url": "https://techcrunch.com/2026/11/17/pedestal-ai-raises-4-7-million-to-agentify-the-supply-chain/",
+      "summary": "The company uses agentic AI to make supply chains faster and more reliable.",
+      "source": "funding",
+      "label": "融资动态",
+      "published": "2026-11-17 18:04:16+00:00",
+      "metrics": {},
+      "tags": [
+        "AI",
+        "Startups",
+        "AI agents"
+      ],
+      "score": 7.075
+    },
+    {
+      "id": "b4a7ccb27e01",
+      "title": "joshpuckett/allo",
+      "url": "https://github.com/joshpuckett/allo",
+      "summary": "Allo is your friendly neighborhood typeface, free and open source",
+      "source": "github",
+      "label": "工具与开源",
+      "published": "2026-11-15 17:33:42+00:00",
+      "metrics": {
+        "stars": 1176
+      },
+      "tags": [
+        "Python"
+      ],
+      "score": 6.997
+    },
+    {
+      "id": "1f9bc238f405",
+      "title": "erkamyaman/rust-anything",
+      "url": "https://github.com/erkamyaman/rust-anything",
+      "summary": "Rewrite your whole app in Rust, one piece at a time, checked against the original's recorded behavior at every step. CLIs, HTTP servers and libraries in TypeScript, Python, C, Go, Ruby and Java.",
+      "source": "github",
+      "label": "工具与开源",
+      "published": "2026-11-16 12:10:36+00:00",
+      "metrics": {
+        "stars": 5680
+      },
+      "tags": [
+        "Rust",
+        "agent-skills",
+        "claude-code",
+        "cli"
+      ],
+      "score": 6.525
+    },
+    {
+      "id": "feb988e42901",
+      "title": "krisgfx9/Wireless-Device-Battery-Monitor",
+      "url": "https://github.com/krisgfx9/Wireless-Device-Battery-Monitor",
+      "summary": "Show the battery level of wireless mice, headsets, keyboards and controllers on the Windows 10/11 taskbar. Lightweight tray app, no vendor software needed. Supports Logitech, Razer, SteelSeries, Corsair, HyperX, Glorious, PS4/PS5 DualSense, Xbox and Bluetooth devices.",
+      "source": "github",
+      "label": "工具与开源",
+      "published": "2026-11-16 19:28:29+00:00",
+      "metrics": {
+        "stars": 4818
+      },
+      "tags": [
+        "C++"
+      ],
+      "score": 6.47
+    },
+    {
+      "id": "e9e8a0d7b799",
+      "title": "gylive/google-ultra",
+      "url": "https://github.com/gylive/google-ultra",
+      "summary": "",
+      "source": "github",
+      "label": "工具与开源",
+      "published": "2026-11-17 10:21:54+00:00",
+      "metrics": {
+        "stars": 2491
+      },
+      "tags": [
+        "Python"
+      ],
+      "score": 6.19
+    },
+    {
+      "id": "618cd00e94b0",
+      "title": "Spend management platform Payhawk announces $280M raise, 2B valuation",
+      "url": "https://techcrunch.com/2026/11/18/spend-management-platform-payhawk-announces-280m-raise-2b-valuation/",
+      "summary": "Founded in 2018, Payhawk is an enterprise financial management platform that helps companies track and manage expenses and procurement using AI agents.",
+      "source": "funding",
+      "label": "融资动态",
+      "published": "2026-11-18 19:29:41+00:00",
+      "metrics": {},
+      "tags": [
+        "Startups",
+        "Venture",
+        "corporate spend management"
+      ],
+      "score": 5.855
+    },
+    {
+      "id": "bd2088ac80cd",
+      "title": "duwqijlk/muse-protocol",
+      "url": "https://github.com/duwqijlk/muse-protocol",
+      "summary": "muse.ai 注册与邀请码兑换协议研究（纯 HTTP Python 实现）",
+      "source": "github",
+      "label": "工具与开源",
+      "published": "2026-11-14 01:24:58+00:00",
+      "metrics": {
+        "stars": 1670
+      },
+      "tags": [
+        "Python"
+      ],
+      "score": 5.614
+    },
+    {
+      "id": "a3a77daa2264",
+      "title": "CzzzzzzJ/mdldm-maitian",
+      "url": "https://github.com/CzzzzzzJ/mdldm-maitian",
+      "summary": "麦田：自媒体多平台发布中控与数据监控（B站/抖音/小红书/视频号/YouTube/X），飞书卡片通知 + 数据大屏",
+      "source": "github",
+      "label": "工具与开源",
+      "published": "2026-11-14 03:59:22+00:00",
+      "metrics": {
+        "stars": 1652
+      },
+      "tags": [
+        "JavaScript",
+        "automation",
+        "chrome-extension",
+        "creator-tools"
+      ],
+      "score": 5.611
+    },
+    {
+      "id": "dc5c9851a021",
+      "title": "Science Corporation’s brain tech is worth $3.5 billion after new funding",
+      "url": "https://techcrunch.com/2026/11/17/science-corporations-brain-tech-is-worth-3-5-billion-after-new-funding/",
+      "summary": "Science Corp. raised a $400 million Series D to scale up its anti-blindness business.",
+      "source": "funding",
+      "label": "融资动态",
+      "published": "2026-11-17 14:26:46+00:00",
+      "metrics": {},
+      "tags": [
+        "AI",
+        "Biotech & Health",
+        "Startups"
+      ],
+      "score": 5.537
+    },
+    {
+      "id": "7773b7f75959",
+      "title": "haziqahmedqasmi/PeakCut",
+      "url": "https://github.com/haziqahmedqasmi/PeakCut",
+      "summary": "AI clipping for long videos and live streams. Self-hosted, bring your own AI key.",
+      "source": "github",
+      "label": "工具与开源",
+      "published": "2026-11-14 07:38:20+00:00",
+      "metrics": {
+        "stars": 1406
+      },
+      "tags": [
+        "Python"
+      ],
+      "score": 5.52
+    },
+    {
+      "id": "d20bb6cfac2a",
+      "title": "chuanqisun/spaceship",
+      "url": "https://github.com/chuanqisun/spaceship",
+      "summary": "Steer ideas like a space pilot!",
+      "source": "github",
+      "label": "工具与开源",
+      "published": "2026-11-16 14:43:45+00:00",
+      "metrics": {
+        "stars": 962
+      },
+      "tags": [
+        "HTML"
+      ],
+      "score": 5.475
+    },
+    {
+      "id": "7e0bbe197173",
+      "title": "Show HN: Bulchimbeon, night watch that keeps your Mac awake while AI agents work",
+      "url": "https://github.com/s3onghyun/bulchimbeon",
+      "summary": "",
+      "source": "showhn",
+      "label": "Show HN",
+      "published": "2026-11-20 07:01:41+00:00",
+      "metrics": {},
+      "tags": [],
+      "score": 4.644
+    },
+    {
+      "id": "275a3ad61236",
+      "title": "Show HN: Isu-bench – coding agents tune an unseen web service with 11 load tests",
+      "url": "https://isu-bench.trasta.dev/",
+      "summary": "",
+      "source": "showhn",
+      "label": "Show HN",
+      "published": "2026-11-20 06:46:09+00:00",
+      "metrics": {},
+      "tags": [],
+      "score": 4.633
+    },
+    {
+      "id": "8d46804ede78",
+      "title": "Show HN: Sandscale – Cloud infrastructure for AI creators, agents and developers",
+      "url": "https://sandscale.dev",
+      "summary": "Sandscale is live! We’re building a platform that helps developers, AI creators and businesses create, experiment and execute AI-powered workflows. It provides secure isolated environments, cloud workspaces and infrastructure for AI-powered development. We’re excited to hear feedback from the developer community. Comments URL: https://news.ycombinator.com/item?id=50570825 Points: 1 # Comments: 0",
+      "source": "showhn",
+      "label": "Show HN",
+      "published": "2026-11-20 06:17:14+00:00",
+      "metrics": {},
+      "tags": [],
+      "score": 4.611
+    },
+    {
+      "id": "66ac54bd0980",
+      "title": "Show HN: BSWorld – AI agents can now test Bluetooth code without hardware",
+      "url": "https://github.com/XiaoMi/bsworld",
+      "summary": "",
+      "source": "showhn",
+      "label": "Show HN",
+      "published": "2026-11-20 06:06:42+00:00",
+      "metrics": {},
+      "tags": [],
+      "score": 4.604
+    },
+    {
+      "id": "4d77db20d092",
+      "title": "Felicis leads $7.5M bet on Unsiloed AI to make enterprise documents usable by AI agents",
+      "url": "https://techcrunch.com/2026/11/18/felicis-leads-7-5m-bet-on-unsiloed-ai-to-make-enterprise-documents-usable-by-ai-agents/",
+      "summary": "With a team of just seven, Unsiloed AI plans to compete with tech giants and specialized startups in the crowded AI document-processing market.",
+      "source": "funding",
+      "label": "融资动态",
+      "published": "2026-11-18 12:00:00+00:00",
+      "metrics": {},
+      "tags": [
+        "AI",
+        "Startups",
+        "AI agents"
+      ],
+      "score": 4.519
+    },
+    {
+      "id": "214233d8d9b0",
+      "title": "Hank Green is self-funding ClockwiseTV, a curated educational video platform for kids",
+      "url": "https://techcrunch.com/2026/11/17/hank-green-is-self-funding-clockwisetv-a-curated-educational-video-platform-for-kids/",
+      "summary": "Alongside CEO Leslie Morgan, Hank Green set out to create the video platform he wished his kid had.",
+      "source": "funding",
+      "label": "融资动态",
+      "published": "2026-11-17 14:00:00+00:00",
+      "metrics": {},
+      "tags": [
+        "Media & Entertainment",
+        "Startups",
+        "educational video"
+      ],
+      "score": 4.033
+    },
+    {
+      "id": "44ce8c447b80",
+      "title": "Nvidia’s startup stakes ballooned to $65B, but Huang’s exit puts future deals in doubt",
+      "url": "https://techcrunch.com/2026/11/17/nvidias-startup-stakes-ballooned-to-65b-but-huangs-exit-puts-future-deals-in-doubt/",
+      "summary": "The value of Nvidia’s private investments has nearly tripled over the past nine months, fueled by Jensen Huang’s aggressive dealmaking and rising valuations of its existing portfolio companies.",
+      "source": "funding",
+      "label": "融资动态",
+      "published": "2026-11-18 01:44:21+00:00",
+      "metrics": {},
+      "tags": [
+        "AI",
+        "Startups",
+        "Colette Kress"
+      ],
+      "score": 3.768
+    },
+    {
+      "id": "0bd818335cb3",
+      "title": "UndoGuard",
+      "url": "https://www.producthunt.com/products/undoguard",
+      "summary": "The Ctrl+Z button for autonomous AI agents",
+      "source": "producthunt",
+      "label": "新品发布",
+      "published": "2026-11-19 19:15:42+00:00",
+      "metrics": {},
+      "tags": [],
+      "score": 3.581
+    },
+    {
+      "id": "de2b4296a1f5",
+      "title": "Show HN: Xinproof – Restore-test your database backups, get a signed receipt",
+      "url": "https://github.com/praxin/xinproof",
+      "summary": "",
+      "source": "showhn",
+      "label": "Show HN",
+      "published": "2026-11-20 07:40:57+00:00",
+      "metrics": {},
+      "tags": [],
+      "score": 3.074
+    },
+    {
+      "id": "5fac52402dac",
+      "title": "Show HN: Synapse Shield (v0.11) – Self-hosted behavioral alternative to CAPTCHAs",
+      "url": "https://github.com/0xStoic-bit/Synapse_Shield",
+      "summary": "",
+      "source": "showhn",
+      "label": "Show HN",
+      "published": "2026-11-20 07:31:15+00:00",
+      "metrics": {},
+      "tags": [],
+      "score": 3.067
+    },
+    {
+      "id": "f6406d86948c",
+      "title": "Show HN: Linear Algebra in a Week",
+      "url": "https://linear-algebra-in-a-week.vercel.app/#m1",
+      "summary": "",
+      "source": "showhn",
+      "label": "Show HN",
+      "published": "2026-11-20 07:09:19+00:00",
+      "metrics": {},
+      "tags": [],
+      "score": 3.05
+    },
+    {
+      "id": "99c7549c595f",
+      "title": "Show HN: Vemlora – Edit text in images while preserving the original design",
+      "url": "https://vemlora.io",
+      "summary": "",
+      "source": "showhn",
+      "label": "Show HN",
+      "published": "2026-11-20 06:55:31+00:00",
+      "metrics": {},
+      "tags": [],
+      "score": 3.04
+    },
+    {
+      "id": "8c75c9d553ec",
+      "title": "Rox",
+      "url": "https://www.producthunt.com/products/rox-2",
+      "summary": "Your AI companion for living with chronic illness",
+      "source": "producthunt",
+      "label": "新品发布",
+      "published": "2026-11-19 12:00:00+00:00",
+      "metrics": {},
+      "tags": [],
+      "score": 2.553
+    },
+    {
+      "id": "210e98b4356f",
+      "title": "Saparo",
+      "url": "https://www.producthunt.com/products/saparo",
+      "summary": "Muse for shopping with deals stacks",
+      "source": "producthunt",
+      "label": "新品发布",
+      "published": "2026-11-19 08:29:12+00:00",
+      "metrics": {},
+      "tags": [],
+      "score": 2.455
+    },
+    {
+      "id": "c0f16475bd55",
+      "title": "Direct by Instagram",
+      "url": "https://www.producthunt.com/products/instagram",
+      "summary": "Instagram DMs, without the feed or Instagram account",
+      "source": "producthunt",
+      "label": "新品发布",
+      "published": "2026-11-19 05:57:27+00:00",
+      "metrics": {},
+      "tags": [],
+      "score": 2.389
+    },
+    {
+      "id": "ac8e8a8f5d13",
+      "title": "Storiara",
+      "url": "https://www.producthunt.com/products/storiara",
+      "summary": "AI producers that find real savings in your film budget",
+      "source": "producthunt",
+      "label": "新品发布",
+      "published": "2026-11-17 20:02:24+00:00",
+      "metrics": {},
+      "tags": [],
+      "score": 1.798
+    }
+  ],
+  "picks": [
+    {
+      "id": "3092588d3b19",
+      "title": "Hut-hzf/ung220z-tool",
+      "url": "https://github.com/Hut-hzf/ung220z-tool",
+      "summary": "ung220z-tool 是一个针对 UNG220Z（九联/Unionman 中国移动光猫）的一键凭据提取工具，仅限在你自己的设备上用于找回忘记的管理密码、迁移宽带配置或安全自查。",
+      "source": "github",
+      "label": "工具与开源",
+      "published": "2026-11-15 11:16:46+00:00",
+      "metrics": {
+        "stars": 1858
+      },
+      "tags": [
+        "Python"
+      ],
+      "score": 8.151
+    },
+    {
+      "id": "091e9e5dac40",
+      "title": "sybil-solutions/inference-optimisation-skill",
+      "url": "https://github.com/sybil-solutions/inference-optimisation-skill",
+      "summary": "Agent skill for hill-climbing local LLM serving speed (decode, speculative decoding, prefill, KV, startup, TTFT) on any hardware and quantization",
+      "source": "github",
+      "label": "工具与开源",
+      "published": "2026-11-16 18:40:04+00:00",
+      "metrics": {
+        "stars": 1278
+      },
+      "tags": [
+        "Python",
+        "agent-skill",
+        "benchmarking",
+        "claude-code"
+      ],
+      "score": 7.469
+    },
+    {
+      "id": "3805189ad2a9",
+      "title": "India’s Humyn Labs raises $47M to feed US robotics companies the data they need",
+      "url": "https://techcrunch.com/2026/11/18/accel-backs-indias-humyn-labs-to-supply-training-data-needed-by-u-s-robotics-ai-developers/",
+      "summary": "Founded in February, Humyn Labs competes with startups such as Mecka AI and XDOF, with about 90% of its revenue coming from the U.S.",
+      "source": "funding",
+      "label": "融资动态",
+      "published": "2026-11-18 11:30:00+00:00",
+      "metrics": {},
+      "tags": [
+        "AI",
+        "Robotics",
+        "Startups"
+      ],
+      "score": 7.411
+    },
+    {
+      "id": "ef2a4e8bc399",
+      "title": "Former Alibaba exec’s Everful raises $48.5M to connect retailers with Chinese factories",
+      "url": "https://techcrunch.com/2026/11/19/former-alibaba-execs-everful-raises-48-5m-to-connect-retailers-with-chinese-factories/",
+      "summary": "Everful has raised $48.5 million to expand its factory-direct sourcing platform, helping retailers source products from overseas manufacturers.",
+      "source": "funding",
+      "label": "融资动态",
+      "published": "2026-11-19 17:00:00+00:00",
+      "metrics": {},
+      "tags": [
+        "AI",
+        "Startups",
+        "alibaba"
+      ],
+      "score": 7.106
+    },
+    {
+      "id": "7e0bbe197173",
+      "title": "Show HN: Bulchimbeon, night watch that keeps your Mac awake while AI agents work",
+      "url": "https://github.com/s3onghyun/bulchimbeon",
+      "summary": "",
+      "source": "showhn",
+      "label": "Show HN",
+      "published": "2026-11-20 07:01:41+00:00",
+      "metrics": {},
+      "tags": [],
+      "score": 4.644
+    },
+    {
+      "id": "275a3ad61236",
+      "title": "Show HN: Isu-bench – coding agents tune an unseen web service with 11 load tests",
+      "url": "https://isu-bench.trasta.dev/",
+      "summary": "",
+      "source": "showhn",
+      "label": "Show HN",
+      "published": "2026-11-20 06:46:09+00:00",
+      "metrics": {},
+      "tags": [],
+      "score": 4.633
+    },
+    {
+      "id": "0bd818335cb3",
+      "title": "UndoGuard",
+      "url": "https://www.producthunt.com/products/undoguard",
+      "summary": "The Ctrl+Z button for autonomous AI agents",
+      "source": "producthunt",
+      "label": "新品发布",
+      "published": "2026-11-19 19:15:42+00:00",
+      "metrics": {},
+      "tags": [],
+      "score": 3.581
+    },
+    {
+      "id": "8c75c9d553ec",
+      "title": "Rox",
+      "url": "https://www.producthunt.com/products/rox-2",
+      "summary": "Your AI companion for living with chronic illness",
+      "source": "producthunt",
+      "label": "新品发布",
+      "published": "2026-11-19 12:00:00+00:00",
+      "metrics": {},
+      "tags": [],
+      "score": 2.553
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "producthunt": 5,
+    "funding": 8,
+    "showhn": 8,
+    "github": 10,
+    "hackernews": 7
+  },
+  "ai": {
+    "model": "deepseek-flash",
+    "applied": 8,
+    "usage": {
+      "prompt_tokens": 712,
+      "completion_tokens": 281,
+      "total_tokens": 993,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 712
+    }
+  }
+}
