@@ -1,0 +1,575 @@
+{
+  "date": "2026-11-21",
+  "generated_at": "2026-11-21 08:08 UTC",
+  "items": [
+    {
+      "id": "3092588d3b19",
+      "title": "Hut-hzf/ung220z-tool",
+      "url": "https://github.com/Hut-hzf/ung220z-tool",
+      "summary": "ung220z-tool 是一个针对 UNG220Z（九联/Unionman 中国移动光猫）的一键凭据提取工具，仅限在你自己的设备上用于找回忘记的管理密码、迁移宽带配置或安全自查。",
+      "source": "github",
+      "label": "工具与开源",
+      "published": "2026-11-15 11:16:46+00:00",
+      "metrics": {
+        "stars": 2104
+      },
+      "tags": [
+        "Python"
+      ],
+      "score": 8.168
+    },
+    {
+      "id": "527258c58d19",
+      "title": "bookwjitchieni1986/blender-ai-mcp-addon",
+      "url": "https://github.com/bookwjitchieni1986/blender-ai-mcp-addon",
+      "summary": "AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with ChatGPT/GPT, Claude, Gemini, Ollama, OpenCode. Blender AI addon, copilot for 3D, bpy Python scripting, MCP integration.",
+      "source": "github",
+      "label": "工具与开源",
+      "published": "2026-11-19 14:43:10+00:00",
+      "metrics": {
+        "stars": 1876
+      },
+      "tags": [
+        "ai-agents",
+        "ai-assistant",
+        "blender"
+      ],
+      "score": 7.991
+    },
+    {
+      "id": "bdc18f952ccc",
+      "title": "Show HN: Pantry an open source scanner that checks what your coding agents run",
+      "url": "https://waffuru.ai/products/pantry",
+      "summary": "",
+      "source": "showhn",
+      "label": "Show HN",
+      "published": "2026-11-21 07:02:59+00:00",
+      "metrics": {},
+      "tags": [],
+      "score": 7.65
+    },
+    {
+      "id": "091e9e5dac40",
+      "title": "sybil-solutions/inference-optimisation-skill",
+      "url": "https://github.com/sybil-solutions/inference-optimisation-skill",
+      "summary": "Agent skill for hill-climbing local LLM serving speed (decode, speculative decoding, prefill, KV, startup, TTFT) on any hardware and quantization",
+      "source": "github",
+      "label": "工具与开源",
+      "published": "2026-11-16 18:40:04+00:00",
+      "metrics": {
+        "stars": 1385
+      },
+      "tags": [
+        "Python",
+        "agent-skill",
+        "benchmarking",
+        "claude-code"
+      ],
+      "score": 7.4
+    },
+    {
+      "id": "c2491c7a313d",
+      "title": "Daniel Ek backs AI researcher’s fusion power startup. Here’s what they’re building.",
+      "url": "https://techcrunch.com/2026/11/20/daniel-ek-backs-ai-researchers-fusion-power-startup-heres-what-theyre-building/",
+      "summary": "Spotify founder Daniel Ek is backing Europa Fusion, a fusion power startup founded by an AI researcher. Here's what the startup is building.",
+      "source": "funding",
+      "label": "融资动态",
+      "published": "2026-11-20 19:53:41+00:00",
+      "metrics": {},
+      "tags": [
+        "AI",
+        "Climate",
+        "Startups"
+      ],
+      "score": 7.207
+    },
+    {
+      "id": "3805189ad2a9",
+      "title": "India’s Humyn Labs raises $47M to feed US robotics companies the data they need",
+      "url": "https://techcrunch.com/2026/11/18/accel-backs-indias-humyn-labs-to-supply-training-data-needed-by-u-s-robotics-ai-developers/",
+      "summary": "Founded in February, Humyn Labs competes with startups such as Mecka AI and XDOF, with about 90% of its revenue coming from the U.S.",
+      "source": "funding",
+      "label": "融资动态",
+      "published": "2026-11-18 11:30:00+00:00",
+      "metrics": {},
+      "tags": [
+        "AI",
+        "Robotics",
+        "Startups"
+      ],
+      "score": 7.11
+    },
+    {
+      "id": "b4a7ccb27e01",
+      "title": "joshpuckett/allo",
+      "url": "https://github.com/joshpuckett/allo",
+      "summary": "Allo is your friendly neighborhood typeface, free and open source",
+      "source": "github",
+      "label": "工具与开源",
+      "published": "2026-11-15 17:33:42+00:00",
+      "metrics": {
+        "stars": 1266
+      },
+      "tags": [
+        "Python"
+      ],
+      "score": 6.976
+    },
+    {
+      "id": "1f9bc238f405",
+      "title": "erkamyaman/rust-anything",
+      "url": "https://github.com/erkamyaman/rust-anything",
+      "summary": "Rewrite your whole app in Rust, one piece at a time, checked against the original's recorded behavior at every step. CLIs, HTTP servers and libraries in TypeScript, Python, C, Go, Ruby and Java.",
+      "source": "github",
+      "label": "工具与开源",
+      "published": "2026-11-16 12:10:36+00:00",
+      "metrics": {
+        "stars": 6890
+      },
+      "tags": [
+        "Rust",
+        "agent-skills",
+        "claude-code",
+        "cli"
+      ],
+      "score": 6.54
+    },
+    {
+      "id": "ef2a4e8bc399",
+      "title": "Former Alibaba exec’s Everful raises $48.5M to connect retailers with Chinese factories",
+      "url": "https://techcrunch.com/2026/11/19/former-alibaba-execs-everful-raises-48-5m-to-connect-retailers-with-chinese-factories/",
+      "summary": "Everful has raised $48.5 million to expand its factory-direct sourcing platform, helping retailers source products from overseas manufacturers.",
+      "source": "funding",
+      "label": "融资动态",
+      "published": "2026-11-19 17:00:00+00:00",
+      "metrics": {},
+      "tags": [
+        "AI",
+        "Startups",
+        "alibaba"
+      ],
+      "score": 6.51
+    },
+    {
+      "id": "feb988e42901",
+      "title": "krisgfx9/Wireless-Device-Battery-Monitor",
+      "url": "https://github.com/krisgfx9/Wireless-Device-Battery-Monitor",
+      "summary": "Show the battery level of wireless mice, headsets, keyboards and controllers on the Windows 10/11 taskbar. Lightweight tray app, no vendor software needed. Supports Logitech, Razer, SteelSeries, Corsair, HyperX, Glorious, PS4/PS5 DualSense, Xbox and Bluetooth devices.",
+      "source": "github",
+      "label": "工具与开源",
+      "published": "2026-11-16 19:28:29+00:00",
+      "metrics": {
+        "stars": 5468
+      },
+      "tags": [
+        "C++"
+      ],
+      "score": 6.427
+    },
+    {
+      "id": "d6a1db917535",
+      "title": "iamajmeena/neonclipping",
+      "url": "https://github.com/iamajmeena/neonclipping",
+      "summary": "Paste a link, get captioned 9:16 clips in ~2 min. Free, local, open-source clipping engine (audio-first, YouTube captions, local LLM).",
+      "source": "github",
+      "label": "工具与开源",
+      "published": "2026-11-19 10:00:43+00:00",
+      "metrics": {
+        "stars": 1395
+      },
+      "tags": [
+        "Python",
+        "clipping",
+        "ffmpeg",
+        "shorts"
+      ],
+      "score": 6.134
+    },
+    {
+      "id": "8536bf97199e",
+      "title": "siliconjungle/shapeshift-labs-ink-studio",
+      "url": "https://github.com/siliconjungle/shapeshift-labs-ink-studio",
+      "summary": "Sculpting, animation and simulation toolkit for pixel-art Gaussian splats",
+      "source": "github",
+      "label": "工具与开源",
+      "published": "2026-11-16 07:44:00+00:00",
+      "metrics": {
+        "stars": 896
+      },
+      "tags": [
+        "JavaScript"
+      ],
+      "score": 6.103
+    },
+    {
+      "id": "e9e8a0d7b799",
+      "title": "gylive/google-ultra",
+      "url": "https://github.com/gylive/google-ultra",
+      "summary": "",
+      "source": "github",
+      "label": "工具与开源",
+      "published": "2026-11-17 10:21:54+00:00",
+      "metrics": {
+        "stars": 2555
+      },
+      "tags": [
+        "Python"
+      ],
+      "score": 6.037
+    },
+    {
+      "id": "618cd00e94b0",
+      "title": "Spend management platform Payhawk announces $280M raise, 2B valuation",
+      "url": "https://techcrunch.com/2026/11/18/spend-management-platform-payhawk-announces-280m-raise-2b-valuation/",
+      "summary": "Founded in 2018, Payhawk is an enterprise financial management platform that helps companies track and manage expenses and procurement using AI agents.",
+      "source": "funding",
+      "label": "融资动态",
+      "published": "2026-11-18 19:29:41+00:00",
+      "metrics": {},
+      "tags": [
+        "Startups",
+        "Venture",
+        "corporate spend management"
+      ],
+      "score": 5.493
+    },
+    {
+      "id": "d20bb6cfac2a",
+      "title": "chuanqisun/spaceship",
+      "url": "https://github.com/chuanqisun/spaceship",
+      "summary": "Steer ideas like a space pilot!",
+      "source": "github",
+      "label": "工具与开源",
+      "published": "2026-11-16 14:43:45+00:00",
+      "metrics": {
+        "stars": 998
+      },
+      "tags": [
+        "HTML"
+      ],
+      "score": 5.39
+    },
+    {
+      "id": "52128a1034ff",
+      "title": "Show HN: CLI for agents to download movie clips from dialogues",
+      "url": "https://github.com/robinroy03/scene-finder",
+      "summary": "",
+      "source": "showhn",
+      "label": "Show HN",
+      "published": "2026-11-21 04:09:29+00:00",
+      "metrics": {},
+      "tags": [],
+      "score": 4.524
+    },
+    {
+      "id": "4d77db20d092",
+      "title": "Felicis leads $7.5M bet on Unsiloed AI to make enterprise documents usable by AI agents",
+      "url": "https://techcrunch.com/2026/11/18/felicis-leads-7-5m-bet-on-unsiloed-ai-to-make-enterprise-documents-usable-by-ai-agents/",
+      "summary": "With a team of just seven, Unsiloed AI plans to compete with tech giants and specialized startups in the crowded AI document-processing market.",
+      "source": "funding",
+      "label": "融资动态",
+      "published": "2026-11-18 12:00:00+00:00",
+      "metrics": {},
+      "tags": [
+        "AI",
+        "Startups",
+        "AI agents"
+      ],
+      "score": 4.214
+    },
+    {
+      "id": "4a4e29ab06df",
+      "title": "Bending Spoons buys Mailchimp for $3.68B",
+      "url": "https://techcrunch.com/2026/11/20/bending-spoons-buys-mailchimp-for-3-68-billion/",
+      "summary": "Intuit acquired the company in 2021 for roughly $12 billion, so it looks like Bending Spoons is getting quite a bargain.",
+      "source": "funding",
+      "label": "融资动态",
+      "published": "2026-11-20 16:16:06+00:00",
+      "metrics": {},
+      "tags": [
+        "Media & Entertainment",
+        "Startups",
+        "Bending Spoons"
+      ],
+      "score": 3.786
+    },
+    {
+      "id": "90cdc09f8a10",
+      "title": "The fallout from Nvidia’s Jensen Huang scandal continues",
+      "url": "https://techcrunch.com/podcast/the-fallout-from-nvidias-jensen-huang-scandal-continues/",
+      "summary": "In the midst of dealing with the fallout from its ouster of CEO Jensen Huang, Nvidia delivered its latest earnings report this week, with healthy growth and promises that the good times will continue. At the same time, the chipmaker said it will stop selling its H200 chips in China, and it dismissed calls to […]",
+      "source": "funding",
+      "label": "融资动态",
+      "published": "2026-11-20 14:55:44+00:00",
+      "metrics": {},
+      "tags": [
+        "AI",
+        "Startups",
+        "anthropic ipo"
+      ],
+      "score": 3.544
+    },
+    {
+      "id": "3948c95567e5",
+      "title": "Show HN: A human-readable account of the Lean proof of the Riemann Hypothesis",
+      "url": "https://news.ycombinator.com/item?id=50586870",
+      "summary": "Comments URL: https://news.ycombinator.com/item?id=50586870 Points: 1 # Comments: 0",
+      "source": "showhn",
+      "label": "Show HN",
+      "published": "2026-11-21 07:23:55+00:00",
+      "metrics": {},
+      "tags": [],
+      "score": 3.066
+    },
+    {
+      "id": "63cd42c2ce4c",
+      "title": "Show HN: Sniffy – a free AI detector and Chrome extension",
+      "url": "https://getsniffy.com/",
+      "summary": "Hi, I wanted to see if I can replicate a completely free pangram.com alternative. I directed Fable 5.2 to fine tune RoBert model. At this point it does make mistakes, and not as accurate as pangram.com but I intend to improve it as more people help me with data. Comments URL: https://news.ycombinator.com/item?id=50586349 Points: 1 # Comments: 0",
+      "source": "showhn",
+      "label": "Show HN",
+      "published": "2026-11-21 05:47:31+00:00",
+      "metrics": {},
+      "tags": [],
+      "score": 2.995
+    },
+    {
+      "id": "a410ab5b909d",
+      "title": "Show HN: Musset, open-source Scrivener alternative with an AI that never writes",
+      "url": "https://github.com/Musset-App/musset",
+      "summary": "I’m writing my first novel and could not find an app that fit my workflow: quiet like iA Writer, organized like Scrivener, and with AI so I can discuss my book while I write it. It allows me to feel less “alone” and have a sounding board while I write. - A book is a folder of plain Markdown files. Musset commits to a git repo, tracks versions and drafts without you having to know git. - Revisions are CriticMarkup inside the text. It manages docx revisions too, so your editor can edit a Word doc and you import their comments. - PDFs are typeset using Typst, embedded in the app, following each language’s typographic rules. - Spelling and grammar are checked using LanguageTool, also embedded. - Mac/Word, WordStar, vi and Emacs keyboard modes. The AI is optional and uses your Codex or Claude Code CLI. It comments, leaves margin notes, and checks continuity and your chapters against your style rules. It’s GPL-3.0 and free during the beta. When or if it reaches 1.0, if there is sufficient interest, the idea is to make it a small one-time payment ($9.90). There is a paid sync service (git hosting) that lets you share a book with beta readers and editors. Download: https://musset.app I’d love to have some feedback! Comments URL: https://news.ycombinator.com/item?id=50586323 Points: 2 # Comments: 0",
+      "source": "showhn",
+      "label": "Show HN",
+      "published": "2026-11-21 05:42:49+00:00",
+      "metrics": {},
+      "tags": [],
+      "score": 2.991
+    },
+    {
+      "id": "daf496654a3b",
+      "title": "Show HN: Riemann Hypothesis Proof for Learners",
+      "url": "https://riemann.tamnd.com/learn/",
+      "summary": "",
+      "source": "showhn",
+      "label": "Show HN",
+      "published": "2026-11-21 05:03:54+00:00",
+      "metrics": {},
+      "tags": [],
+      "score": 2.963
+    },
+    {
+      "id": "c0731286f383",
+      "title": "Show HN: Bootstrapping a compiler with AI run on to ARM64, WASM, SPIR-V",
+      "url": "https://github.com/drakestapleton/omega-mv/blob/main/seed/README.md",
+      "summary": "",
+      "source": "showhn",
+      "label": "Show HN",
+      "published": "2026-11-21 04:17:44+00:00",
+      "metrics": {},
+      "tags": [],
+      "score": 2.93
+    },
+    {
+      "id": "a6967c78adbd",
+      "title": "Show HN: Factuio – A factory TUI game written in Rust",
+      "url": "https://github.com/ja7er/factuio",
+      "summary": "https://factuio.com/ Comments URL: https://news.ycombinator.com/item?id=50585876 Points: 2 # Comments: 0",
+      "source": "showhn",
+      "label": "Show HN",
+      "published": "2026-11-21 04:15:03+00:00",
+      "metrics": {},
+      "tags": [],
+      "score": 2.928
+    },
+    {
+      "id": "a179ff2b7d98",
+      "title": "Experts warn: Nearly everyone in AI is susceptible to a honey-trap scheme right now",
+      "url": "https://techcrunch.com/2026/11/20/experts-warn-nearly-everyone-in-ai-is-susceptible-to-a-honey-trap-scheme-right-now/",
+      "summary": "Techies are building technology that can advance all aspects of the world — but can they protect their hearts? That's the vulnerability that honey pots exploit.",
+      "source": "funding",
+      "label": "融资动态",
+      "published": "2026-11-20 20:58:29+00:00",
+      "metrics": {},
+      "tags": [
+        "Security",
+        "Startups",
+        "nvidia"
+      ],
+      "score": 2.745
+    },
+    {
+      "id": "9e727380fc3d",
+      "title": "Publicit",
+      "url": "https://www.producthunt.com/products/publicit",
+      "summary": "Omnichannel ad infrastructure for marketers and AI agents",
+      "source": "producthunt",
+      "label": "新品发布",
+      "published": "2026-11-18 15:19:01+00:00",
+      "metrics": {},
+      "tags": [],
+      "score": 2.547
+    },
+    {
+      "id": "ebd8bf1f270b",
+      "title": "Backspin",
+      "url": "https://www.producthunt.com/products/backspin",
+      "summary": "Learn to DJ in your browser, on real vinyl decks",
+      "source": "producthunt",
+      "label": "新品发布",
+      "published": "2026-11-19 02:52:10+00:00",
+      "metrics": {},
+      "tags": [],
+      "score": 1.884
+    },
+    {
+      "id": "916353f11c42",
+      "title": "Alter Contacts",
+      "url": "https://www.producthunt.com/products/alter-contacts-ai-client-relationships",
+      "summary": "AI client relationship assistant that thinks and does ahead",
+      "source": "producthunt",
+      "label": "新品发布",
+      "published": "2026-11-17 10:25:12+00:00",
+      "metrics": {},
+      "tags": [],
+      "score": 1.529
+    }
+  ],
+  "picks": [
+    {
+      "id": "3092588d3b19",
+      "title": "Hut-hzf/ung220z-tool",
+      "url": "https://github.com/Hut-hzf/ung220z-tool",
+      "summary": "ung220z-tool 是一个针对 UNG220Z（九联/Unionman 中国移动光猫）的一键凭据提取工具，仅限在你自己的设备上用于找回忘记的管理密码、迁移宽带配置或安全自查。",
+      "source": "github",
+      "label": "工具与开源",
+      "published": "2026-11-15 11:16:46+00:00",
+      "metrics": {
+        "stars": 2104
+      },
+      "tags": [
+        "Python"
+      ],
+      "score": 8.168
+    },
+    {
+      "id": "527258c58d19",
+      "title": "bookwjitchieni1986/blender-ai-mcp-addon",
+      "url": "https://github.com/bookwjitchieni1986/blender-ai-mcp-addon",
+      "summary": "AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with ChatGPT/GPT, Claude, Gemini, Ollama, OpenCode. Blender AI addon, copilot for 3D, bpy Python scripting, MCP integration.",
+      "source": "github",
+      "label": "工具与开源",
+      "published": "2026-11-19 14:43:10+00:00",
+      "metrics": {
+        "stars": 1876
+      },
+      "tags": [
+        "ai-agents",
+        "ai-assistant",
+        "blender"
+      ],
+      "score": 7.991
+    },
+    {
+      "id": "bdc18f952ccc",
+      "title": "Show HN: Pantry an open source scanner that checks what your coding agents run",
+      "url": "https://waffuru.ai/products/pantry",
+      "summary": "",
+      "source": "showhn",
+      "label": "Show HN",
+      "published": "2026-11-21 07:02:59+00:00",
+      "metrics": {},
+      "tags": [],
+      "score": 7.65
+    },
+    {
+      "id": "c2491c7a313d",
+      "title": "Daniel Ek backs AI researcher’s fusion power startup. Here’s what they’re building.",
+      "url": "https://techcrunch.com/2026/11/20/daniel-ek-backs-ai-researchers-fusion-power-startup-heres-what-theyre-building/",
+      "summary": "Spotify founder Daniel Ek is backing Europa Fusion, a fusion power startup founded by an AI researcher. Here's what the startup is building.",
+      "source": "funding",
+      "label": "融资动态",
+      "published": "2026-11-20 19:53:41+00:00",
+      "metrics": {},
+      "tags": [
+        "AI",
+        "Climate",
+        "Startups"
+      ],
+      "score": 7.207
+    },
+    {
+      "id": "3805189ad2a9",
+      "title": "India’s Humyn Labs raises $47M to feed US robotics companies the data they need",
+      "url": "https://techcrunch.com/2026/11/18/accel-backs-indias-humyn-labs-to-supply-training-data-needed-by-u-s-robotics-ai-developers/",
+      "summary": "Founded in February, Humyn Labs competes with startups such as Mecka AI and XDOF, with about 90% of its revenue coming from the U.S.",
+      "source": "funding",
+      "label": "融资动态",
+      "published": "2026-11-18 11:30:00+00:00",
+      "metrics": {},
+      "tags": [
+        "AI",
+        "Robotics",
+        "Startups"
+      ],
+      "score": 7.11
+    },
+    {
+      "id": "52128a1034ff",
+      "title": "Show HN: CLI for agents to download movie clips from dialogues",
+      "url": "https://github.com/robinroy03/scene-finder",
+      "summary": "",
+      "source": "showhn",
+      "label": "Show HN",
+      "published": "2026-11-21 04:09:29+00:00",
+      "metrics": {},
+      "tags": [],
+      "score": 4.524
+    },
+    {
+      "id": "9e727380fc3d",
+      "title": "Publicit",
+      "url": "https://www.producthunt.com/products/publicit",
+      "summary": "Omnichannel ad infrastructure for marketers and AI agents",
+      "source": "producthunt",
+      "label": "新品发布",
+      "published": "2026-11-18 15:19:01+00:00",
+      "metrics": {},
+      "tags": [],
+      "score": 2.547
+    },
+    {
+      "id": "ebd8bf1f270b",
+      "title": "Backspin",
+      "url": "https://www.producthunt.com/products/backspin",
+      "summary": "Learn to DJ in your browser, on real vinyl decks",
+      "source": "producthunt",
+      "label": "新品发布",
+      "published": "2026-11-19 02:52:10+00:00",
+      "metrics": {},
+      "tags": [],
+      "score": 1.884
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "producthunt": 3,
+    "funding": 8,
+    "showhn": 8,
+    "github": 10,
+    "hackernews": 8
+  },
+  "ai": {
+    "model": "deepseek-flash",
+    "applied": 8,
+    "usage": {
+      "prompt_tokens": 714,
+      "completion_tokens": 297,
+      "total_tokens": 1011,
+      "prompt_tokens_details": {
+        "cached_tokens": 128
+      },
+      "prompt_cache_hit_tokens": 128,
+      "prompt_cache_miss_tokens": 586
+    }
+  }
+}
